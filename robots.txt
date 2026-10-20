@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+# Nach der Veroeffentlichung die Adresse eintragen:
+# Sitemap: https://DEINE-ADRESSE/sitemap.xml
