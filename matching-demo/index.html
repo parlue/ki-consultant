@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Matching Demo - Entwicklungs- und Matching-Analyse</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="kopf">
+  <div class="marke">
+    <div class="logo">TM</div>
+    <div>
+      <h1>Matching Demo</h1>
+      <p class="unterzeile">Entwicklungs- und Matching-Analyse fuer Mitarbeitende aus unserem Unternehmen.</p>
+    </div>
+  </div>
+  <div class="status" id="status"><span class="pill">Oberflaeche wird geladen ...</span></div>
+</header>
+
+<nav class="haupt-tabs" id="haupt-tabs">
+  <button type="button" data-tab="analyse" class="aktiv">1. Mainswitch</button>
+  <button type="button" data-tab="setup">2. Parameter</button>
+  <button type="button" data-tab="prozess">3. Proze&szlig;engine</button>
+</nav>
+
+<main>
+
+  <section id="tab-setup" class="versteckt">
+    <div class="panel">
+      <h2>Setup &middot; Parameter bearbeiten</h2>
+      <p class="hinweis">
+        Hier bearbeiten wir die Maschine selbst: Prompt, Betriebsrats-No-Liste, Schwellen, Formel,
+        Ausgabe, Weiterbildung, Ist-Profile, Modelle. Aenderung eintragen und <b>Speichern</b> -
+        sie gilt sofort fuer die naechste Analyse und wird in die Parameterdatei geschrieben.
+      </p>
+      <div class="zeile">
+        <label class="rolle">Ansicht
+          <select id="setup-rolle">
+            <option value="alle">Alle Parameter</option>
+            <option value="br">Betriebsrat</option>
+            <option value="mgmt">Management</option>
+            <option value="consultant">Consultant</option>
+          </select>
+        </label>
+        <label class="rolle">Bearbeitet von
+          <input id="setup-bearbeiter" type="text" placeholder="Name oder Kuerzel">
+        </label>
+        <span class="klein" id="setup-herkunft"></span>
+      </div>
+      <div class="tabs" id="param-tabs"></div>
+      <p class="hinweis">Datensaetze mit Zurueck / Weiter durchblaettern. Aenderungen bleiben beim Wechsel erhalten; Speichern sichert alle bearbeiteten Bereiche.</p>
+      <div id="param-formular" class="param-formular" aria-label="Parameter bearbeiten"></div>
+      <div class="zeile">
+        <button type="button" id="btn-param-save" class="haupt">Speichern</button>
+        <button type="button" id="btn-param-export" class="zweit">Nur in Datei schreiben</button>
+        <button type="button" id="btn-param-reset" class="zweit">Zuruecksetzen auf Datei</button>
+        <span class="klein" id="param-status"></span>
+      </div>
+    </div>
+  </section>
+
+  <section id="tab-analyse">
+
+    <div class="panel">
+      <h2>1 &middot; Auftrag einstellen</h2>
+      <div class="felder">
+        <label>Mitarbeiter<select id="person"></select></label>
+        <label>KI-Modell Internal Data Preparation<select id="modell"></select></label>
+        <label>Matching Modell<select id="quelle">
+          <option value="lokal">Lokale KI (Ollama)</option>
+          <option value="chatgpt">ChatGPT (API-Key hinterlegen)</option>
+        </select></label>
+        <label class="knopf-feld">&nbsp;<button type="button" id="btn-start" class="haupt">Analyse starten</button></label>
+        <label class="knopf-feld">&nbsp;<button type="button" id="btn-prompt" class="zweit">Prompt anzeigen</button></label>
+      </div>
+      <p class="hinweis" id="hinweis-person"></p>
+    </div>
+
+    <div class="panel versteckt" id="prompt-panel">
+      <h2>Prompt &middot; das ist die Maschine</h2>
+      <p class="hinweis">Dieser Text entsteht aus den Parametern (Setup) plus der gewaehlten Person
+        und wird dem Modell uebergeben.</p>
+      <div class="zeile">
+        <button type="button" id="btn-kopieren" class="haupt">Prompt kopieren</button>
+        <button type="button" id="btn-prompt-schliessen" class="zweit">Schliessen</button>
+        <span class="klein" id="prompt-info"></span>
+      </div>
+      <textarea id="prompt-text" spellcheck="false"></textarea>
+    </div>
+
+    <div class="panel versteckt" id="einfuege-panel">
+      <h2>Antwort des Modells einfuegen</h2>
+      <p class="hinweis">Antwort aus ChatGPT hier einfuegen. Die Oberflaeche prueft die Struktur und
+        baut daraus die Sichten.</p>
+      <textarea id="antwort-text" spellcheck="false" placeholder="{ ... Antwort als JSON ... }"></textarea>
+      <div class="zeile">
+        <button type="button" id="btn-antwort" class="haupt">Antwort uebernehmen</button>
+        <span class="klein" id="antwort-status"></span>
+      </div>
+    </div>
+
+    <div class="panel" id="maschine">
+      <h2 id="maschinen-status">2 &middot; Die Maschine ist Bereit</h2>
+      <div class="maschinen-visual">
+        <div class="rad" id="rad" role="img" aria-label="Entwicklung bereit">
+          <svg class="entwicklungs-mensch" viewBox="0 0 64 88" aria-hidden="true" focusable="false">
+            <g class="mensch-koerper" fill="currentColor">
+              <circle cx="32" cy="12" r="9"/>
+              <path d="M25 25 Q32 22 39 25 Q43 27 45 33 L54 49 Q56 54 52 56 Q48 58 46 53 L41 43 L41 57 L46 79 Q47 85 42 86 Q37 87 36 81 L32 63 L28 81 Q27 87 22 86 Q17 85 18 79 L23 57 L23 43 L18 53 Q16 58 12 56 Q8 54 10 49 L19 33 Q21 27 25 25 Z"/>
+            </g>
+          </svg>
+          <span class="mensch-boden" aria-hidden="true"></span>
+        </div>
+        <div class="balken"><div class="balken-fuellung" id="fortschritt"></div></div>
+        <div class="takt" id="takt">bereit</div>
+      </div>
+      <ol class="schritte" id="schritte"></ol>
+    </div>
+
+    <div class="panel versteckt" id="ergebnis">
+      <h2>3 &middot; Ausgabe</h2>
+      <div class="kopfzeile" id="kopfzeile"></div>
+      <div class="tabs" id="sicht-tabs"></div>
+      <div id="sicht-inhalt" class="sicht"></div>
+      <div class="zeile aktionen">
+        <button type="button" id="btn-alsdatei" class="zweit">Ergebnis als Datei speichern</button>
+        <button type="button" id="btn-freigabe" class="haupt" disabled>Auswahl freigeben (Management)</button>
+        <button type="button" id="btn-drucken" class="zweit">Drucken / PDF</button>
+        <span id="aktions-status" class="klein"></span>
+      </div>
+    </div>
+  </section>
+  <section id="tab-prozess" class="versteckt">
+    <div class="panel">
+      <h2>Prozess &middot; der Ablauf als Flussdiagramm</h2>
+      <p class="hinweis">
+        Von der Datenbasis bis zur Entscheidung. Rechtecke sind Schritte, schraege Kaesten sind
+        Ein- und Ausgaben, Rauten sind Pruefungen, gestrichelte Linien sind Rueckwege.
+        Waehrend einer Analyse leuchtet der Schritt, an dem die Maschine gerade arbeitet.
+      </p>
+      <div class="zeile">
+        <button type="button" id="btn-prozess-ablauf" class="haupt">Durchlauf zeigen</button>
+        <button type="button" id="btn-prozess-stop" class="zweit">Stop</button>
+        <button type="button" id="btn-prozess-zurueck" class="zweit">Alles zuruecksetzen</button>
+        <span class="klein" id="prozess-status"></span>
+      </div>
+      <div class="legende">
+        <span><b>P</b> Vorbereitung durch uns</span>
+        <span><b>A</b> Auftrag</span>
+        <span><b>M</b> Maschine</span>
+        <span><b>E</b> Entscheidung Mensch</span>
+        <span class="legende-aktiv">aktueller Schritt</span>
+      </div>
+      <div class="prozess" id="prozess"></div>
+      <div id="prozess-detail" class="prozess-info">
+        Klick auf einen Schritt im Diagramm zeigt Erklaerung, Regel und Ort in der Maschine.
+      </div>
+    </div>
+  </section>
+</main>
+
+<script src="parameter/parameter.js"></script>
+<script src="antworten/antwort_Beata_Nowak.js"></script>
+<script src="antworten/antwort_Dana_Petersen.js"></script>
+<script src="antworten/antwort_Jens_Habermann.js"></script>
+<script src="antworten/antwort_Melina_Aydin.js"></script>
+<script src="antworten/antwort_Mirko_Baumgart.js"></script>
+<script src="antworten/antwort_Nadja_Nowarra.js"></script>
+<script src="antworten/antwort_Ruediger_Kaminski.js"></script>
+<script src="antworten/antwort_Sandra_Weissbrodt.js"></script>
+<script src="antworten/antwort_Tobias_Krueger.js"></script>
+<script src="antworten/antwort_Yusuf_Celik.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
