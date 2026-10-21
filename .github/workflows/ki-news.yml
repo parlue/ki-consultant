@@ -1,0 +1,110 @@
+name: KI-Briefing veröffentlichen
+
+on:
+  push:
+    branches: [main]
+    paths: ['ki-news/**', 'scripts/**', '.github/workflows/ki-news.yml', 'index.html', 'style.css', 'sitemap.xml']
+  schedule:
+    # 06:17 Europe/Berlin in summer/winter; the guard ignores the early winter run.
+    - cron: '17 4,5 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: ki-news-publish
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  briefing:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    outputs:
+      ready: ${{ steps.guard.outputs.ready }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Zeitfenster prüfen
+        id: guard
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          python - <<'PY'
+          import os
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          ready = os.environ['EVENT_NAME'] != 'schedule' or datetime.now(ZoneInfo('Europe/Berlin')).hour >= 6
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
+              output.write(f'ready={str(ready).lower()}\n')
+          PY
+      - name: Pipeline testen
+        if: steps.guard.outputs.ready == 'true'
+        run: python -m unittest discover -s tests -v
+      - name: Oberfläche testen
+        if: steps.guard.outputs.ready == 'true'
+        run: node tests/frontend.cjs
+      - name: Gewählten Anbieter lesen
+        if: steps.guard.outputs.ready == 'true'
+        id: config
+        run: |
+          python - <<'PY'
+          import os, sys
+          sys.path.insert(0, 'scripts')
+          import news_models
+          settings = news_models.load_settings()
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
+              output.write(f"provider={settings['provider']}\n")
+          PY
+      - name: Quellen recherchieren und Ausgabe erstellen
+        if: steps.guard.outputs.ready == 'true'
+        env:
+          OPENAI_API_KEY: ${{ steps.config.outputs.provider == 'openai' && secrets.OPENAI_API_KEY || '' }}
+          DEEPSEEK_API_KEY: ${{ steps.config.outputs.provider == 'deepseek' && secrets.DEEPSEEK_API_KEY || '' }}
+          ANTHROPIC_API_KEY: ${{ steps.config.outputs.provider == 'claude' && secrets.ANTHROPIC_API_KEY || '' }}
+        run: python scripts/ai_news.py
+      - name: Ausgabe dauerhaft archivieren
+        if: steps.guard.outputs.ready == 'true'
+        run: |
+          git config user.name 'KI-Briefing Bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add ki-news/data
+          if ! git diff --cached --quiet; then
+            git commit -m 'news: tägliches KI-Briefing'
+            git push origin HEAD:main
+          fi
+
+  deploy:
+    needs: briefing
+    if: needs.briefing.outputs.ready == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/configure-pages@v5
+      - name: Öffentliche Dateien zusammenstellen
+        run: |
+          mkdir _site
+          rsync -a --exclude='.git/' --exclude='.github/' --exclude='scripts/' --exclude='tests/' --exclude='_site/' --exclude='__pycache__/' --exclude='*.pyc' --exclude='.env' --exclude='.gitignore' --exclude='KI-NEWS-SETUP.md' ./ _site/
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: GitHub Pages veröffentlichen
+        id: deployment
+        uses: actions/deploy-pages@v4

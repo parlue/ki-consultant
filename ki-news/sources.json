@@ -1,0 +1,18 @@
+[
+  {"name":"OpenAI", "url":"https://openai.com/news/rss.xml", "kind":"feed", "type":"Hersteller"},
+  {"name":"Google DeepMind", "url":"https://deepmind.google/blog/rss.xml", "kind":"feed", "type":"Hersteller"},
+  {"name":"Anthropic News", "url":"https://www.anthropic.com/news", "kind":"listing", "path":"/news/", "type":"Hersteller"},
+  {"name":"Anthropic Research", "url":"https://www.anthropic.com/research", "kind":"listing", "path":"/research/", "type":"Forschung"},
+  {"name":"DeepSeek", "url":"https://www.deepseek.com/en/news/", "kind":"listing", "path":"/en/news/", "type":"Hersteller"},
+  {"name":"DeepSeek API Updates", "url":"https://api-docs.deepseek.com/", "kind":"listing", "path":"/news/", "type":"Hersteller"},
+  {"name":"Hugging Face", "url":"https://huggingface.co/blog/feed.xml", "kind":"feed", "type":"Community"},
+  {"name":"Microsoft Research", "url":"https://www.microsoft.com/en-us/research/feed/", "kind":"feed", "type":"Forschung"},
+  {"name":"NVIDIA", "url":"https://blogs.nvidia.com/feed/", "kind":"feed", "type":"Hersteller"},
+  {"name":"Google AI", "url":"https://blog.google/technology/ai/rss/", "kind":"feed", "type":"Hersteller"},
+  {"name":"Berkeley AI Research", "url":"https://bair.berkeley.edu/blog/feed.xml", "kind":"feed", "type":"Forschung"},
+  {"name":"arXiv cs.AI", "url":"https://rss.arxiv.org/rss/cs.AI", "kind":"feed", "type":"Preprint"},
+  {"name":"arXiv cs.CL", "url":"https://rss.arxiv.org/rss/cs.CL", "kind":"feed", "type":"Preprint"},
+  {"name":"Qwen", "url":"https://qwenlm.github.io/blog/index.xml", "kind":"feed", "type":"Hersteller"},
+  {"name":"TechCrunch AI", "url":"https://techcrunch.com/category/artificial-intelligence/feed/", "kind":"feed", "type":"Fachmedium"},
+  {"name":"The Decoder", "url":"https://the-decoder.com/feed/", "kind":"feed", "type":"Fachmedium"}
+]
