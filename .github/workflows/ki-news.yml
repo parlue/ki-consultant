@@ -72,12 +72,13 @@ jobs:
         run: |
           python scripts/ai_news.py
           python scripts/update_news_sitemap.py
+          python scripts/update_news_feed.py
       - name: Ausgabe dauerhaft archivieren
         if: steps.guard.outputs.ready == 'true'
         run: |
           git config user.name 'KI-Briefing Bot'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add ki-news/data sitemap.xml
+          git add ki-news/data ki-news/feed.xml sitemap.xml
           if ! git diff --cached --quiet; then
             git commit -m 'news: tägliches KI-Briefing'
             git push origin HEAD:main
