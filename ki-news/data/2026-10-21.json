@@ -1,0 +1,269 @@
+{
+  "title": "KI-Briefing: Chips, Agenten und lokale Modelle im Fokus",
+  "stories": [
+    {
+      "title": "Google Cloud und Nvidia starten Vera-Rubin-Instanzen",
+      "summary": "Nvidia und Google Cloud kündigen die allgemeine Verfügbarkeit von A5X-Instanzen mit Vera-Rubin-NVL72-Technik für kommenden Monat an, mit geplanter Ausweitung nach Europa. Google Cloud will die Infrastruktur laut Nvidia auf bis zu 960.000 Rubin-GPUs ausbauen.",
+      "category": "Chips & Rechenleistung",
+      "providers": [
+        "Nvidia",
+        "Google Cloud"
+      ],
+      "id": "news-653d201e89286883",
+      "sources": [
+        {
+          "url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure",
+          "name": "NVIDIA",
+          "type": "Hersteller",
+          "published_at": "2026-10-21T10:45:17Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Nvidia stellt DSX POD für vorkonfektionierte KI-Rechenzentren vor",
+      "summary": "Nvidia will KI-Rechenzentren vollständig vormontiert in Containern ausliefern; laut Bericht könnte der Aufbau dadurch von sechs Monaten auf bis zu 14 Tage sinken. Das Unternehmen kündigte zudem den DSX-MaxLPS-Betrieb an, der bei Tests mit GB300-Systemen 37 Prozent mehr GPUs im selben Energiebudget ermöglicht habe.",
+      "category": "Chips & Rechenleistung",
+      "providers": [
+        "Nvidia",
+        "Nscale"
+      ],
+      "id": "news-09e035d7043d3766",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/nvidias-dsx-pod-could-cut-ai-data-center-setup-from-six-months-to-as-little-as-14-days",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-21T13:42:05Z",
+          "precision": "time"
+        },
+        {
+          "url": "https://blogs.nvidia.com/blog/cloud-partners-europe-sovereign-safety-open-agents",
+          "name": "NVIDIA",
+          "type": "Hersteller",
+          "published_at": "2026-10-21T10:30:41Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI-Modelle kommen in Googles Model Garden",
+      "summary": "OpenAI und Google Cloud bringen Frontier-Modelle und Codex-Workflows in den Model Garden von Gemini, verfügbar über den Google Cloud Marketplace. Damit bietet Google Cloud auch Modelle des Wettbewerbers OpenAI an.",
+      "category": "Modelle",
+      "providers": [
+        "OpenAI",
+        "Google Cloud"
+      ],
+      "id": "news-95dedf578de78f3e",
+      "sources": [
+        {
+          "url": "https://openai.com/index/openai-models-google-cloud",
+          "name": "OpenAI",
+          "type": "Hersteller",
+          "published_at": "2026-10-21T12:00:00Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Viele Manager sehen Bewertung von Arbeit durch KI erschwert",
+      "summary": "Einer neuen Umfrage zufolge sagen mehr als 50 Prozent der Manager, die Bewertung der Arbeit ihrer Mitarbeiter sei nach der Einführung von KI schwieriger geworden. Die Erhebung wurde in einem Fachmedium berichtet.",
+      "category": "Wirtschaft & Gesellschaft",
+      "providers": [
+        "TechCrunch"
+      ],
+      "id": "news-44f6ff9d4a47c985",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey",
+          "name": "TechCrunch AI",
+          "type": "Fachmedium",
+          "published_at": "2026-10-21T14:00:00Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "DeepSeek veröffentlicht Inferenz-Engine DeepInfer",
+      "summary": "DeepSeek gibt die Inferenz-Engine DeepInfer als Open Source frei, die laut Bericht sein schnelles und günstiges Modell V4.1-Flash antreibt. Das vLLM-basierte System soll Rechenkosten und Energieverbrauch beim Betrieb von KI-Modellen senken.",
+      "category": "Modelle",
+      "providers": [
+        "DeepSeek"
+      ],
+      "id": "news-0ab5ba0e7b49bc37",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/deepseek-open-sources-the-inference-engine-that-powers-its-fastest-and-cheapest-ai-model",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-20T18:56:15Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI und Partner setzen Tausende KI-Agenten auf biologische Daten an",
+      "summary": "OpenAI, PerturbAI und Scripps Research berichten, sie hätten verteilte KI-Agenten eingesetzt, um in Daten von Millionen Gehirnzellen neue Forschungsansätze zu finden. Zudem kündigt OpenAI die Übernahme von Orchestra Bio an, das in die Life-Sciences-Plattform Rosalind integriert werden soll.",
+      "category": "Forschung",
+      "providers": [
+        "OpenAI",
+        "PerturbAI",
+        "Scripps Research",
+        "Orchestra Bio"
+      ],
+      "id": "news-64ddfb139fec8a1c",
+      "sources": [
+        {
+          "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+          "name": "OpenAI",
+          "type": "Hersteller",
+          "published_at": "2026-10-21T04:50:00Z",
+          "precision": "time"
+        },
+        {
+          "url": "https://the-decoder.com/openai-acquires-orchestra-bio-to-build-ai-agents-that-speed-up-drug-development",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-21T08:32:54Z",
+          "precision": "time"
+        },
+        {
+          "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business",
+          "name": "TechCrunch AI",
+          "type": "Fachmedium",
+          "published_at": "2026-10-20T20:35:10Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Claude entwirft Proteinbinder gegen Skorpiongift",
+      "summary": "Anthropics Claude hat laut Bericht eigenständig Proteinbinder gegen tödliche Skorpion-Neurotoxine entworfen; von über 318.000 Designs wurden 211 im Labor getestet, 17 erfüllten die Kriterien. Ob die beiden stärksten Binder tatsächlich als Antivenom wirken, ist noch offen.",
+      "category": "Forschung",
+      "providers": [
+        "Anthropic"
+      ],
+      "id": "news-5d0b0d7d04399c51",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/claude-science-tackles-deadly-scorpion-stings-by-designing-protein-binders-from-scratch",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-21T08:37:06Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Nvidia präsentiert lokale KI-Hardware und Agenten-Werkzeuge in Berlin",
+      "summary": "Auf der GTC Berlin zeigt Nvidia seine lokale KI-Hardware RTX Spark für Windows-PCs und DGX Spark für Linux-Entwickler sowie die Desktop-Agenten-App Underdog. Zudem kündigte Nvidia ein erweitertes Agent Toolkit mit Agent Knowledge Foundation und OpenShell-Laufzeitumgebung an.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "Nvidia"
+      ],
+      "id": "news-6822fece1c79cc89",
+      "sources": [
+        {
+          "url": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync",
+          "name": "NVIDIA",
+          "type": "Hersteller",
+          "published_at": "2026-10-21T10:50:37Z",
+          "precision": "time"
+        },
+        {
+          "url": "https://blogs.nvidia.com/blog/enterprise-platforms-agent-toolkit",
+          "name": "NVIDIA",
+          "type": "Hersteller",
+          "published_at": "2026-10-21T10:10:01Z",
+          "precision": "time"
+        }
+      ]
+    }
+  ],
+  "date": "2026-10-21",
+  "window_start": "2026-10-20T14:36:30.318236Z",
+  "window_end": "2026-10-21T14:36:30.318236Z",
+  "generated_at": "2026-10-21T14:36:39.713569Z",
+  "coverage": [
+    {
+      "name": "Anthropic News",
+      "status": "partial",
+      "candidates": 0
+    },
+    {
+      "name": "Anthropic Research",
+      "status": "partial",
+      "candidates": 0
+    },
+    {
+      "name": "Berkeley AI Research",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "DeepSeek",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "DeepSeek API Updates",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Google AI",
+      "status": "ok",
+      "candidates": 1
+    },
+    {
+      "name": "Google DeepMind",
+      "status": "unavailable",
+      "candidates": 0
+    },
+    {
+      "name": "Hugging Face",
+      "status": "ok",
+      "candidates": 3
+    },
+    {
+      "name": "Microsoft Research",
+      "status": "ok",
+      "candidates": 1
+    },
+    {
+      "name": "NVIDIA",
+      "status": "ok",
+      "candidates": 9
+    },
+    {
+      "name": "OpenAI",
+      "status": "ok",
+      "candidates": 4
+    },
+    {
+      "name": "Qwen",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "TechCrunch AI",
+      "status": "ok",
+      "candidates": 12
+    },
+    {
+      "name": "The Decoder",
+      "status": "ok",
+      "candidates": 10
+    },
+    {
+      "name": "arXiv cs.AI",
+      "status": "ok",
+      "candidates": 473
+    },
+    {
+      "name": "arXiv cs.CL",
+      "status": "ok",
+      "candidates": 435
+    }
+  ]
+}
