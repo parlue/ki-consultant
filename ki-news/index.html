@@ -21,13 +21,15 @@ var android=/Android/.test(ua);
 var standalone=(window.matchMedia&&matchMedia('(display-mode: standalone)').matches)||navigator.standalone===true;
 var closed=false;try{if(/[?&]app/.test(location.search))localStorage.removeItem('kinews-install-closed');closed=localStorage.getItem('kinews-install-closed')==='1'}catch(e){}
 if(standalone||closed||!(ios||android))return;
+var COUNT='https://abacus.jasoncameron.dev/hit/sommerfeld-consulting-ki-news/installs';
+function count(){try{if(localStorage.getItem('kinews-counted')==='1')return;localStorage.setItem('kinews-counted','1')}catch(e){return}try{fetch(COUNT,{keepalive:true,credentials:'omit',referrerPolicy:'no-referrer'}).catch(function(){})}catch(e){}}
 var how=document.getElementById('install-how'),btn=document.getElementById('install-btn'),deferred=null;
 function show(){box.hidden=false}
-if(ios){how.textContent='Tippe unten auf das Teilen-Symbol und wähle „Zum Home-Bildschirm“.';show()}
+if(ios){how.textContent='Tippe unten auf das Teilen-Symbol und wähle „Zum Home-Bildschirm“.';show();var itile=document.getElementById('install-tile');itile.style.cursor='pointer';itile.addEventListener('click',count)}
 else{how.textContent='Als App auf dem Startbildschirm, auch offline lesbar.';setTimeout(function(){if(box.hidden){how.textContent='Tippe oben rechts auf ⋮ und wähle „App installieren“ oder „Zum Startbildschirm hinzufügen“.';show()}},2500);
 window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();deferred=e;btn.hidden=false;show()});
 function go(){if(!deferred){how.textContent='Chrome bietet die Installation hier nicht direkt an. Tippe oben rechts auf ⋮ und wähle „App installieren“ oder „Zum Startbildschirm hinzufügen“. Falls „KI News“ schon installiert ist, findest du die App über die Suche deines Handys.';box.classList.add('flash');setTimeout(function(){box.classList.remove('flash')},900);return}deferred.prompt();deferred.userChoice.then(function(){deferred=null;box.hidden=true})}btn.addEventListener('click',go);var tile=document.getElementById('install-tile');tile.addEventListener('click',go);tile.style.cursor='pointer';
-window.addEventListener('appinstalled',function(){box.hidden=true})}
+window.addEventListener('appinstalled',function(){count();box.hidden=true})}
 document.getElementById('install-close').addEventListener('click',function(){box.hidden=true;try{localStorage.setItem('kinews-install-closed','1')}catch(e){}});
 }catch(e){}})()</script>
 <script>try{if('serviceWorker' in navigator)window.addEventListener('load',function(){navigator.serviceWorker.register('sw.js').catch(function(){})})}catch(e){}</script>
