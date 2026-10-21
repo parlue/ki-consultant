@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-21",
+  "title": "Agenten forschen. Modelle werden effizienter.",
+  "note": "Manuell recherchierte und zusammengestellte Probeausgabe vom 21. Oktober 2026. Die fünf Meldungen stammen aus verschiedenen Veröffentlichungsdaten, nicht ausschließlich aus den letzten 24 Stunden. Diese Vorschau dient der Prüfung von Inhalt, Logik und Design; sie ist keine automatisch erzeugte Tagesausgabe.",
+  "stories": [
+    {
+      "id": "news-biologie-agenten",
+      "title": "OpenAI setzt Tausende Agenten auf biologische Forschungsdaten an",
+      "category": "Forschung",
+      "providers": ["OpenAI", "PerturbAI", "Scripps Research"],
+      "summary": "OpenAI beschreibt gemeinsam mit PerturbAI und Scripps Research, wie parallel arbeitende KI-Agenten Daten aus Millionen von Gehirnzellen von Mäusen auswerteten und mit Fachliteratur verknüpften. Daraus entstanden mögliche biologische Erklärungen und Ansatzpunkte für weitere Experimente.",
+      "relevance": "Die interessante Entwicklung ist die Arbeitsteilung: Viele Agenten untersuchen Teilfragen und führen ihre Ergebnisse zusammen. Für Forschungsteams könnte das helfen, große vorhandene Datenbestände systematischer zu erschließen.",
+      "caveat": "Der Beitrag stammt vom beteiligten Anbieter. Die vorgeschlagenen Zusammenhänge sind Forschungshinweise; daraus folgt noch keine nachgewiesene Therapie oder gesicherte Erklärung menschlicher Erkrankungen. Die Übertragung auf andere Aufgaben ist eine offene Frage.",
+      "sources": [{"name": "OpenAI · Forschungsbericht", "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/", "type": "Anbieterbericht zur Forschung", "published_at": "2026-10-21T00:00:00Z", "precision": "date"}]
+    },
+    {
+      "id": "news-google-nvidia",
+      "title": "Google Cloud kündigt neue Vera-Rubin-Infrastruktur für KI an",
+      "category": "Chips & Rechenleistung",
+      "providers": ["Google Cloud", "NVIDIA"],
+      "summary": "NVIDIA und Google Cloud stellen A5X-Instanzen auf Basis von Vera Rubin NVL72 vor. Laut NVIDIA soll die allgemeine Verfügbarkeit im folgenden Monat starten; eine Ausweitung nach Europa ist geplant. Die Plattform zielt unter anderem auf KI-Inferenz und Reinforcement Learning im großen Maßstab.",
+      "relevance": "Neben Modellqualität zählt, wie gut sich Training und laufender KI-Betrieb skalieren lassen. Für Unternehmen sind dabei verfügbare Regionen, Energiebedarf und die Kosten konkreter Arbeitslasten entscheidend.",
+      "caveat": "Die Meldung ist eine Herstellerankündigung. Trotz der Formulierung im englischen Titel beschreibt der Beitrag den allgemeinen Start erst für den Folgemonat. Eine angekündigte Plattform oder Ausbaugröße ist keine bereits überall verfügbare Rechenkapazität.",
+      "sources": [{"name": "NVIDIA · Ankündigung zu Google Cloud A5X", "url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/", "type": "Herstellerankündigung", "published_at": "2026-10-21T00:00:00Z", "precision": "date"}]
+    },
+    {
+      "id": "news-anthropic-proteine",
+      "title": "Anthropic lässt Claude Proteinbinder entwerfen und im Labor testen",
+      "category": "Forschung",
+      "providers": ["Anthropic", "Adaptyv Bio", "Twist Bioscience"],
+      "summary": "Ein internes Claude-Forschungsmodell entwarf kleine Proteine, die an bestimmte Skorpion-Neurotoxine binden sollen. Nach Angaben von Anthropic testeten Partnerlabore 211 ausgewählte Entwürfe; 17 erfüllten die festgelegten Bindungskriterien. Die Entwürfe und Messdaten werden veröffentlicht.",
+      "relevance": "Das Beispiel verbindet KI-gestützte Vorschläge mit experimenteller Prüfung. Gerade dieser Übergang vom generierten Entwurf zum messbaren Laborergebnis macht die Arbeit für die Bewertung wissenschaftlicher KI interessant.",
+      "caveat": "Bindung ist noch kein Wirksamkeitsnachweis. Anthropic erklärt ausdrücklich, dass eine Neutralisierung des Gifts in einer zellulären Umgebung nicht bestätigt ist. Ein fertiges Gegengift oder ein klinisch nutzbares Medikament wurde damit nicht nachgewiesen.",
+      "sources": [{"name": "Anthropic · Proteinbinder gegen Skorpiontoxine", "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design", "type": "Anbieterbericht mit Labortests durch Partner", "published_at": "2026-10-20T00:00:00Z", "precision": "date"}]
+    },
+    {
+      "id": "news-openai-altsoftware",
+      "title": "KI für Altsoftware: OpenAI untersucht COBOL, Fortran und weitere Sprachen",
+      "category": "Agenten & Anwendungen",
+      "providers": ["OpenAI"],
+      "summary": "OpenAI veröffentlicht neue Auswertungen zu Programmiersprachen mit vergleichsweise wenig verfügbarem Trainingsmaterial. Die Aufgaben umfassen den Bau einer SQLite-kompatiblen Datenbank in mehreren Sprachen und die Übertragung von COBOL-Programmen unter Beibehaltung ihres Verhaltens. Der Anbieter berichtet Verbesserungen bei seinen neueren Modellen.",
+      "relevance": "Für Unternehmen mit gewachsenen Softwaresystemen ist die Modernisierung bestehender Programme oft wichtiger als die Entwicklung einer neuen Demo. Interessant ist insbesondere, ob Geschäftsregeln bei einer Migration erhalten bleiben.",
+      "caveat": "Die Ergebnisse stammen aus vom Anbieter entwickelten Tests. Gute Benchmarkwerte ersetzen keine Prüfung einer realen Anwendung samt Daten, Schnittstellen und Sonderfällen. Der Beitrag weist selbst auf die nötige fachliche Kontrolle und zusätzliche Tests hin.",
+      "sources": [{"name": "OpenAI · Evaluationen für ältere Programmiersprachen", "url": "https://openai.com/index/low-resource-programming-languages/", "type": "Anbieterevaluation", "published_at": "2026-10-19T00:00:00Z", "precision": "date"}]
+    },
+    {
+      "id": "news-deepseek-hintergrund",
+      "title": "DeepSeek V4.1 Flash: Effizienz durch eine andere Modellarchitektur",
+      "category": "Modelle",
+      "providers": ["DeepSeek"],
+      "summary": "DeepSeek stellte V4.1 Flash als Modell mit nativer visueller Verarbeitung und einer asymmetrischen Encoder-Decoder-Architektur vor. Der Anbieter beschreibt einen geringeren Speicherbedarf des KV-Caches und einen effizienteren Betrieb gegenüber der Vorgängergeneration. Das Modell wird über die DeepSeek-API angeboten.",
+      "relevance": "Für lange Kontexte und Agenten können Speicherbedarf und Betriebskosten genauso entscheidend sein wie ein einzelner Benchmarkwert. Diese ältere Meldung zeigt exemplarisch, wie wir Architekturänderungen verständlich einordnen würden.",
+      "caveat": "Hintergrundmeldung vom 10. September 2026, bewusst für die Designvorschau aufgenommen. Die Leistungsaussagen stammen vom Hersteller und wurden für dieses Briefing nicht unabhängig nachgemessen. Aus der Ankündigung lassen sich keine garantierten Einsparungen für beliebige Anwendungen ableiten.",
+      "sources": [{"name": "DeepSeek · Originalankündigung V4.1 Flash", "url": "https://www.deepseek.com/en/news/deepseek-v4-1-flash/", "type": "Herstellerankündigung · Hintergrund", "published_at": "2026-09-10T00:00:00Z", "precision": "date"}]
+    }
+  ]
+}
