@@ -52,7 +52,7 @@ jobs:
         if: steps.guard.outputs.ready == 'true'
         run: node tests/frontend.cjs
       - name: Gewählten Anbieter lesen
-        if: steps.guard.outputs.ready == 'true' && github.event_name != 'push'
+        if: steps.guard.outputs.ready == 'true'
         id: config
         run: |
           python - <<'PY'
@@ -64,14 +64,14 @@ jobs:
               output.write(f"provider={settings['provider']}\n")
           PY
       - name: Quellen recherchieren und Ausgabe erstellen
-        if: steps.guard.outputs.ready == 'true' && github.event_name != 'push'
+        if: steps.guard.outputs.ready == 'true'
         env:
           OPENAI_API_KEY: ${{ steps.config.outputs.provider == 'openai' && secrets.OPENAI_API_KEY || '' }}
           DEEPSEEK_API_KEY: ${{ steps.config.outputs.provider == 'deepseek' && secrets.DEEPSEEK_API_KEY || '' }}
           ANTHROPIC_API_KEY: ${{ steps.config.outputs.provider == 'claude' && secrets.ANTHROPIC_API_KEY || '' }}
         run: python scripts/ai_news.py
       - name: Ausgabe dauerhaft archivieren
-        if: steps.guard.outputs.ready == 'true' && github.event_name != 'push'
+        if: steps.guard.outputs.ready == 'true'
         run: |
           git config user.name 'KI-Briefing Bot'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'

@@ -38,7 +38,7 @@ Für Ollama sind höchstens 30.000 Eingabezeichen (Kandidaten × Textlänge) erl
 1. Änderungen in `main` übernehmen, einschließlich `ki-news/settings.json`.
 2. Nur für den gewählten Anbieter das passende Repository-Secret unter **Settings → Secrets and variables → Actions** setzen.
 3. Unter **Settings → Pages → Source** die Option **GitHub Actions** wählen. `CNAME` und die vorhandenen Webseiten bleiben Teil der Bereitstellung.
-4. Unter **Actions → KI-Briefing veröffentlichen → Run workflow** den ersten realen Lauf starten. Erst nach Prüfung einer erfolgreichen Ausgabe den täglichen Betrieb als eingerichtet betrachten.
+4. Nach dem Übernehmen in `main` startet der erste Recherche- und Veröffentlichungsversuch automatisch. Für einen erneuten Versuch **Actions → KI-Briefing veröffentlichen → Run workflow** verwenden. Erst nach Prüfung einer erfolgreichen Ausgabe den täglichen Betrieb als eingerichtet betrachten.
 
 Die Verbindung dieses Chats kann Repository-Secrets und Pages-Einstellungen nicht verwalten. Bisher gibt es keinen verifizierten echten Cloud-Modelllauf; die Anbieteradapter wurden mit simulierten Antworten getestet.
 
