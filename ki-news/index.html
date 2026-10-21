@@ -7,7 +7,7 @@
 <header class="masthead"><div class="wrap"><a class="news-brand" href="./">KI<span>News</span></a><a class="consulting" href="../" aria-label="Zurück zur Startseite von Dirk Sommerfeld">← Zur Startseite</a></div></header>
 <main class="wrap" id="briefing">
 <div class="edition-line"><h1 id="edition-heading">KI News und Trends</h1><span>Für dich auf Deutsch zusammengefasst</span><span id="edition-date"></span><a id="permalink" hidden>Dauerlink</a><a class="rss" href="feed.xml" type="application/rss+xml" title="Täglich neue Ausgabe per RSS-Feed abonnieren"><svg class="rss-icon" viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"><circle cx="3" cy="13" r="2" fill="currentColor"/><path d="M1 6a9 9 0 0 1 9 9M1 1a14 14 0 0 1 14 14" fill="none" stroke="currentColor" stroke-width="2"/></svg> RSS abonnieren</a></div>
-<aside id="install-hint" class="install-hint" hidden><div class="install-text"><strong>Nichts verpassen: KI News direkt auf deinem Smartphone</strong><span id="install-how"></span></div><button type="button" id="install-btn" hidden>Installieren</button><button type="button" id="install-close" class="install-close" aria-label="Hinweis schließen">×</button></aside>
+<aside id="install-hint" class="install-hint" hidden><img id="install-tile" class="install-tile" src="icons/icon-192.png" width="56" height="56" alt="KI News App-Symbol"><div class="install-text"><strong>Nichts verpassen: KI News direkt auf deinem Smartphone</strong><span id="install-how"></span></div><button type="button" id="install-btn" hidden>Installieren</button><button type="button" id="install-close" class="install-close" aria-label="Hinweis schließen">×</button></aside>
 <form id="filters" class="filters" role="search" hidden><label class="sr-only" for="query">Nachrichten durchsuchen</label><input id="query" type="search" placeholder="Nachrichten durchsuchen"><label class="sr-only" for="topic">Thema</label><select id="topic"><option value="">Alle Themen</option><option>Modelle</option><option>Agenten &amp; Anwendungen</option><option>Forschung</option><option>Chips &amp; Rechenleistung</option><option>Wirtschaft &amp; Gesellschaft</option></select><span id="result-count" aria-live="polite"></span></form>
 <p id="status" class="notice" role="status">Nachrichten werden geladen …</p><div id="stories"></div>
 <noscript><p>Für die Tagesausgaben bitte JavaScript aktivieren.</p></noscript>
@@ -26,7 +26,7 @@ function show(){box.hidden=false}
 if(ios){how.textContent='Tippe unten auf das Teilen-Symbol und wähle „Zum Home-Bildschirm“.';show()}
 else{how.textContent='Als App auf dem Startbildschirm, auch offline lesbar.';
 window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();deferred=e;btn.hidden=false;show()});
-btn.addEventListener('click',function(){if(!deferred)return;deferred.prompt();deferred.userChoice.then(function(){deferred=null;box.hidden=true})});
+function go(){if(!deferred)return;deferred.prompt();deferred.userChoice.then(function(){deferred=null;box.hidden=true})}btn.addEventListener('click',go);var tile=document.getElementById('install-tile');tile.addEventListener('click',go);tile.style.cursor='pointer';
 window.addEventListener('appinstalled',function(){box.hidden=true})}
 document.getElementById('install-close').addEventListener('click',function(){box.hidden=true;try{localStorage.setItem('kinews-install-closed','1')}catch(e){}});
 }catch(e){}})()</script>
