@@ -24,7 +24,7 @@ if(standalone||closed||!(ios||android))return;
 var how=document.getElementById('install-how'),btn=document.getElementById('install-btn'),deferred=null;
 function show(){box.hidden=false}
 if(ios){how.textContent='Tippe unten auf das Teilen-Symbol und wähle „Zum Home-Bildschirm“.';show()}
-else{how.textContent='Als App auf dem Startbildschirm, auch offline lesbar.';
+else{how.textContent='Als App auf dem Startbildschirm, auch offline lesbar.';setTimeout(function(){if(box.hidden){how.textContent='Tippe oben rechts auf ⋮ und wähle „App installieren“ oder „Zum Startbildschirm hinzufügen“.';show()}},2500);
 window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();deferred=e;btn.hidden=false;show()});
 function go(){if(!deferred)return;deferred.prompt();deferred.userChoice.then(function(){deferred=null;box.hidden=true})}btn.addEventListener('click',go);var tile=document.getElementById('install-tile');tile.addEventListener('click',go);tile.style.cursor='pointer';
 window.addEventListener('appinstalled',function(){box.hidden=true})}
