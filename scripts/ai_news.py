@@ -21,6 +21,7 @@ from urllib.parse import urljoin, urlsplit, urlunsplit, parse_qsl, urlencode
 from urllib.request import Request, build_opener, HTTPRedirectHandler
 import xml.etree.ElementTree as ET
 from zoneinfo import ZoneInfo
+import news_models
 
 ROOT = Path(__file__).resolve().parents[1]
 UTC = timezone.utc
@@ -306,28 +307,8 @@ zusammenfassen. source_ids dürfen nur IDs der Kandidaten enthalten. providers n
 category muss eine der vorgegebenen Kategorien sein. Kein Markdown/HTML in Textfeldern. Keine globalen Trends aus Einzelfällen ableiten."""
 
 
-def summarize(candidates):
-    key = os.environ.get("OPENAI_API_KEY", "")
-    if not key:
-        raise RuntimeError("OPENAI_API_KEY fehlt. Als Repository-Secret hinterlegen, niemals im Quelltext.")
-    payload = {"model": os.environ.get("OPENAI_MODEL", "gpt-4.1-mini"), "store": False,
-               "instructions": EDITOR, "input": json.dumps(candidates, ensure_ascii=False), "max_output_tokens": 8000,
-               "text": {"format": {"type": "json_schema", "name": "daily_briefing", "strict": True, "schema": response_schema()}}}
-    body = json.dumps(payload).encode()
-    for attempt in range(3):
-        try:
-            request = Request("https://api.openai.com/v1/responses", data=body, headers={"Authorization": "Bearer " + key, "Content-Type": "application/json"})
-            with build_opener().open(request, timeout=180) as response:
-                result = json.load(response)
-            break
-        except HTTPError as error:
-            if error.code not in (429, 500, 502, 503, 504) or attempt == 2:
-                raise RuntimeError(f"Zusammenfassung fehlgeschlagen (HTTP {error.code}); letzte Ausgabe bleibt erhalten.") from None
-            time.sleep(3 * (attempt + 1))
-    if result.get("status") != "completed":
-        raise RuntimeError("Modellantwort unvollständig; nichts veröffentlicht.")
-    text = "".join(c.get("text", "") for o in result.get("output", []) for c in o.get("content", []) if c.get("type") == "output_text")
-    return json.loads(text)
+def summarize(candidates, settings=None):
+    return news_models.generate(candidates, settings or news_models.load_settings(), EDITOR, response_schema())
 
 
 def validate(result, candidates):
@@ -377,6 +358,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--check-sources", action="store_true", help="Read sources, report coverage; no model call or publication")
     parser.add_argument("--data-dir", type=Path, default=ROOT / "ki-news/data")
+    parser.add_argument("--settings", type=Path, default=news_models.SETTINGS_PATH)
     args = parser.parse_args()
     end = datetime.now(UTC)
     start = end - timedelta(hours=24)
@@ -384,23 +366,26 @@ def main():
     if not args.check_sources and (args.data_dir / f"{date}.json").exists():
         print("Tagesausgabe bereits vorhanden. Keine erneuten API-Kosten.")
         return
-    if not args.check_sources and not os.environ.get("OPENAI_API_KEY"):
-        raise RuntimeError("Repository-Secret OPENAI_API_KEY fehlt; Recherche nicht gestartet.")
+    settings = news_models.load_settings(args.settings)
+    if not args.check_sources:
+        news_models.credentials(settings)
     sources = json.loads((ROOT / "ki-news/sources.json").read_text(encoding="utf-8"))
+    sources = [source for source in sources if source["name"] in settings["enabled_sources"]]
     candidates, coverage = collect(sources, start, end)
     good = sum(s["status"] == "ok" for s in coverage)
     if args.check_sources:
         print(f"{good}/{len(sources)} sources fully readable; {len(candidates)} dated candidates")
         return
-    if good < max(3, len(sources) // 2):
+    if good < max(1, (len(sources) + 1) // 2):
         raise RuntimeError("Zu wenige Quellen erreichbar; letzte Ausgabe bleibt erhalten.")
     # Overlapping date-only timestamps must not repeat yesterday's published links.
     seen = set()
     for path in sorted(args.data_dir.glob("????-??-??.json"), reverse=True)[:14]:
         previous = json.loads(path.read_text(encoding="utf-8"))
         seen.update(s["url"] for story in previous["stories"] for s in story["sources"])
-    prepared = prepare_candidates(candidates, seen)
-    result = validate(summarize(prepared), prepared) if prepared else {"title": "Ein ruhiger Tag im KI-Briefing", "stories": []}
+    prepared = prepare_candidates(candidates, seen)[:settings["max_candidates"]]
+    prepared = [item | {"text": item["text"][:settings["chars_per_article"]]} for item in prepared]
+    result = validate(summarize(prepared, settings), prepared) if prepared else {"title": "Ein ruhiger Tag im KI-Briefing", "stories": []}
     publish(result, coverage, start, end, args.data_dir)
     print(f"Ausgabe {date}: {len(result['stories'])} Meldungen veröffentlicht.")
 

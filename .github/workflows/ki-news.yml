@@ -3,7 +3,7 @@ name: KI-Briefing veröffentlichen
 on:
   push:
     branches: [main]
-    paths: ['ki-news/**', 'scripts/ai_news.py', '.github/workflows/ki-news.yml', 'index.html', 'style.css', 'sitemap.xml']
+    paths: ['ki-news/**', 'scripts/**', '.github/workflows/ki-news.yml', 'index.html', 'style.css', 'sitemap.xml']
   schedule:
     # 06:17 Europe/Berlin in summer/winter; the guard ignores the early winter run.
     - cron: '17 4,5 * * *'
@@ -51,11 +51,24 @@ jobs:
       - name: Oberfläche testen
         if: steps.guard.outputs.ready == 'true'
         run: node tests/frontend.cjs
+      - name: Gewählten Anbieter lesen
+        if: steps.guard.outputs.ready == 'true' && github.event_name != 'push'
+        id: config
+        run: |
+          python - <<'PY'
+          import os, sys
+          sys.path.insert(0, 'scripts')
+          import news_models
+          settings = news_models.load_settings()
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
+              output.write(f"provider={settings['provider']}\n")
+          PY
       - name: Quellen recherchieren und Ausgabe erstellen
         if: steps.guard.outputs.ready == 'true' && github.event_name != 'push'
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-4.1-mini' }}
+          OPENAI_API_KEY: ${{ steps.config.outputs.provider == 'openai' && secrets.OPENAI_API_KEY || '' }}
+          DEEPSEEK_API_KEY: ${{ steps.config.outputs.provider == 'deepseek' && secrets.DEEPSEEK_API_KEY || '' }}
+          ANTHROPIC_API_KEY: ${{ steps.config.outputs.provider == 'claude' && secrets.ANTHROPIC_API_KEY || '' }}
         run: python scripts/ai_news.py
       - name: Ausgabe dauerhaft archivieren
         if: steps.guard.outputs.ready == 'true' && github.event_name != 'push'

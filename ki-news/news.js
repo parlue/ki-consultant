@@ -73,4 +73,4 @@ async function init() {
   } catch { $("status").textContent = "Das Archiv konnte nicht geladen werden. Bitte lade die Seite erneut."; }
 }
 init();
-getJSON("sources.json").then(sources => { for (const source of sources) { const url = safeLink(source.url); if (!url) continue; const a = el("a", source.name); a.href = url; a.target = "_blank"; a.rel = "noopener noreferrer"; $("source-list").append(a); } }).catch(() => { $("source-list").textContent = "Die Quellenliste konnte nicht geladen werden."; });
+Promise.all([getJSON("sources.json"), getJSON("settings.json")]).then(([sources, settings]) => { for (const source of sources) { if (!settings.enabled_sources.includes(source.name)) continue; const url = safeLink(source.url); if (!url) continue; const a = el("a", source.name); a.href = url; a.target = "_blank"; a.rel = "noopener noreferrer"; $("source-list").append(a); } }).catch(() => { $("source-list").textContent = "Die Quellenliste konnte nicht geladen werden."; });

@@ -1,0 +1,8 @@
+{
+  "provider": "deepseek",
+  "models": {"deepseek": "deepseek-flash", "openai": "gpt-4.1-mini", "claude": "claude-haiku-5-5", "ollama": ""},
+  "ollama_url": "http://127.0.0.1:11434",
+  "max_candidates": 40,
+  "chars_per_article": 3000,
+  "enabled_sources": ["OpenAI", "Google DeepMind", "Anthropic News", "Anthropic Research", "DeepSeek", "DeepSeek API Updates", "Hugging Face", "Microsoft Research", "NVIDIA", "Google AI", "Berkeley AI Research", "arXiv cs.AI", "arXiv cs.CL", "Qwen", "TechCrunch AI", "The Decoder"]
+}

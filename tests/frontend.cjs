@@ -21,7 +21,7 @@ async function boot(archive, edition, requested = '', failEdition = false) {
     Intl, Date, URL, console, location,
     history: { pushState(a, b, url) { location.href = new URL(url, location.href).href; } },
     window: { addEventListener() {} },
-    fetch: async path => ({ ok: !(failEdition && /data\/\d/.test(path)), status: 500, json: async () => path === 'sources.json' ? [] : path === 'data/archive.json' ? archive : edition })
+    fetch: async path => ({ ok: !(failEdition && /data\/\d/.test(path)), status: 500, json: async () => path === 'sources.json' ? [] : path === 'settings.json' ? {enabled_sources:[]} : path === 'data/archive.json' ? archive : edition })
   });
   vm.runInContext(source, context); await tick(); await tick();
   return { nodes, context };

@@ -2,10 +2,13 @@ import copy
 from datetime import datetime, timedelta, timezone
 import importlib.util
 import json
+import sys
 from pathlib import Path
 import tempfile
 import unittest
 from unittest.mock import patch
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 
 spec = importlib.util.spec_from_file_location('ai_news', Path(__file__).resolve().parents[1] / 'scripts/ai_news.py')
 news = importlib.util.module_from_spec(spec)
