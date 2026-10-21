@@ -69,13 +69,15 @@ jobs:
           OPENAI_API_KEY: ${{ steps.config.outputs.provider == 'openai' && secrets.OPENAI_API_KEY || '' }}
           DEEPSEEK_API_KEY: ${{ steps.config.outputs.provider == 'deepseek' && secrets.DEEPSEEK_API_KEY || '' }}
           ANTHROPIC_API_KEY: ${{ steps.config.outputs.provider == 'claude' && secrets.ANTHROPIC_API_KEY || '' }}
-        run: python scripts/ai_news.py
+        run: |
+          python scripts/ai_news.py
+          python scripts/update_news_sitemap.py
       - name: Ausgabe dauerhaft archivieren
         if: steps.guard.outputs.ready == 'true'
         run: |
           git config user.name 'KI-Briefing Bot'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add ki-news/data
+          git add ki-news/data sitemap.xml
           if ! git diff --cached --quiet; then
             git commit -m 'news: tägliches KI-Briefing'
             git push origin HEAD:main
