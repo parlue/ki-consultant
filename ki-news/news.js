@@ -35,7 +35,7 @@ async function loadEdition() {
   const requested = new URL(location.href).searchParams.get("ausgabe");
   const selected = requested ? archive.find(a => a.date === requested) : archive[0];
   edition = null; $("stories").replaceChildren(); $("filters").hidden = true;
-  $("coverage").hidden = true; $("edition-meta").textContent = ""; $("result-count").textContent = ""; $("permalink").hidden = true;
+  $("edition-meta").textContent = ""; $("result-count").textContent = ""; $("permalink").hidden = true;
   $("status").hidden = false;
   if (!selected) { $("status").textContent = requested ? "Diese Ausgabe wurde nicht gefunden. Bitte wähle eine Ausgabe aus dem Archiv." : "Das KI-Briefing wird vorbereitet. Sobald der tägliche Recherchelauf aktiviert ist, erscheinen hier die ersten Ausgaben mit Quellenlinks."; return; }
   $("status").textContent = "Ausgabe wird geladen …";
@@ -48,9 +48,6 @@ async function loadEdition() {
     const old = Date.now() - new Date(data.window_end).getTime() > 36 * 3600000;
     $("status").hidden = data.stories.length > 0 && (requested || !old);
     $("status").textContent = !data.stories.length ? "Im Recherchezeitraum wurden keine ausreichend relevanten, neuen Meldungen ausgewählt." : "Die letzte Ausgabe ist älter als 36 Stunden. Eine neuere Ausgabe liegt derzeit nicht vor.";
-    const failed = data.coverage.filter(s => s.status !== "ok");
-    $("coverage").hidden = !failed.length;
-    $("coverage").textContent = `Eingeschränkte Quellenabdeckung: ${failed.map(s => s.name).join(", ")}. Diese Quellen konnten nicht zuverlässig ausgewertet werden.`;
     $("permalink").href = `?ausgabe=${data.date}`; $("permalink").hidden = false;
     $("filters").hidden = !data.stories.length;
     for (const link of $("archive").querySelectorAll("a")) { if (link.dataset.date === data.date) link.setAttribute("aria-current", "page"); else link.removeAttribute("aria-current"); }

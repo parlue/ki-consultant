@@ -34,7 +34,7 @@ async function boot(archive, edition, requested = '', failEdition = false) {
   const edition = { date: '2026-10-21', title: 'Das Briefing', window_start: '2026-10-20T04:00:00Z', window_end: '2026-10-21T04:00:00Z', generated_at: '2026-10-21T04:01:00Z', coverage: [{ name: 'Ausfall', status: 'unavailable' }], stories: [story] };
   let state = await boot([{ date: edition.date, count: 1 }], edition, '?ausgabe=2026-10-21'); nodes = state.nodes;
   assert.equal(nodes.get('stories').children.length, 1);
-  assert.equal(nodes.get('coverage').hidden, false);
+  assert.equal(nodes.has('coverage'), false);
   const article = nodes.get('stories').children[0];
   assert.equal(article.children[1].textContent, story.title); // Text, never interpreted HTML.
   assert.equal(article.querySelectorAll('a').length, 1); // Unsafe protocol removed.
