@@ -21,7 +21,7 @@ class NewsTests(unittest.TestCase):
         return news.make_item(SOURCE, 'https://example.com/new?utm_source=test', 'New model', END - timedelta(hours=1), 'Some facts', 'time')
 
     def result(self, item):
-        return {'title': 'Heute im KI-Briefing', 'stories': [{'title': 'Neues Modell', 'summary': 'Ein Modell wurde vorgestellt.', 'relevance': 'Für Anwender relevant.', 'caveat': 'Angaben des Herstellers.', 'category': 'Modelle', 'providers': ['Example'], 'source_ids': [item['id']]}]}
+        return {'title': 'Heute im KI-Briefing', 'stories': [{'title': 'Neues Modell', 'summary': 'Ein Modell wurde vorgestellt.', 'category': 'Modelle', 'providers': ['Example'], 'source_ids': [item['id']]}]}
 
     def test_rss_filters_old_future_and_undated(self):
         raw = '''<rss><channel>

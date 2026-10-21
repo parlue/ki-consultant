@@ -283,7 +283,7 @@ def prepare_candidates(candidates, seen):
 
 
 def response_schema():
-    props = {k: {"type": "string"} for k in ("title", "summary", "relevance", "caveat")}
+    props = {k: {"type": "string"} for k in ("title", "summary")}
     props.update({"category": {"type": "string", "enum": CATEGORIES}, "providers": {"type": "array", "items": {"type": "string"}}, "source_ids": {"type": "array", "items": {"type": "string"}}})
     return {"type": "object", "additionalProperties": False, "properties": {
         "title": {"type": "string"}, "stories": {"type": "array", "items": {"type": "object", "additionalProperties": False, "properties": props, "required": list(props)}}}, "required": ["title", "stories"]}
@@ -297,8 +297,9 @@ wissenschaftliche Erkenntnisse, KI-Chips und Rechenleistung. Bevorzuge konkrete 
 gegenüber Finanzierungsrunden, Personalien, Werbung und allgemeinen Ratgebern. Berücksichtige Regionen außerhalb der USA.
 Fasse Beiträge zum gleichen Ereignis zu EINER Meldung mit mehreren source_ids zusammen. Reihenfolge nach Relevanz.
 Kein Auffüllen an ruhigen Tagen; eine leere stories-Liste ist erlaubt. title ist eine kurze deutsche Tagesüberschrift.
-Jede Meldung: deutsche title, summary in 2-3 kurzen eigenen Sätzen, relevance (praktische Bedeutung), caveat
-(konkrete Grenzen, Herstellerangaben als solche, Benchmarks nur unter ihren Testbedingungen, Preprints nicht begutachtet).
+Jede Meldung: deutsche title und summary in 1-2 kurzen eigenen Sätzen, die ausschließlich die Nachricht wiedergeben.
+Keine eigene Bewertung, praktische Bedeutung, Einordnung, Handlungsempfehlung oder zusätzliche Kommentierung.
+Ordne Behauptungen ihrem Urheber zu und beschreibe Ankündigungen als Ankündigungen.
 Schreibe keine Gewissheit über ungeprüfte Leistungsbehauptungen. Keine erfundenen Preise, Zahlen, Links, Datumsangaben
 oder zusätzlichen Fakten aus deinem Vorwissen. Keine langen Originalzitate. Bei kurzen Feed-Auszügen entsprechend vorsichtig
 zusammenfassen. source_ids dürfen nur IDs der Kandidaten enthalten. providers nennt beteiligte Anbieter/Institutionen.
@@ -337,7 +338,7 @@ def validate(result, candidates):
         raise ValueError("Invalid story count")
     stories, used = [], set()
     for story in result["stories"]:
-        for field in ("title", "summary", "relevance", "caveat"):
+        for field in ("title", "summary"):
             if not isinstance(story.get(field), str) or not story[field].strip() or len(story[field]) > 2500:
                 raise ValueError("Invalid editorial text")
         if story.get("category") not in CATEGORIES or not isinstance(story.get("providers"), list) or not all(isinstance(p, str) and 0 < len(p) < 100 for p in story["providers"]):
@@ -347,7 +348,7 @@ def validate(result, candidates):
             raise ValueError("Unknown or duplicate source references")
         used.update(ids)
         sources = [{k: known[i][k] for k in ("url", "name", "type", "published_at", "precision")} for i in ids]
-        stories.append({k: story[k] for k in ("title", "summary", "relevance", "caveat", "category", "providers")} | {"id": "news-" + ids[0], "sources": sources})
+        stories.append({k: story[k] for k in ("title", "summary", "category", "providers")} | {"id": "news-" + ids[0], "sources": sources})
     return {"title": result["title"], "stories": stories}
 
 

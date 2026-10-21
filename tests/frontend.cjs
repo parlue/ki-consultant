@@ -30,7 +30,7 @@ async function boot(archive, edition, requested = '', failEdition = false) {
   let { nodes } = await boot([], null);
   assert.match(nodes.get('status').textContent, /vorbereitet/);
   assert.equal(nodes.get('filters').hidden, true);
-  const story = { id: 'news-test', title: '<img src=x onerror=alert(1)>', summary: 'Claude als Agent', relevance: 'Hilft bei Aufgaben', caveat: 'Herstellerangabe', category: 'Modelle', providers: ['Anthropic'], sources: [{ url: 'https://example.com/source', name: 'Example', type: 'Hersteller', precision: 'date', published_at: '2026-10-21T00:00:00Z' }, { url: 'javascript:alert(1)', name: 'Unsafe' }] };
+  const story = { id: 'news-test', title: '<img src=x onerror=alert(1)>', summary: 'Claude als Agent', category: 'Modelle', providers: ['Anthropic'], sources: [{ url: 'https://example.com/source', name: 'Example', type: 'Hersteller', precision: 'date', published_at: '2026-10-21T00:00:00Z' }, { url: 'javascript:alert(1)', name: 'Unsafe' }] };
   const edition = { date: '2026-10-21', title: 'Das Briefing', window_start: '2026-10-20T04:00:00Z', window_end: '2026-10-21T04:00:00Z', generated_at: '2026-10-21T04:01:00Z', coverage: [{ name: 'Ausfall', status: 'unavailable' }], stories: [story] };
   let state = await boot([{ date: edition.date, count: 1 }], edition, '?ausgabe=2026-10-21'); nodes = state.nodes;
   assert.equal(nodes.get('stories').children.length, 1);

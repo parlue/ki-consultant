@@ -16,12 +16,12 @@ def build():
         day = '.'.join(reversed(source['published_at'][:10].split('-')))
         providers = ' / '.join(story['providers'])
         teaser = story.get('teaser') or story['summary'].split('. ')[0] + '.'
-        search = ' '.join([story['title'], story['summary'], story['relevance'], story['caveat'], providers]).lower()
+        search = ' '.join([story['title'], story['summary'], providers]).lower()
         refs = ''.join(f'<li><a href="{e(s["url"], quote=True)}" target="_blank" rel="noopener noreferrer">{e(s["name"])} ↗</a><small>{e(s["type"])}</small></li>' for s in story['sources'])
         rows.append(f'''<article class="story" id="{e(story['id'])}" data-topic="{e(story['category'], quote=True)}" data-search="{e(search, quote=True)}">
 <div class="tags"><span class="tag topic">{e(story['category'])}</span><time datetime="{source['published_at'][:10]}">{day}</time><span>{e(providers)}</span></div>
 <h3>{e(story['title'])}</h3><p>{e(teaser)}</p>
-<details><summary>Weiterlesen &amp; Quellen</summary><p>{e(story['summary'])}</p><dl><dt>Warum das zählt</dt><dd>{e(story['relevance'])}</dd><dt>Einordnung &amp; Grenzen</dt><dd>{e(story['caveat'])}</dd></dl><ul class="story-sources">{refs}</ul></details></article>''')
+<ul class="story-sources">{refs}</ul></article>''')
     categories = ''.join(f'<option>{e(c)}</option>' for c in ['Modelle', 'Agenten & Anwendungen', 'Forschung', 'Chips & Rechenleistung', 'Wirtschaft & Gesellschaft'])
     return f'''<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>KI News – manuelle Vorschau</title><style>{css}</style></head><body>
 <a class="skip" href="#briefing">Zu den Nachrichten</a>

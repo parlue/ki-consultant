@@ -20,17 +20,13 @@ function renderStories() {
     if (story.sources.length) tags.append(el("span", dateLabel(story.sources[0].published_at)), el("span", story.providers.join(" / ")));
     const teaser = story.teaser || story.summary.split(/(?<=\.)\s/)[0];
     article.append(tags, el("h3", story.title), el("p", teaser));
-    const details = el("details"); details.append(el("summary", "Weiterlesen & Quellen"), el("p", story.summary));
-    const dl = el("dl");
-    for (const [label, value] of [["Warum das zählt", story.relevance], ["Einordnung & Grenzen", story.caveat]]) dl.append(el("dt", label), el("dd", value));
-    details.append(dl);
     const sources = el("ul", undefined, "story-sources");
     for (const source of story.sources) {
       const url = safeLink(source.url); if (!url) continue;
       const li = el("li"); const a = el("a", source.name + " ↗"); a.href = url; a.target = "_blank"; a.rel = "noopener noreferrer";
       li.append(a, el("small", `${source.type} · veröffentlicht ${dateLabel(source.published_at, source.precision === "time")}${source.precision === "date" ? " (ohne genaue Uhrzeit)" : " Uhr (Berlin)"}`)); sources.append(li);
     }
-    details.append(sources); article.append(details); $("stories").append(article);
+    article.append(sources); $("stories").append(article);
   }
   if (!stories.length && edition.stories.length) $("stories").append(el("p", "Keine passenden Meldungen. Suche oder Themenfilter ändern.", "notice"));
 }
