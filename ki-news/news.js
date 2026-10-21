@@ -17,18 +17,20 @@ function renderStories() {
   for (const story of stories) {
     const article = el("article", undefined, "story"); article.id = story.id;
     const tags = el("div", undefined, "tags"); tags.append(el("span", story.category, "tag topic"));
-    for (const provider of story.providers) tags.append(el("span", provider, "tag"));
-    article.append(tags, el("h3", story.title), el("p", story.summary));
+    if (story.sources.length) tags.append(el("span", dateLabel(story.sources[0].published_at)), el("span", story.providers.join(" / ")));
+    const teaser = story.teaser || story.summary.split(/(?<=\.)\s/)[0];
+    article.append(tags, el("h3", story.title), el("p", teaser));
+    const details = el("details"); details.append(el("summary", "Weiterlesen & Quellen"), el("p", story.summary));
     const dl = el("dl");
     for (const [label, value] of [["Warum das zählt", story.relevance], ["Einordnung & Grenzen", story.caveat]]) dl.append(el("dt", label), el("dd", value));
-    article.append(dl);
+    details.append(dl);
     const sources = el("ul", undefined, "story-sources");
     for (const source of story.sources) {
       const url = safeLink(source.url); if (!url) continue;
       const li = el("li"); const a = el("a", source.name + " ↗"); a.href = url; a.target = "_blank"; a.rel = "noopener noreferrer";
       li.append(a, el("small", `${source.type} · veröffentlicht ${dateLabel(source.published_at, source.precision === "time")}${source.precision === "date" ? " (ohne genaue Uhrzeit)" : " Uhr (Berlin)"}`)); sources.append(li);
     }
-    article.append(sources); $("stories").append(article);
+    details.append(sources); article.append(details); $("stories").append(article);
   }
   if (!stories.length && edition.stories.length) $("stories").append(el("p", "Keine passenden Meldungen. Suche oder Themenfilter ändern.", "notice"));
 }
@@ -36,7 +38,7 @@ async function loadEdition() {
   const sequence = ++loadSequence;
   const requested = new URL(location.href).searchParams.get("ausgabe");
   const selected = requested ? archive.find(a => a.date === requested) : archive[0];
-  edition = null; $("stories").replaceChildren(); $("quick").hidden = true; $("filters").hidden = true;
+  edition = null; $("stories").replaceChildren(); $("filters").hidden = true;
   $("coverage").hidden = true; $("edition-meta").textContent = ""; $("result-count").textContent = ""; $("permalink").hidden = true;
   $("status").hidden = false;
   if (!selected) { $("status").textContent = requested ? "Diese Ausgabe wurde nicht gefunden. Bitte wähle eine Ausgabe aus dem Archiv." : "Das KI-Briefing wird vorbereitet. Sobald der tägliche Recherchelauf aktiviert ist, erscheinen hier die ersten Ausgaben mit Quellenlinks."; return; }
@@ -46,7 +48,6 @@ async function loadEdition() {
     if (sequence !== loadSequence) return;
     edition = data;
     $("edition-date").textContent = dateLabel(data.date);
-    $("edition-heading").textContent = data.title;
     $("edition-meta").textContent = `Recherche: ${dateLabel(data.window_start, true)} bis ${dateLabel(data.window_end, true)} Uhr (Berlin). Erstellt ${dateLabel(data.generated_at, true)} Uhr.`;
     const old = Date.now() - new Date(data.window_end).getTime() > 36 * 3600000;
     $("status").hidden = data.stories.length > 0 && (requested || !old);
@@ -55,9 +56,7 @@ async function loadEdition() {
     $("coverage").hidden = !failed.length;
     $("coverage").textContent = `Eingeschränkte Quellenabdeckung: ${failed.map(s => s.name).join(", ")}. Diese Quellen konnten nicht zuverlässig ausgewertet werden.`;
     $("permalink").href = `?ausgabe=${data.date}`; $("permalink").hidden = false;
-    $("headlines").replaceChildren();
-    for (const story of data.stories.slice(0, 3)) { const li = el("li"); const a = el("a", story.title); a.href = "#" + story.id; a.addEventListener("click", () => { $("query").value = ""; $("topic").value = ""; renderStories(); }); li.append(a); $("headlines").append(li); }
-    $("quick").hidden = !data.stories.length; $("filters").hidden = !data.stories.length;
+    $("filters").hidden = !data.stories.length;
     for (const link of $("archive").querySelectorAll("a")) { if (link.dataset.date === data.date) link.setAttribute("aria-current", "page"); else link.removeAttribute("aria-current"); }
     renderStories();
   } catch { if (sequence !== loadSequence) return; $("status").hidden = false; $("status").textContent = "Die Ausgabe konnte nicht geladen werden. Bitte versuche es erneut oder wähle einen anderen Tag im Archiv."; }

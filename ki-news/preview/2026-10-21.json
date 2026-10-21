@@ -5,7 +5,8 @@
   "stories": [
     {
       "id": "news-biologie-agenten",
-      "title": "OpenAI setzt Tausende Agenten auf biologische Forschungsdaten an",
+      "title": "Tausende KI-Agenten analysieren Daten aus Gehirnzellen",
+      "teaser": "OpenAI und Forschungspartner suchen mit parallelen Agenten nach neuen biologischen Zusammenhängen in vorhandenen Versuchsdaten.",
       "category": "Forschung",
       "providers": ["OpenAI", "PerturbAI", "Scripps Research"],
       "summary": "OpenAI beschreibt gemeinsam mit PerturbAI und Scripps Research, wie parallel arbeitende KI-Agenten Daten aus Millionen von Gehirnzellen von Mäusen auswerteten und mit Fachliteratur verknüpften. Daraus entstanden mögliche biologische Erklärungen und Ansatzpunkte für weitere Experimente.",
@@ -15,7 +16,8 @@
     },
     {
       "id": "news-google-nvidia",
-      "title": "Google Cloud kündigt neue Vera-Rubin-Infrastruktur für KI an",
+      "title": "Google Cloud kündigt KI-Server mit NVIDIA Vera Rubin an",
+      "teaser": "Neue A5X-Instanzen sollen ab November KI-Training und Inferenz beschleunigen. Eine Ausweitung nach Europa ist geplant.",
       "category": "Chips & Rechenleistung",
       "providers": ["Google Cloud", "NVIDIA"],
       "summary": "NVIDIA und Google Cloud stellen A5X-Instanzen auf Basis von Vera Rubin NVL72 vor. Laut NVIDIA soll die allgemeine Verfügbarkeit im folgenden Monat starten; eine Ausweitung nach Europa ist geplant. Die Plattform zielt unter anderem auf KI-Inferenz und Reinforcement Learning im großen Maßstab.",
@@ -25,7 +27,8 @@
     },
     {
       "id": "news-anthropic-proteine",
-      "title": "Anthropic lässt Claude Proteinbinder entwerfen und im Labor testen",
+      "title": "Claude entwirft Proteinbinder gegen Skorpiongifte",
+      "teaser": "Von 211 im Labor getesteten Entwürfen erfüllten laut Anthropic 17 die Bindungskriterien. Ein wirksames Gegengift ist damit noch nicht nachgewiesen.",
       "category": "Forschung",
       "providers": ["Anthropic", "Adaptyv Bio", "Twist Bioscience"],
       "summary": "Ein internes Claude-Forschungsmodell entwarf kleine Proteine, die an bestimmte Skorpion-Neurotoxine binden sollen. Nach Angaben von Anthropic testeten Partnerlabore 211 ausgewählte Entwürfe; 17 erfüllten die festgelegten Bindungskriterien. Die Entwürfe und Messdaten werden veröffentlicht.",
@@ -35,7 +38,8 @@
     },
     {
       "id": "news-openai-altsoftware",
-      "title": "KI für Altsoftware: OpenAI untersucht COBOL, Fortran und weitere Sprachen",
+      "title": "OpenAI meldet Fortschritte bei COBOL und Fortran",
+      "teaser": "Neue Tests untersuchen, wie KI ältere Software erstellt und migriert. Entscheidend bleibt, dass die Geschäftsregeln erhalten bleiben.",
       "category": "Agenten & Anwendungen",
       "providers": ["OpenAI"],
       "summary": "OpenAI veröffentlicht neue Auswertungen zu Programmiersprachen mit vergleichsweise wenig verfügbarem Trainingsmaterial. Die Aufgaben umfassen den Bau einer SQLite-kompatiblen Datenbank in mehreren Sprachen und die Übertragung von COBOL-Programmen unter Beibehaltung ihres Verhaltens. Der Anbieter berichtet Verbesserungen bei seinen neueren Modellen.",
@@ -45,7 +49,8 @@
     },
     {
       "id": "news-deepseek-hintergrund",
-      "title": "DeepSeek V4.1 Flash: Effizienz durch eine andere Modellarchitektur",
+      "title": "DeepSeek V4.1 Flash soll weniger Speicher benötigen",
+      "teaser": "DeepSeek setzt auf eine andere Modellarchitektur und einen kleineren KV-Cache. Hintergrund zur Ankündigung vom September.",
       "category": "Modelle",
       "providers": ["DeepSeek"],
       "summary": "DeepSeek stellte V4.1 Flash als Modell mit nativer visueller Verarbeitung und einer asymmetrischen Encoder-Decoder-Architektur vor. Der Anbieter beschreibt einen geringeren Speicherbedarf des KV-Caches und einen effizienteren Betrieb gegenüber der Vorgängergeneration. Das Modell wird über die DeepSeek-API angeboten.",
