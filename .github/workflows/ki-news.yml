@@ -5,8 +5,8 @@ on:
     branches: [main]
     paths: ['ki-news/**', 'scripts/**', '.github/workflows/ki-news.yml', 'index.html', 'style.css', 'sitemap.xml']
   schedule:
-    # 06:17 Europe/Berlin in summer/winter; the guard ignores the early winter run.
-    - cron: '17 4,5 * * *'
+    # 05:30 Europe/Berlin in summer/winter; the guard ignores the early winter run.
+    - cron: '30 3,4 * * *'
   workflow_dispatch:
 
 concurrency:
@@ -41,7 +41,8 @@ jobs:
           import os
           from datetime import datetime
           from zoneinfo import ZoneInfo
-          ready = os.environ['EVENT_NAME'] != 'schedule' or datetime.now(ZoneInfo('Europe/Berlin')).hour >= 6
+          now = datetime.now(ZoneInfo('Europe/Berlin'))
+          ready = os.environ['EVENT_NAME'] != 'schedule' or (now.hour, now.minute) >= (5, 30)
           with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
               output.write(f'ready={str(ready).lower()}\n')
           PY

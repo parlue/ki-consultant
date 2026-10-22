@@ -42,7 +42,7 @@ Für Ollama sind höchstens 30.000 Eingabezeichen (Kandidaten × Textlänge) erl
 
 Die Verbindung dieses Chats kann Repository-Secrets und Pages-Einstellungen nicht verwalten. Bisher gibt es keinen verifizierten echten Cloud-Modelllauf; die Anbieteradapter wurden mit simulierten Antworten getestet.
 
-Zeitplan: 04:17 und 05:17 UTC, mit Prüfung auf frühestens 06 Uhr Europe/Berlin. Normaler erster Start ist 06:17 Uhr Berlin in Sommer-/Winterzeit; GitHub kann den Lauf verzögern. Vorhandene Tagesausgaben werden nicht überschrieben oder erneut vom Modell erstellt. Die zweite Ausführung kann den ersten ausgefallenen Lauf auffangen.
+Zeitplan: 03:30 und 04:30 UTC, mit Prüfung auf frühestens 05:30 Uhr Europe/Berlin. Normaler erster Start ist 05:30 Uhr Berlin in Sommer-/Winterzeit; GitHub kann den Lauf verzögern. Vorhandene Tagesausgaben werden nicht überschrieben oder erneut vom Modell erstellt. Die zweite Ausführung kann den ersten ausgefallenen Lauf auffangen.
 
 ## Betriebsgrenzen
 
