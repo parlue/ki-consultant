@@ -68,9 +68,7 @@ Zeitplan: 03:30 und 04:30 UTC, mit Prüfung auf frühestens 05:30 Uhr Europe/Ber
 
 Dies sind Rechenbeispiele, keine Verbrauchsmessungen oder Kostenobergrenzen. [Aktuelle Anthropic-Preise](https://platform.claude.com/docs/en/about-claude/pricing).
 
-## Manuelle Vorschau und Tests
-
-`ki-news/vorschau.html` direkt öffnen. Fünf manuell recherchierte Nachrichten mit verschiedenen Veröffentlichungsdaten, getrennt vom automatischen Archiv. Änderungen an `ki-news/preview/2026-10-21.json` mit `python scripts/build_news_preview.py` in die Vorschau übernehmen.
+## Tests
 
 ```sh
 python -m unittest discover -s tests -v
