@@ -1,0 +1,238 @@
+{
+  "title": "KI-Briefing: Agenten-Infrastruktur, Bankensperren und neue Modelle",
+  "stories": [
+    {
+      "title": "Anthropic startet Always-on-Agent Claude Duet",
+      "summary": "Anthropic hat nach Angaben von The Decoder den proaktiven Agenten Claude Duet vorgestellt, der auf Claude Opus 5.5 basiert und über mehr als 6.000 Konnektoren Dienste wie Gmail, Slack und Stripe anbindet. Vor sensiblen Aktionen wie Zahlungen soll der Agent eine Freigabe einholen.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "Anthropic"
+      ],
+      "id": "news-feaddedae556a56d",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/anthropic-takes-on-grok-bot-metas-muse-and-openais-dots-with-its-always-on-agent-claude-duet",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-22T08:35:22Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Google führt Agent Compute Engine für Gemini-Agenten ein",
+      "summary": "Google hat laut The Decoder die Agent Compute Engine vorgestellt, eine Laufzeitumgebung, in der jeder Gemini-Agent eine eigene hardware-isolierte Mikro-VM erhält. Zugleich wurden Governance-Funktionen für den Betrieb von Agenten in Cloud-, Hybrid- und lokalen Umgebungen erweitert.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "Google"
+      ],
+      "id": "news-7ea705cfe9f05665",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/googles-agent-compute-engine-gives-every-gemini-agent-its-own-hardware-isolated-micro-virtual-machine",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-22T17:50:09Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "US-Großbanken blockieren KI-Agenten mit Kundenzugangsdaten",
+      "summary": "Mehrere große US-Banken sperren laut The Decoder KI-Agenten, die sich mit Kunden-Anmeldedaten Zugang zu Konten verschaffen, darunter hat Morgan Stanley Agenten blockiert. Die meisten Institute planten, Agenten künftig nur lesenden Zugriff zu erlauben.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "Morgan Stanley",
+        "JPMorgan"
+      ],
+      "id": "news-95e4f14f45bad27b",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/major-us-banks-are-locking-out-ai-agents-that-log-in-with-customer-credentials",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-22T18:26:02Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "1Password ermöglicht Agenten-Logins ohne Passworteinblick",
+      "summary": "1Password hat laut TechCrunch eine Funktion vorgestellt, mit der KI-Agenten sich in persönlichen Konten von Kunden anmelden können, ohne die Zugangsdaten selbst zu sehen. Die Credentials sollen dabei geschützt bleiben.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "1Password"
+      ],
+      "id": "news-662e68277c6361dd",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password",
+          "name": "TechCrunch AI",
+          "type": "Fachmedium",
+          "published_at": "2026-10-22T19:07:09Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Symantec meldet angreifenden KI-Agenten mit eigenständigen Cyberattacken",
+      "summary": "Sicherheitsforscher von Symantec haben laut The Decoder einen offensiven KI-Agenten dokumentiert, der ungeschützte Sprachmodelle im Web übernimmt und damit Server angreift, Datenbanken stiehlt und Kryptominer installiert. Der Agent soll bis zu 100.000 Schritte ohne menschliche Steuerung ausführen.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "Symantec"
+      ],
+      "id": "news-c03b0011bc51080d",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/an-ai-agent-in-skynet-mode-hijacks-unprotected-language-models-to-launch-self-sustaining-cyberattacks",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-22T11:30:56Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "NVIDIA baut Rechenkapazität in Kasachstan aus",
+      "summary": "NVIDIA zufolge hat Firebird eine US-Exportlizenz für 45.000 Grace-Blackwell-GPUs in Kasachstan erhalten; die erste Phase entsteht mit Kazakhtelecom im Data Center Valley mit Ziel für den kommerziellen Start im dritten Quartal 2027. Kazakhtelecom hat bereits 400 H200 und 480 B300 GPUs in Astana und Almaty installiert und plant über 1.000 weitere GPUs im Data Center Valley sowie über 1.000 Vera-Rubin-GPUs in der Region Ekibastuz.",
+      "category": "Chips & Rechenleistung",
+      "providers": [
+        "NVIDIA",
+        "Firebird",
+        "Kazakhtelecom"
+      ],
+      "id": "news-90e35913e5ba3eb8",
+      "sources": [
+        {
+          "url": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem",
+          "name": "NVIDIA",
+          "type": "Hersteller",
+          "published_at": "2026-10-23T02:00:13Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "NVIDIA stellt Minerva für Betrieb von AI-Factories vor",
+      "summary": "NVIDIA hat Minerva angekündigt, eine AIOps-Plattform, die Telemetrie von Infrastruktur und KI-Workloads zusammenführt, um Ausfälle früh zu erkennen und die Auslastung von AI-Factories zu verbessern. Die Plattform umfasst einen KI-Assistenten mit Natural-Language-Schnittstelle und lässt sich an externe agentische Werkzeuge anbinden.",
+      "category": "Chips & Rechenleistung",
+      "providers": [
+        "NVIDIA"
+      ],
+      "id": "news-2c1c1d0b09d0e274",
+      "sources": [
+        {
+          "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure",
+          "name": "NVIDIA",
+          "type": "Hersteller",
+          "published_at": "2026-10-22T15:00:02Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Canva veröffentlicht erstes eigenes Bildgenerierungsmodell",
+      "summary": "Canva hat laut TechCrunch sein erstes eigenes Bildgenerierungsmodell veröffentlicht und stellt es allen Nutzern zur Verfügung. Das Unternehmen verspricht bessere Anpassbarkeit und geringere Kosten.",
+      "category": "Modelle",
+      "providers": [
+        "Canva"
+      ],
+      "id": "news-317abcdd1b20728a",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model",
+          "name": "TechCrunch AI",
+          "type": "Fachmedium",
+          "published_at": "2026-10-22T19:00:00Z",
+          "precision": "time"
+        }
+      ]
+    }
+  ],
+  "date": "2026-10-23",
+  "window_start": "2026-10-22T03:41:01.185471Z",
+  "window_end": "2026-10-23T03:41:01.185471Z",
+  "generated_at": "2026-10-23T03:41:11.955803Z",
+  "coverage": [
+    {
+      "name": "Anthropic News",
+      "status": "partial",
+      "candidates": 0
+    },
+    {
+      "name": "Anthropic Research",
+      "status": "partial",
+      "candidates": 0
+    },
+    {
+      "name": "Berkeley AI Research",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "DeepSeek",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "DeepSeek API Updates",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Google AI",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Google DeepMind",
+      "status": "ok",
+      "candidates": 1
+    },
+    {
+      "name": "Hugging Face",
+      "status": "ok",
+      "candidates": 3
+    },
+    {
+      "name": "Microsoft Research",
+      "status": "unavailable",
+      "candidates": 0
+    },
+    {
+      "name": "NVIDIA",
+      "status": "ok",
+      "candidates": 9
+    },
+    {
+      "name": "OpenAI",
+      "status": "ok",
+      "candidates": 2
+    },
+    {
+      "name": "Qwen",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "TechCrunch AI",
+      "status": "ok",
+      "candidates": 12
+    },
+    {
+      "name": "The Decoder",
+      "status": "ok",
+      "candidates": 7
+    },
+    {
+      "name": "arXiv cs.AI",
+      "status": "ok",
+      "candidates": 370
+    },
+    {
+      "name": "arXiv cs.CL",
+      "status": "ok",
+      "candidates": 221
+    }
+  ]
+}

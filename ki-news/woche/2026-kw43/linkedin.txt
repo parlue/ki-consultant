@@ -1,0 +1,14 @@
+KI-Woche kompakt · KW 43
+
+1. OpenAI und Wiz finden mit Sprachmodellen kritische PHP-Schwachstelle
+2. Microsoft-Forscher lösen KLS-Vermutung mit KI-gesteuerter Forschung
+3. NVIDIA stellt offene Modellfamilie für Sprachen, Robotik und Wissenschaft vor
+4. Google Cloud bietet nun auch OpenAI-Modelle neben Gemini und Claude an
+5. OpenAI und Partner setzen Tausende KI-Agenten auf biologische Daten an
+
+#KI #KünstlicheIntelligenz
+
+--- Erster Kommentar ---
+Alle fünf Meldungen mit Quellen: https://sommerfeld.consulting/ki-news/woche/2026-kw43/
+Täglich neu: https://sommerfeld.consulting/ki-news/
+RSS: https://sommerfeld.consulting/ki-news/feed.xml

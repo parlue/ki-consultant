@@ -1,0 +1,140 @@
+{
+  "id": "2026-W43",
+  "year": 2026,
+  "week": 43,
+  "from": "2026-10-21",
+  "to": "2026-10-23",
+  "generated_at": "2026-10-23T03:41:16Z",
+  "stories": [
+    {
+      "title": "OpenAI und Wiz finden mit Sprachmodellen kritische PHP-Schwachstelle",
+      "summary": "OpenAIs GPT-5.6 Sol habe eine kritische PHP-Schwachstelle entdeckt, die Millionen Websites betreffen könne; Wiz habe dieselbe Lücke unabhängig mit Googles Gemini 4 Argon gefunden. OpenAI warnt, dieselben Fähigkeiten könnten auch Angreifern helfen, und koordiniert die Offenlegung über die Initiative Patch the Planet.",
+      "category": "Forschung",
+      "providers": [
+        "OpenAI",
+        "Google",
+        "Wiz"
+      ],
+      "id": "news-d33145e4b0cfb916",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/openais-gpt-5-6-sol-and-gemini-4-argon-discovered-the-critical-php-vulnerability-affecting-millions-of-websites",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-21T19:45:01Z",
+          "precision": "time"
+        },
+        {
+          "url": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet",
+          "name": "TechCrunch AI",
+          "type": "Fachmedium",
+          "published_at": "2026-10-21T17:59:12Z",
+          "precision": "time"
+        },
+        {
+          "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+          "name": "OpenAI",
+          "type": "Hersteller",
+          "published_at": "2026-10-21T07:00:00Z",
+          "precision": "time"
+        }
+      ],
+      "day": "2026-10-22"
+    },
+    {
+      "title": "Microsoft-Forscher lösen KLS-Vermutung mit KI-gesteuerter Forschung",
+      "summary": "Microsoft Research meldet die Lösung der 31 Jahre alten KLS-Vermutung aus der hochdimensionalen Geometrie, erarbeitet in einem von Menschen geleiteten agentischen Forschungsprozess mit KI-Unterstützung. Unabhängige Forscher hätten das Ergebnis bestätigt, gefolgt von einer maschinell geprüften formalen Verifikation.",
+      "category": "Forschung",
+      "providers": [
+        "Microsoft Research"
+      ],
+      "id": "news-77ec6ad66af3dcc4",
+      "sources": [
+        {
+          "url": "https://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture",
+          "name": "Microsoft Research",
+          "type": "Forschung",
+          "published_at": "2026-10-21T16:00:00Z",
+          "precision": "time"
+        }
+      ],
+      "day": "2026-10-22"
+    },
+    {
+      "title": "NVIDIA stellt offene Modellfamilie für Sprachen, Robotik und Wissenschaft vor",
+      "summary": "NVIDIA kündigt neue offene Modelle an, darunter Nemotron 3.5 Super VL und Bolt, Nemotron-Retriever-Modelle sowie die Kumo-Familie für strukturierte Geschäftsdaten, dazu Cosmos 3.5, Alpamayo 2 Edge, BioNeMo und Ising. Die Modelle sollen sich mit lokalen Daten anpassen und auf eigener Infrastruktur betreiben lassen.",
+      "category": "Modelle",
+      "providers": [
+        "NVIDIA"
+      ],
+      "id": "news-fe2b50db8dabc11e",
+      "sources": [
+        {
+          "url": "https://blogs.nvidia.com/blog/open-models-europe-industry",
+          "name": "NVIDIA",
+          "type": "Hersteller",
+          "published_at": "2026-10-21T10:00:07Z",
+          "precision": "time"
+        }
+      ],
+      "day": "2026-10-22"
+    },
+    {
+      "title": "Google Cloud bietet nun auch OpenAI-Modelle neben Gemini und Claude an",
+      "summary": "Google Cloud sei laut Bericht der erste große Cloud-Anbieter, der Gemini, Claude und OpenAIs GPT-Modelle auf einer Plattform anbietet. Zur Einführung seien GPT-6 Astra, GPT-6.1 Sol und GPT-6 Luna als private Vorschau für Enterprise-Kunden verfügbar.",
+      "category": "Modelle",
+      "providers": [
+        "Google",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "id": "news-1f65e4bb01637834",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/google-cloud-now-offers-openai-models-alongside-gemini-and-claude-becoming-the-only-major-provider-with-all-three",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-21T17:44:22Z",
+          "precision": "time"
+        }
+      ],
+      "day": "2026-10-22"
+    },
+    {
+      "title": "OpenAI und Partner setzen Tausende KI-Agenten auf biologische Daten an",
+      "summary": "OpenAI, PerturbAI und Scripps Research berichten, sie hätten verteilte KI-Agenten eingesetzt, um in Daten von Millionen Gehirnzellen neue Forschungsansätze zu finden. Zudem kündigt OpenAI die Übernahme von Orchestra Bio an, das in die Life-Sciences-Plattform Rosalind integriert werden soll.",
+      "category": "Forschung",
+      "providers": [
+        "OpenAI",
+        "PerturbAI",
+        "Scripps Research",
+        "Orchestra Bio"
+      ],
+      "id": "news-64ddfb139fec8a1c",
+      "sources": [
+        {
+          "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+          "name": "OpenAI",
+          "type": "Hersteller",
+          "published_at": "2026-10-21T04:50:00Z",
+          "precision": "time"
+        },
+        {
+          "url": "https://the-decoder.com/openai-acquires-orchestra-bio-to-build-ai-agents-that-speed-up-drug-development",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-21T08:32:54Z",
+          "precision": "time"
+        },
+        {
+          "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business",
+          "name": "TechCrunch AI",
+          "type": "Fachmedium",
+          "published_at": "2026-10-20T20:35:10Z",
+          "precision": "time"
+        }
+      ],
+      "day": "2026-10-21"
+    }
+  ]
+}
