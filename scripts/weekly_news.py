@@ -149,12 +149,13 @@ def index_html(archive):
 
 
 def linkedin_text(year, number, picks):
+    """Post text in the user's format: headline, numbered facts with a blank line between, hashtags, links in the post itself."""
     slug = f"{year}-kw{number:02d}"
-    lines = [f"KI-Woche kompakt · KW {number}", ""]
-    lines += [f"{n}. {s['title']}" for n, s in enumerate(picks, 1)]
-    lines += ["", "#KI #KünstlicheIntelligenz", "", "--- Erster Kommentar ---",
-              f"Alle fünf Meldungen mit Quellen: {BASE}woche/{slug}/",
-              f"Täglich neu: {BASE}", f"RSS: {BASE}feed.xml"]
+    lines = [f"Deine KI-Woche kurz und kompakt Top5 · KW {number}", ""]
+    for n, s in enumerate(picks, 1):
+        lines += [f"{n}. {s['title']}", ""]
+    lines += ["#KI #KünstlicheIntelligenz", "",
+              f"Alle fünf Meldungen mit Quellen: {BASE}woche/{slug}/ Täglich neu: {BASE} RSS: {BASE}feed.xml"]
     return "\n".join(lines) + "\n"
 
 
