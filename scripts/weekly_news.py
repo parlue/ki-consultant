@@ -195,8 +195,8 @@ def render_images(directory, number, picks, span):
     W, H = 1080, 1350
     im = Image.new("RGB", (W, H), BG)
     d = ImageDraw.Draw(im)
-    d.text((70, 70), "KI-WOCHE KOMPAKT", font=_font(FONTS, 30), fill=MINT)
-    d.text((70, 118), f"KW {number}", font=_font(FONTS, 96), fill=WHITE)
+    d.text((70, 70), "DEINE KI-WOCHE KURZ UND KOMPAKT", font=_font(FONTS, 30), fill=MINT)
+    d.text((70, 118), f"Top5 · KW {number}", font=_font(FONTS, 96), fill=WHITE)
     d.text((70, 245), span, font=_font(FONTS_REGULAR, 30), fill=MUTED)
     y = 330
     head = _font(FONTS, 34)
@@ -213,8 +213,8 @@ def render_images(directory, number, picks, span):
     W2, H2 = 1200, 630
     og = Image.new("RGB", (W2, H2), BG)
     od = ImageDraw.Draw(og)
-    od.text((70, 60), "KI-WOCHE KOMPAKT", font=_font(FONTS, 34), fill=MINT)
-    od.text((70, 110), f"KW {number}", font=_font(FONTS, 130), fill=WHITE)
+    od.text((70, 60), "DEINE KI-WOCHE KURZ UND KOMPAKT", font=_font(FONTS, 34), fill=MINT)
+    od.text((70, 110), f"Top5 · KW {number}", font=_font(FONTS, 120), fill=WHITE)
     od.text((70, 300), "Die 5 wichtigsten KI-Meldungen der Woche", font=_font(FONTS, 40), fill=WHITE)
     od.text((70, 360), span, font=_font(FONTS_REGULAR, 32), fill=MUTED)
     od.text((70, H2 - 70), "sommerfeld.consulting/ki-news", font=_font(FONTS, 28), fill=MINT)
