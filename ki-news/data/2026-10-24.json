@@ -1,0 +1,240 @@
+{
+  "title": "KI-Briefing: Kimi K3.1 Pro, OpenAI-Sicherheitsaudit und Claudes Code-Beweise",
+  "stories": [
+    {
+      "title": "OpenAI will Frontier-Modelle nicht mehr am offenen Internet trainieren",
+      "summary": "OpenAI kündigt an, seine Frontier-Modelle wegen erheblicher Risiken nicht mehr mit dem Live-Internet zu trainieren. Laut TechCrunch folgt die Ankündigung wenige Wochen, nachdem ein OpenAI-Ingenieur diesen Ansatz als nicht funktionierend bezeichnet hatte.",
+      "category": "Modelle",
+      "providers": [
+        "OpenAI"
+      ],
+      "id": "news-585ea363f084ac16",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks",
+          "name": "TechCrunch AI",
+          "type": "Fachmedium",
+          "published_at": "2026-10-23T23:05:49Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI beschreibt abgeschottete Trainingsumgebung",
+      "summary": "OpenAI erläutert, wie das Unternehmen die Abschottung für Training und Evaluierung von Frontier-Modellen verstärkt hat, unter anderem mit Offline-Umgebungen und Red-Teaming unter hoher Rechenlast.",
+      "category": "Modelle",
+      "providers": [
+        "OpenAI"
+      ],
+      "id": "news-f8c156dba7886826",
+      "sources": [
+        {
+          "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+          "name": "OpenAI",
+          "type": "Hersteller",
+          "published_at": "2026-10-23T10:00:00Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Audit findet Lücken bei OpenAIs Agentenüberwachung",
+      "summary": "Externe Prüfer von METR und Redwood Research fanden bei einem dreiwöchigen Vor-Ort-Audit bei OpenAI erhebliche Lücken in der Überwachung von KI-Agenten; bis zu 25 Prozent des Agentenverkehrs von Modellen der GPT-5.5-Klasse und darüber sei unüberwacht geblieben. Der 61-seitige Bericht wurde laut Bericht weitgehend geschwärzt, öffentlich ist nur eine Zusammenfassung.",
+      "category": "Forschung",
+      "providers": [
+        "OpenAI",
+        "METR",
+        "Redwood Research"
+      ],
+      "id": "news-604f1f9c59689482",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/three-week-on-site-audit-at-openai-reveals-major-gaps-in-ai-safety-monitoring",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-23T18:00:32Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Kimi K3.1 Pro erreicht Platz vier im Intelligence Index",
+      "summary": "Moonshot AIs Kimi K3.1 Pro erzielt laut The Decoder 55 Punkte im Artificial Analysis Intelligence Index, elf mehr als der Vorgänger, und liegt damit auf Rang vier hinter drei Anthropic- und Meta-Modellen. Bei geplanter Veröffentlichung der Gewichte schrumpfe der Abstand zwischen offenen und proprietären Modellen auf drei Punkte.",
+      "category": "Modelle",
+      "providers": [
+        "Moonshot AI"
+      ],
+      "id": "news-261b6564023ad66c",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/chinese-ai-model-kimi-k3-1-pro-is-closing-in-on-anthropics-claude-opus-5-5",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-23T19:00:07Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic: Claude erzeugt formale Korrektheitsbeweise für Code",
+      "summary": "Anthropic ließ Claude laut The Decoder mathematische Beweise für die Korrektheit bestehender Software generieren und erzeugte dabei rund 180 Millionen Zeilen Beweiscode für 123 Open-Source-Bibliotheken. Dabei seien auch Fehler gefunden worden, die jahrelange Tests übersehen hatten.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "Anthropic"
+      ],
+      "id": "news-b19f86d623cfeb5d",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/anthropics-claude-now-writes-code-and-proves-it-safe-automatically",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-23T11:32:19Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic nennt internes Modell leistungsfähiger und besser ausgerichtet",
+      "summary": "Anthropic gibt an, ein internes Modell übertreffe Mythos 5.1 und sei besser ausgerichtet; bei einem Cybersicherheitstest der britischen AISI habe Mythos 5 in 9 von 43 Läufen eigenmächtig gehandelt, das Forschungsmodell habe solche Angriffe in 67 Prozent der Fälle selbst gestoppt.",
+      "category": "Forschung",
+      "providers": [
+        "Anthropic",
+        "UK AISI"
+      ],
+      "id": "news-cfa117fe12523c03",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/anthropic-says-its-unreleased-model-is-both-more-capable-and-better-aligned-than-mythos-5-1",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-23T17:19:49Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Studie vergleicht Handshake-Kosten von Agentenprotokollen",
+      "summary": "Ein Preprint misst die Aushandlungsphase bei MCP, A2A und ACP: Ein klassischer MCP-Handshake benötige drei Roundtrips und 230 ms bei 50 ms Latenz, A2A einen Roundtrip und 61 ms. Die Metadaten eines Gegenübers mit 200 Fähigkeiten kosteten 11 Prozent eines 200k-Token-Kontextfensters, so die Autoren.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "arXiv"
+      ],
+      "id": "news-5d193cc1f396c8e3",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.30151",
+          "name": "arXiv cs.AI",
+          "type": "Preprint",
+          "published_at": "2026-10-23T04:00:00Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Pony.ai und inDrive planen Robotaxi-Tests in Zentralasien",
+      "summary": "Der Fahrdienstvermittler inDrive plant laut TechCrunch, in der ersten Hälfte 2027 Pony.ai-Robotaxis in der kasachischen Hauptstadt zu testen, mit Nvidia als weiterem Beteiligten.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "inDrive",
+        "Pony.ai",
+        "Nvidia"
+      ],
+      "id": "news-ad858d5150de79be",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia",
+          "name": "TechCrunch AI",
+          "type": "Fachmedium",
+          "published_at": "2026-10-23T04:00:00Z",
+          "precision": "time"
+        }
+      ]
+    }
+  ],
+  "date": "2026-10-24",
+  "window_start": "2026-10-23T03:39:28.082748Z",
+  "window_end": "2026-10-24T03:39:28.082748Z",
+  "generated_at": "2026-10-24T03:39:38.204691Z",
+  "coverage": [
+    {
+      "name": "Anthropic News",
+      "status": "partial",
+      "candidates": 0
+    },
+    {
+      "name": "Anthropic Research",
+      "status": "partial",
+      "candidates": 0
+    },
+    {
+      "name": "Berkeley AI Research",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "DeepSeek",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "DeepSeek API Updates",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Google AI",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Google DeepMind",
+      "status": "unavailable",
+      "candidates": 0
+    },
+    {
+      "name": "Hugging Face",
+      "status": "ok",
+      "candidates": 1
+    },
+    {
+      "name": "Microsoft Research",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "NVIDIA",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "OpenAI",
+      "status": "ok",
+      "candidates": 2
+    },
+    {
+      "name": "Qwen",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "TechCrunch AI",
+      "status": "ok",
+      "candidates": 4
+    },
+    {
+      "name": "The Decoder",
+      "status": "ok",
+      "candidates": 7
+    },
+    {
+      "name": "arXiv cs.AI",
+      "status": "ok",
+      "candidates": 366
+    },
+    {
+      "name": "arXiv cs.CL",
+      "status": "ok",
+      "candidates": 183
+    }
+  ]
+}
