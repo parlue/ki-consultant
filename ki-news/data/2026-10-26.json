@@ -1,0 +1,237 @@
+{
+  "title": "KI-Briefing: Agenten, Effizienz und neue Messverfahren",
+  "stories": [
+    {
+      "title": "Nvidia veröffentlicht Open-Source-Datenengine Flora für Roboter-Videolabels",
+      "summary": "Nvidia hat Flora quelloffen veröffentlicht, ein System zur Etikettierung von Robotervideos, das laut Bericht auf drei feinabgestimmten Qwen3.5-Modellen basiert. Eine Stunde Robotervideo soll damit für 72 Cent statt 88 Dollar mit dem Vergleichsmodell GPT-6 Astra labelbar sein, bei etwas höherer Qualität.",
+      "category": "Chips & Rechenleistung",
+      "providers": [
+        "Nvidia",
+        "Qwen"
+      ],
+      "id": "news-af9112a54e84d14e",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-25T10:08:49Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic empfiehlt Konsolidierung von Sub-Agenten zu einem Agenten",
+      "summary": "Anthropic rät Unternehmen, zu prüfen, ob sich mehrere Sub-Agenten zu einem einzigen Agenten zusammenfassen lassen, der Kontext bei Bedarf nachlädt. In einem Architekturvergleich sei die Einzelagenten-Variante etwa doppelt so schnell gewesen; ein Migrationskit wurde auf GitHub veröffentlicht.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "Anthropic"
+      ],
+      "id": "news-de032cfb4352542b",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/anthropic-says-one-ai-agent-beats-many-subagents-now-that-models-can-handle-complexity-alone",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-25T09:12:10Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Studie: Selbst gerichtete Reparatur macht Agentenfehler zu dauerhaften Lektionen",
+      "summary": "Das Verfahren Self-Direction destilliert aus Fehlern eines Agenten Lektionen in kleine Low-Rank-Adapter und speichert sie dauerhaft, während die Basismodell-Gewichte eingefroren bleiben. Bei Agenten auf Qwen-Modellen stiegen laut Preprint die Erfolgsraten um 8,9 bis 17,0 Prozentpunkte, und Korrekturen waren nahezu doppelt so zuverlässig.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "Qwen"
+      ],
+      "id": "news-929adda0efb128e5",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.31846",
+          "name": "arXiv cs.AI",
+          "type": "Preprint",
+          "published_at": "2026-10-26T04:00:00Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "OpenMobile-2: Offener Trainingsumgebung für Smartphone-Agenten",
+      "summary": "Forschende von OpenMobile-2 haben eine offene Trainingsumgebung mit über 110 Anwendungen, darunter 35 Nachbauten populärer Apps, vorgestellt. Ihr Modell erzielte auf echten Android-Geräten laut den Autoren den höchsten Wert unter offenen Agenten.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "OpenMobile-2"
+      ],
+      "id": "news-514019d7b6342099",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/openmobile-2-proves-open-source-smartphone-agents-can-rival-proprietary-models",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-25T06:55:22Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Preprint hinterfragt Genauigkeit automatischer Bewertung von LLM-Dialogen",
+      "summary": "Eine Untersuchung mit sechs Modellen und 180 erfundenen-Entitäten-Fragen zeigt, dass ein automatischer Bewerter mit gutem Gesamtwert je nach Prompt unterschiedlich viele Fehler macht. Dadurch konnte sich ein gemessener Effekt von 9,3 auf 2,3 Punkte verringern, weshalb die Autoren die Validierung genau der berichteten Differenz fordern.",
+      "category": "Forschung",
+      "providers": [
+        "arXiv"
+      ],
+      "id": "news-d0a8eada7cef3cd1",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.31678",
+          "name": "arXiv cs.CL",
+          "type": "Preprint",
+          "published_at": "2026-10-26T04:00:00Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Preprint: Bewertungskriterien verzerren Ergebnisse von LLM-Mathe-Tutoren",
+      "summary": "In über 5.000 simulierten Dialogen mit fünf offenen 7B- bis 14B-Modellen ergab eine Exact-Match-Bewertung 42,1 Prozent Remediation-Erfolg, ein kalibrierter LLM-Richter dagegen 81,3 Prozent. Zudem zeigten die Tutoren laut Preprint kaum Anzeichen, zuverlässig auf übergebene Diagnoseinformationen zu reagieren.",
+      "category": "Forschung",
+      "providers": [
+        "arXiv"
+      ],
+      "id": "news-e8d538cc87f83269",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.31679",
+          "name": "arXiv cs.CL",
+          "type": "Preprint",
+          "published_at": "2026-10-26T04:00:00Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Phronix: Agenten erlernen wiederverwendbare Fähigkeiten aus eigenen Ausführungen",
+      "summary": "Das Paradigma Phronix nutzt eine Schleife aus Vorschlag, Validierung und Korrektur, um Fähigkeiten aus Tool-Ausführungen in einem Speicher abzulegen. Laut Preprint lösten die gelernten Fähigkeiten wiederkehrende Aufgaben in 93 bis 95 Prozent der Fälle im ersten Versuch, und zwei günstigere Modelle steigerten ihre SWE-bench-Lösungsraten auf 91 und 87 Prozent.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "arXiv"
+      ],
+      "id": "news-bb157bb6b3d38a63",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.31789",
+          "name": "arXiv cs.AI",
+          "type": "Preprint",
+          "published_at": "2026-10-26T04:00:00Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Jack Clark verschiebt Prognose für selbstverbessernde KI auf 2027",
+      "summary": "Anthropic-Mitgründer Jack Clark verlegt seine Prognose für selbstverbessernde KI laut Bericht auf 2027. Grund sind Ergebnisse eines neuen Benchmarks von P-Zero Research, der misst, wie gut Modelle selbst Experimente entwerfen und bewerten.",
+      "category": "Forschung",
+      "providers": [
+        "Anthropic",
+        "P-Zero Research"
+      ],
+      "id": "news-1b561faaee9a1ef3",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/anthropic-co-founder-jack-clark-moves-his-prediction-for-self-improving-ai-forward-to-2027",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-25T09:37:46Z",
+          "precision": "time"
+        }
+      ]
+    }
+  ],
+  "date": "2026-10-26",
+  "window_start": "2026-10-25T04:44:07.116522Z",
+  "window_end": "2026-10-26T04:44:07.116522Z",
+  "generated_at": "2026-10-26T04:44:17.352623Z",
+  "coverage": [
+    {
+      "name": "Anthropic News",
+      "status": "partial",
+      "candidates": 0
+    },
+    {
+      "name": "Anthropic Research",
+      "status": "partial",
+      "candidates": 0
+    },
+    {
+      "name": "Berkeley AI Research",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "DeepSeek",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "DeepSeek API Updates",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Google AI",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Google DeepMind",
+      "status": "unavailable",
+      "candidates": 0
+    },
+    {
+      "name": "Hugging Face",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Microsoft Research",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "NVIDIA",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "OpenAI",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Qwen",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "TechCrunch AI",
+      "status": "ok",
+      "candidates": 3
+    },
+    {
+      "name": "The Decoder",
+      "status": "ok",
+      "candidates": 6
+    },
+    {
+      "name": "arXiv cs.AI",
+      "status": "ok",
+      "candidates": 321
+    },
+    {
+      "name": "arXiv cs.CL",
+      "status": "ok",
+      "candidates": 169
+    }
+  ]
+}
