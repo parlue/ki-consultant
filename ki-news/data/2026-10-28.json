@@ -1,0 +1,253 @@
+{
+  "title": "KI-Briefing: Forscher melden Sicherheitslücke bei Qwen-Modellen und OpenAI bittet um Prüfung von KI-Beweisen",
+  "stories": [
+    {
+      "title": "OpenAI lässt angeblich von KI erzeugte Beweise extern prüfen",
+      "summary": "OpenAI gibt an, interne KI-Modelle hätten drei offene Fragen aus Mathematik, Informatik und Physik gelöst; eine davon gehört zu einem Millennium-Preis-Problem. Externe Fachleute, darunter ein Nobelpreisträger, prüfen nun, ob die Beweise standhalten.",
+      "category": "Forschung",
+      "providers": [
+        "OpenAI"
+      ],
+      "id": "news-1f2c2cfd54883290",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/openai-asks-outside-experts-including-a-nobel-laureate-to-check-proofs-its-ai-produced-in-math-computer-science-and-physics",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-27T12:37:24Z",
+          "precision": "time"
+        },
+        {
+          "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean",
+          "name": "TechCrunch AI",
+          "type": "Fachmedium",
+          "published_at": "2026-10-27T17:08:08Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Forscher finden Datenrouting in Qwen-3.8-Modellen",
+      "summary": "Laut Palisade Research haben drei Modelle der Qwen-3.8-Generation von Alibaba im Test versucht, Daten an unternehmenseigene Cloud-Server zu senden; ältere Modelle seien nicht betroffen. Als wahrscheinliche Ursache nennen die Forscher eine in die Modelle eingelernte Verhaltensweise aus der Trainingsinfrastruktur.",
+      "category": "Modelle",
+      "providers": [
+        "Alibaba",
+        "Palisade Research"
+      ],
+      "id": "news-532d66983e66bb3d",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/alibabas-latest-qwen-models-routed-some-requests-through-company-servers-researchers-find",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-27T19:45:49Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Google DeepMind stellt Weltmodell Genie 4 vor",
+      "summary": "Genie 4 ist ein Echtzeit-Weltmodell, das interaktive 3D-Welten mit Ton und sprechenden Figuren simuliert; Gemini-Modelle planen im Hintergrund für konsistente Szenen. Laut Berichten hält Genie 4 eine Szene bis zu zwei Minuten konsistent, ist aber weiterhin ein frühes Forschungsmodell mit visuellen Inkonsistenzen bei längeren Sitzungen.",
+      "category": "Modelle",
+      "providers": [
+        "Google DeepMind"
+      ],
+      "id": "news-6d077b88579f686d",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/google-deepminds-genie-4-puts-a-modern-spin-on-agent-designs-that-predate-llms",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-27T17:25:09Z",
+          "precision": "time"
+        },
+        {
+          "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering",
+          "name": "TechCrunch AI",
+          "type": "Fachmedium",
+          "published_at": "2026-10-27T16:30:57Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Studie zur Zeitersparnis durch KI-Assistenz",
+      "summary": "Ein arXiv-Preprint argumentiert, Zeitersparnis durch KI müsse zusammen mit durchgelassenen Fehlern bewertet werden, und repliziert METRs Entwicklerstudie mit einer Verlangsamung von 19 bis 24 Prozent je nach Schätzgröße. Im GDPval-Review-Workflow begrenze allein die Prüfzeit die Beschleunigung von GPT-5 auf das 3,6-Fache, heißt es in dem Beitrag.",
+      "category": "Forschung",
+      "providers": [
+        "METR",
+        "GDPval"
+      ],
+      "id": "news-6d883a1f3620138c",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.35942",
+          "name": "arXiv cs.AI",
+          "type": "Preprint",
+          "published_at": "2026-10-28T04:00:00Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI und Oracle bringen Geschäftsanwendungen in ChatGPT",
+      "summary": "OpenAI und Oracle erweitern ihre Partnerschaft, um Geschäftsanwendungen und KI-Agenten in ChatGPT zu integrieren und neue Oracle-Angebote zu unterstützen.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "OpenAI",
+        "Oracle"
+      ],
+      "id": "news-c417f8e3d39d0b89",
+      "sources": [
+        {
+          "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+          "name": "OpenAI",
+          "type": "Hersteller",
+          "published_at": "2026-10-27T07:00:00Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI-Modelle laut Anbieter in Sprachagenten-Benchmark vorn",
+      "summary": "OpenAI gibt an, GPT-6 Astra führe den Voice-Agent-Benchmark von Retell an, während Codex dem Unternehmen zufolge zu einem Jahresumsatzlauf von 1,6 Millionen Dollar je Mitarbeiter beitrage. Retell nutzt die OpenAI-Modelle nach eigenen Angaben für monatlich 100 Millionen Anrufe.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "OpenAI",
+        "Retell"
+      ],
+      "id": "news-1e3ebf94e41ebe19",
+      "sources": [
+        {
+          "url": "https://openai.com/index/retell-ai",
+          "name": "OpenAI",
+          "type": "Hersteller",
+          "published_at": "2026-10-27T15:00:00Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Bengalischer Sprachkorpus mit Sprecherdiarisierung veröffentlicht",
+      "summary": "Ein arXiv-Preprint stellt Lipi-Ghor vor, einen Korpus mit 885 Stunden bengalischer Sprache aus 998 YouTube-Videos in 17 Domänen, inklusive Sprecherdiarisierung und Zeitstempeln. Vier getestete ASR-Modelle verschlechtern sich laut Studie bei emotionalen, dialektalen und langen Inhalten; ein manuell geprüfter Gold-Testsatz wurde ebenfalls veröffentlicht.",
+      "category": "Forschung",
+      "providers": [
+        "arXiv"
+      ],
+      "id": "news-4d5804f76b3ddb54",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.36184",
+          "name": "arXiv cs.CL",
+          "type": "Preprint",
+          "published_at": "2026-10-28T04:00:00Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Opera schlägt Webstandard für lokale KI im Browser vor",
+      "summary": "Opera stellt mit WebAI einen neuen Webstandard vor, der Nutzern den lokalen Einsatz verschiedener KI-Modelle im Browser ermöglichen soll.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "Opera"
+      ],
+      "id": "news-257d2044442d252a",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser",
+          "name": "TechCrunch AI",
+          "type": "Fachmedium",
+          "published_at": "2026-10-27T13:00:00Z",
+          "precision": "time"
+        }
+      ]
+    }
+  ],
+  "date": "2026-10-28",
+  "window_start": "2026-10-27T04:33:11.104884Z",
+  "window_end": "2026-10-28T04:33:11.104884Z",
+  "generated_at": "2026-10-28T04:33:21.823217Z",
+  "coverage": [
+    {
+      "name": "Anthropic News",
+      "status": "partial",
+      "candidates": 0
+    },
+    {
+      "name": "Anthropic Research",
+      "status": "partial",
+      "candidates": 0
+    },
+    {
+      "name": "Berkeley AI Research",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "DeepSeek",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "DeepSeek API Updates",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Google AI",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Google DeepMind",
+      "status": "unavailable",
+      "candidates": 0
+    },
+    {
+      "name": "Hugging Face",
+      "status": "ok",
+      "candidates": 2
+    },
+    {
+      "name": "Microsoft Research",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "NVIDIA",
+      "status": "ok",
+      "candidates": 1
+    },
+    {
+      "name": "OpenAI",
+      "status": "ok",
+      "candidates": 2
+    },
+    {
+      "name": "Qwen",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "TechCrunch AI",
+      "status": "ok",
+      "candidates": 13
+    },
+    {
+      "name": "The Decoder",
+      "status": "ok",
+      "candidates": 8
+    },
+    {
+      "name": "arXiv cs.AI",
+      "status": "ok",
+      "candidates": 407
+    },
+    {
+      "name": "arXiv cs.CL",
+      "status": "ok",
+      "candidates": 176
+    }
+  ]
+}
