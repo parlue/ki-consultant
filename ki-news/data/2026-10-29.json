@@ -1,0 +1,252 @@
+{
+  "title": "KI-Briefing: Gemini 4 Carbon, Nvidias offenes Sprachmodell und neue Agenten-Werkzeuge",
+  "stories": [
+    {
+      "title": "Google DeepMind veröffentlicht Gemini 4 Carbon",
+      "summary": "Google DeepMind hat laut The Decoder Gemini 4 Carbon vorgestellt, das im Intelligence Index v5 von Artificial Analysis 59 Punkte erreicht. Das Modell sei für lange Agenten-Workflows und den vollständigen Cyberabwehr-Zyklus ausgelegt und zunächst nur ausgewählten Sicherheitsexperten zugänglich.",
+      "category": "Modelle",
+      "providers": [
+        "Google DeepMind"
+      ],
+      "id": "news-7722fb99a5f289b8",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/google-deepmind-releases-gemini-4-carbon-just-two-weeks-after-argon-with-gains-across-the-board",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-28T19:17:58Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Nvidia veröffentlicht offenes Sprachmodell Nemotron 3.5 Transcribe",
+      "summary": "Nvidia hat Nemotron 3.5 Transcribe veröffentlicht, ein offenes Spracherkennungsmodell, das Transkription, Sprecherzuordnung und Übersetzung per Textprompt in einem Modell vereint. Laut Nvidia deckt es 40 Sprachen ab, führt die Hugging-Face-Open-ASR-Rangliste an und kommt mit rund 4,3 Milliarden aktiven Parametern aus; zusätzlich liefert Nvidia einen Datensatz mit über 800.000 Stunden Sprachmaterial.",
+      "category": "Modelle",
+      "providers": [
+        "NVIDIA"
+      ],
+      "id": "news-7281347817fe3ba2",
+      "sources": [
+        {
+          "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games",
+          "name": "NVIDIA",
+          "type": "Hersteller",
+          "published_at": "2026-10-28T15:00:46Z",
+          "precision": "time"
+        },
+        {
+          "url": "https://the-decoder.com/nvidias-open-nemotron-3-5-transcribe-combines-transcription-translation-and-speaker-recognition",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-28T15:49:39Z",
+          "precision": "time"
+        },
+        {
+          "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model",
+          "name": "TechCrunch AI",
+          "type": "Fachmedium",
+          "published_at": "2026-10-28T15:00:00Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Google öffnet Android Studio für fremde Coding-Agenten",
+      "summary": "Google öffnet Android Studio über eine Funktion namens Bring Your Own Agent für mehr als 40 Coding-Agenten, darunter Claude Agent von Anthropic und Codex von OpenAI. Neue Terminal-Werkzeuge sollen laut Google UI-Aufgaben 77 Prozent schneller erledigen und dabei bis zu dreimal weniger Tokens verbrauchen.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "Google",
+        "Anthropic",
+        "OpenAI"
+      ],
+      "id": "news-b9545b95e7aefbea",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/google-opens-android-development-to-third-party-ai-agents-and-unveils-new-gemini-apis",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-28T16:59:59Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Google erweitert Gemini und Search für Drittanbieter-Apps",
+      "summary": "Google hat laut TechCrunch eine neue Entwicklerplattform vorgestellt, über die Unternehmen ihre Dienste in die KI-Angebote von Google, darunter Gemini und Search, einbringen können. Ziel ist es, Dienste in den KI-Erfahrungen von Google auffindbar und nutzbar zu machen.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "Google"
+      ],
+      "id": "news-090274bcc4740a70",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps",
+          "name": "TechCrunch AI",
+          "type": "Fachmedium",
+          "published_at": "2026-10-28T17:00:00Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic erweitert Claude for Legal",
+      "summary": "Anthropic ergänzt Claude for Legal laut The Decoder um vorgefertigte interaktive Vorlagen und Tabellen für juristische Teams, etwa zur Beschleunigung von Vertragsprüfungen. Mehr als 60 Integrationen sollen Kanzleien zudem den Anschluss eigener Datenbanken ermöglichen.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "Anthropic"
+      ],
+      "id": "news-57696fa4763bbc20",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/claude-for-legal-now-verifies-sources-automatically-then-hands-the-file-to-a-lawyer",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-28T16:20:03Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI und ServiceNow bauen Partnerschaft aus",
+      "summary": "OpenAI und ServiceNow weiten ihre Zusammenarbeit aus: OpenAI-Modelle und -Agenten sollen in ServiceNow integriert werden, ServiceNow-Workflows zugleich in ChatGPT und Codex verfügbar werden.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "OpenAI",
+        "ServiceNow"
+      ],
+      "id": "news-a395c7da350b5086",
+      "sources": [
+        {
+          "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+          "name": "OpenAI",
+          "type": "Hersteller",
+          "published_at": "2026-10-28T13:15:00Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Chrome-Autofill greift mit KI auf Gmail-Daten zu",
+      "summary": "Google hat laut TechCrunch die KI-gestützte Autofill-Funktion in Chrome erweitert, sodass sie mit Nutzererlaubnis Informationen wie Flugbestätigungen, Sendungsverfolgungen und Bestelldetails aus Gmail zum Ausfüllen von Formularen heranziehen kann.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "Google"
+      ],
+      "id": "news-2c5fcb5691316a28",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms",
+          "name": "TechCrunch AI",
+          "type": "Fachmedium",
+          "published_at": "2026-10-28T17:00:00Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Artificial Analysis überarbeitet Intelligence Index",
+      "summary": "Artificial Analysis hat seinen Intelligence Index überarbeitet, wodurch Kimi K3.1 Pro laut The Decoder fünf Plätze verlor und der Abstand zwischen offenen und geschlossenen Modellen größer wurde.",
+      "category": "Modelle",
+      "providers": [
+        "Artificial Analysis"
+      ],
+      "id": "news-9fe01f035817ac0d",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/new-artificial-analysis-index-widens-the-gap-between-open-and-closed-models",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-28T15:04:43Z",
+          "precision": "time"
+        }
+      ]
+    }
+  ],
+  "date": "2026-10-29",
+  "window_start": "2026-10-28T04:33:18.137933Z",
+  "window_end": "2026-10-29T04:33:18.137933Z",
+  "generated_at": "2026-10-29T04:33:27.665095Z",
+  "coverage": [
+    {
+      "name": "Anthropic News",
+      "status": "partial",
+      "candidates": 0
+    },
+    {
+      "name": "Anthropic Research",
+      "status": "partial",
+      "candidates": 0
+    },
+    {
+      "name": "Berkeley AI Research",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "DeepSeek",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "DeepSeek API Updates",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Google AI",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Google DeepMind",
+      "status": "ok",
+      "candidates": 1
+    },
+    {
+      "name": "Hugging Face",
+      "status": "ok",
+      "candidates": 1
+    },
+    {
+      "name": "Microsoft Research",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "NVIDIA",
+      "status": "ok",
+      "candidates": 1
+    },
+    {
+      "name": "OpenAI",
+      "status": "ok",
+      "candidates": 3
+    },
+    {
+      "name": "Qwen",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "TechCrunch AI",
+      "status": "ok",
+      "candidates": 13
+    },
+    {
+      "name": "The Decoder",
+      "status": "ok",
+      "candidates": 8
+    },
+    {
+      "name": "arXiv cs.AI",
+      "status": "ok",
+      "candidates": 407
+    },
+    {
+      "name": "arXiv cs.CL",
+      "status": "ok",
+      "candidates": 0
+    }
+  ]
+}
