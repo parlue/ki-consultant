@@ -1,0 +1,15 @@
+Deine KI-Woche kurz und kompakt Top5 · KW 44
+
+1. Nvidia veröffentlicht offenes Sprachmodell Nemotron 3.5 Transcribe
+
+2. Google DeepMind veröffentlicht Gemini 4 Carbon
+
+3. OpenAI lässt angeblich von KI erzeugte Beweise extern prüfen
+
+4. Mistral veröffentlicht Gewichte für Billionen-Parameter-Modell
+
+5. OpenAI veröffentlicht GPT-6.1 Terra mit halbierten API-Preisen
+
+#KI #KünstlicheIntelligenz
+
+Alle fünf Meldungen mit Quellen: https://sommerfeld.consulting/ki-news/woche/2026-kw44/ Täglich neu: https://sommerfeld.consulting/ki-news/ RSS: https://sommerfeld.consulting/ki-news/feed.xml

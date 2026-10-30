@@ -1,0 +1,258 @@
+{
+  "title": "KI-Briefing: Mistral-Modell, Anthropic-Studie und OpenAI-Anpassungen",
+  "stories": [
+    {
+      "title": "Mistral veröffentlicht Gewichte für Billionen-Parameter-Modell",
+      "summary": "Mistral hat die Gewichte seines Modells Large 4 („Le Chonk“) veröffentlicht, das laut Unternehmen vollständig in Europa trainiert wurde. Mistral gibt an, bei Coding offene Konkurrenzmodelle zu übertreffen; unabhängige Tests sehen es laut The Decoder mit 26 Punkten hinter DeepSeek V4.1 Flash und GLM-5.3 mit 32 Punkten.",
+      "category": "Modelle",
+      "providers": [
+        "Mistral"
+      ],
+      "id": "news-93ab7d0d8252cfce",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/paris-based-mistral-releases-le-chonk-a-strong-coding-model-that-still-trails-china-overall",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-29T15:25:27Z",
+          "precision": "time"
+        },
+        {
+          "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity",
+          "name": "TechCrunch AI",
+          "type": "Fachmedium",
+          "published_at": "2026-10-29T17:00:00Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic-Studie: Experten übernehmen zufällige Agentenmeinungen",
+      "summary": "In einer Anthropic-Studie erhielten 50 Experten einen KI-Agenten, dessen Präferenzen per Münzwurf festgelegt wurden. Laut The Decoder folgten die Experten der Agentenmeinung bei Ermessensfragen in bis zu 86 Prozent der Fälle, und die meisten hielten die Schlussfolgerungen für ihre eigenen.",
+      "category": "Forschung",
+      "providers": [
+        "Anthropic"
+      ],
+      "id": "news-ce60afcfeab588ff",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/experts-adopt-ai-agents-random-opinions-and-think-theyre-their-own-anthropic-study-finds",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-29T19:33:37Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI erhöht Nutzungslimits und aktualisiert Model Spec",
+      "summary": "OpenAI verdoppelt laut The Decoder die Nutzungslimits seiner Bezahlpläne, etwa von Pro 100 auf Pro 500; eine geplante Kürzung des Pro-200-Kontingents wurde nach Nutzerkritik zurückgenommen. Zudem veröffentlichte OpenAI eine aktualisierte Model Spec mit fünf Grundwerten zur Ausrichtung leistungsfähigerer KI.",
+      "category": "Modelle",
+      "providers": [
+        "OpenAI"
+      ],
+      "id": "news-80efc55f2e01c1cb",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/openai-doubles-usage-limits-on-pro-plans-as-competition-with-anthropic-heats-up",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-29T20:01:27Z",
+          "precision": "time"
+        },
+        {
+          "url": "https://openai.com/index/updated-model-spec",
+          "name": "OpenAI",
+          "type": "Hersteller",
+          "published_at": "2026-10-29T17:00:00Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI beschreibt Verfahren zur Erkennung von Modell-Fehlausrichtung",
+      "summary": "OpenAI beschreibt ein mehrstufiges Monitoring, mit dem Fehlausrichtungen von Frontier-Modellen und unautorisiertes Agentenverhalten erkannt werden sollen, damit Beteiligte vor einer Eskalation eingreifen können.",
+      "category": "Forschung",
+      "providers": [
+        "OpenAI"
+      ],
+      "id": "news-0f01adb2acab0a67",
+      "sources": [
+        {
+          "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+          "name": "OpenAI",
+          "type": "Hersteller",
+          "published_at": "2026-10-29T09:00:00Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "NVIDIA zeigt Agenten-Workflows für Simulationen in Omniverse",
+      "summary": "NVIDIA beschreibt, wie Entwickler Frontier-Modelle wie GPT-6 Astra per natürlicher Sprache anleiten, um in Omniverse Simulationsanwendungen zu erstellen, etwa zur Rekonstruktion von Gebäudemodellen oder zur Analyse von Gasturbinen-Szenarien. Die Omniverse-Bibliotheken liefern dabei GPU-beschleunigte Physik-, Rendering- und Sensorensimulation.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "NVIDIA",
+        "OpenAI"
+      ],
+      "id": "news-79428cf43613e413",
+      "sources": [
+        {
+          "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents",
+          "name": "NVIDIA",
+          "type": "Hersteller",
+          "published_at": "2026-10-29T16:00:35Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Microsoft Research stellt Werkzeuge für Coding-Agenten und Wetterprognosen vor",
+      "summary": "In der Research-Focus-Ausgabe #97 berichtet Microsoft Research unter anderem über das selbstverbessernde Agenten-Framework ForkPilot, Arbeiten zur Erfolgs- und Fehleranalyse von Coding-Agenten sowie ein KI-Framework zur Verbesserung mittelfristiger Wettervorhersagen.",
+      "category": "Forschung",
+      "providers": [
+        "Microsoft Research"
+      ],
+      "id": "news-49f8fdcf9435ba0f",
+      "sources": [
+        {
+          "url": "https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-97",
+          "name": "Microsoft Research",
+          "type": "Forschung",
+          "published_at": "2026-10-29T19:19:16Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "US-Kartellbehörden prüfen NVIDIA-Übernahme von Hugging Face",
+      "summary": "Das US-Justizministerium untersucht laut The Decoder die geplante Übernahme der Open-Source-Plattform Hugging Face durch NVIDIA sowie die Vertriebspraktiken des Unternehmens.",
+      "category": "Wirtschaft & Gesellschaft",
+      "providers": [
+        "NVIDIA",
+        "Hugging Face"
+      ],
+      "id": "news-e530173e68dadecd",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/us-antitrust-regulators-are-scrutinizing-nvidias-hugging-face-deal-and-sales-practices",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-29T14:07:49Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Bericht: Chinesische Geheimdienste im Umfeld von NVIDIA-Chef Huang",
+      "summary": "Laut The New York Times gehen US-Geheimdienste davon aus, dass eine Person aus dem Umfeld von NVIDIA-CEO Jensen Huang für China als Informant tätig war; die Ermittlungen betrafen auch einen Führungskräften eines singapurischen KI-Cloud-Anbieters, der des illegalen Chipverkaufs nach China beschuldigt wurde.",
+      "category": "Wirtschaft & Gesellschaft",
+      "providers": [
+        "NVIDIA"
+      ],
+      "id": "news-d07a6f4e30ac5b4d",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/chinese-spies-targeted-nvidia-ceo-jensen-huang-according-to-the-new-york-times",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-29T13:42:38Z",
+          "precision": "time"
+        },
+        {
+          "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo",
+          "name": "TechCrunch AI",
+          "type": "Fachmedium",
+          "published_at": "2026-10-29T16:42:32Z",
+          "precision": "time"
+        }
+      ]
+    }
+  ],
+  "date": "2026-10-30",
+  "window_start": "2026-10-29T04:32:48.867598Z",
+  "window_end": "2026-10-30T04:32:48.867598Z",
+  "generated_at": "2026-10-30T04:32:59.139195Z",
+  "coverage": [
+    {
+      "name": "Anthropic News",
+      "status": "partial",
+      "candidates": 0
+    },
+    {
+      "name": "Anthropic Research",
+      "status": "partial",
+      "candidates": 0
+    },
+    {
+      "name": "Berkeley AI Research",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "DeepSeek",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "DeepSeek API Updates",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Google AI",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Google DeepMind",
+      "status": "unavailable",
+      "candidates": 0
+    },
+    {
+      "name": "Hugging Face",
+      "status": "ok",
+      "candidates": 1
+    },
+    {
+      "name": "Microsoft Research",
+      "status": "ok",
+      "candidates": 1
+    },
+    {
+      "name": "NVIDIA",
+      "status": "ok",
+      "candidates": 2
+    },
+    {
+      "name": "OpenAI",
+      "status": "ok",
+      "candidates": 3
+    },
+    {
+      "name": "Qwen",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "TechCrunch AI",
+      "status": "ok",
+      "candidates": 13
+    },
+    {
+      "name": "The Decoder",
+      "status": "ok",
+      "candidates": 7
+    },
+    {
+      "name": "arXiv cs.AI",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "arXiv cs.CL",
+      "status": "ok",
+      "candidates": 0
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "id": "2026-W44",
+  "year": 2026,
+  "week": 44,
+  "from": "2026-10-24",
+  "to": "2026-10-30",
+  "generated_at": "2026-10-30T04:33:03Z",
+  "stories": [
+    {
+      "title": "Nvidia veröffentlicht offenes Sprachmodell Nemotron 3.5 Transcribe",
+      "summary": "Nvidia hat Nemotron 3.5 Transcribe veröffentlicht, ein offenes Spracherkennungsmodell, das Transkription, Sprecherzuordnung und Übersetzung per Textprompt in einem Modell vereint. Laut Nvidia deckt es 40 Sprachen ab, führt die Hugging-Face-Open-ASR-Rangliste an und kommt mit rund 4,3 Milliarden aktiven Parametern aus; zusätzlich liefert Nvidia einen Datensatz mit über 800.000 Stunden Sprachmaterial.",
+      "category": "Modelle",
+      "providers": [
+        "NVIDIA"
+      ],
+      "id": "news-7281347817fe3ba2",
+      "sources": [
+        {
+          "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games",
+          "name": "NVIDIA",
+          "type": "Hersteller",
+          "published_at": "2026-10-28T15:00:46Z",
+          "precision": "time"
+        },
+        {
+          "url": "https://the-decoder.com/nvidias-open-nemotron-3-5-transcribe-combines-transcription-translation-and-speaker-recognition",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-28T15:49:39Z",
+          "precision": "time"
+        },
+        {
+          "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model",
+          "name": "TechCrunch AI",
+          "type": "Fachmedium",
+          "published_at": "2026-10-28T15:00:00Z",
+          "precision": "time"
+        }
+      ],
+      "day": "2026-10-29"
+    },
+    {
+      "title": "Google DeepMind veröffentlicht Gemini 4 Carbon",
+      "summary": "Google DeepMind hat laut The Decoder Gemini 4 Carbon vorgestellt, das im Intelligence Index v5 von Artificial Analysis 59 Punkte erreicht. Das Modell sei für lange Agenten-Workflows und den vollständigen Cyberabwehr-Zyklus ausgelegt und zunächst nur ausgewählten Sicherheitsexperten zugänglich.",
+      "category": "Modelle",
+      "providers": [
+        "Google DeepMind"
+      ],
+      "id": "news-7722fb99a5f289b8",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/google-deepmind-releases-gemini-4-carbon-just-two-weeks-after-argon-with-gains-across-the-board",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-28T19:17:58Z",
+          "precision": "time"
+        }
+      ],
+      "day": "2026-10-29"
+    },
+    {
+      "title": "OpenAI lässt angeblich von KI erzeugte Beweise extern prüfen",
+      "summary": "OpenAI gibt an, interne KI-Modelle hätten drei offene Fragen aus Mathematik, Informatik und Physik gelöst; eine davon gehört zu einem Millennium-Preis-Problem. Externe Fachleute, darunter ein Nobelpreisträger, prüfen nun, ob die Beweise standhalten.",
+      "category": "Forschung",
+      "providers": [
+        "OpenAI"
+      ],
+      "id": "news-1f2c2cfd54883290",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/openai-asks-outside-experts-including-a-nobel-laureate-to-check-proofs-its-ai-produced-in-math-computer-science-and-physics",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-27T12:37:24Z",
+          "precision": "time"
+        },
+        {
+          "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean",
+          "name": "TechCrunch AI",
+          "type": "Fachmedium",
+          "published_at": "2026-10-27T17:08:08Z",
+          "precision": "time"
+        }
+      ],
+      "day": "2026-10-28"
+    },
+    {
+      "title": "Mistral veröffentlicht Gewichte für Billionen-Parameter-Modell",
+      "summary": "Mistral hat die Gewichte seines Modells Large 4 („Le Chonk“) veröffentlicht, das laut Unternehmen vollständig in Europa trainiert wurde. Mistral gibt an, bei Coding offene Konkurrenzmodelle zu übertreffen; unabhängige Tests sehen es laut The Decoder mit 26 Punkten hinter DeepSeek V4.1 Flash und GLM-5.3 mit 32 Punkten.",
+      "category": "Modelle",
+      "providers": [
+        "Mistral"
+      ],
+      "id": "news-93ab7d0d8252cfce",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/paris-based-mistral-releases-le-chonk-a-strong-coding-model-that-still-trails-china-overall",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-29T15:25:27Z",
+          "precision": "time"
+        },
+        {
+          "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity",
+          "name": "TechCrunch AI",
+          "type": "Fachmedium",
+          "published_at": "2026-10-29T17:00:00Z",
+          "precision": "time"
+        }
+      ],
+      "day": "2026-10-30"
+    },
+    {
+      "title": "OpenAI veröffentlicht GPT-6.1 Terra mit halbierten API-Preisen",
+      "summary": "OpenAI hat nach Angaben von The Decoder das mittlere Modell GPT-6.1 Terra veröffentlicht, das die API-Preise gegenüber dem Vorgänger halbiert. Analysten sehen darin laut Bericht einen neuen Maßstab für Intelligenz pro Dollar bei Alltagsaufgaben und KI-gesteuerter Computerkontrolle.",
+      "category": "Modelle",
+      "providers": [
+        "OpenAI"
+      ],
+      "id": "news-0c4a5b3d38ca79d5",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/gpt-6-1-terra-halves-openais-api-prices-and-still-gains-ground-on-its-larger-models",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-26T20:30:55Z",
+          "precision": "time"
+        }
+      ],
+      "day": "2026-10-27"
+    }
+  ]
+}
