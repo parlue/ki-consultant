@@ -1,0 +1,229 @@
+{
+  "title": "KI-Update: Autonome Forschung, Sicherheitsrisiken und neue Modelle",
+  "stories": [
+    {
+      "title": "Claude-Agent wählt eigenständig Gentherapie und operiert Mausgehirn",
+      "summary": "Ein KI-Agent auf Basis eines Claude-Modells hat laut einem Forscherteam eigenständig ein Medikament, ein Hirnziel und Injektionskoordinaten für die Behandlung einer epileptischen Maus ausgewählt und den Eingriff durchgeführt. Bei einem Kalibrierungsfehler während der Operation habe der Agent die Fortsetzung verweigert.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "Anthropic"
+      ],
+      "id": "news-d90969d9d202fcde",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/a-claude-model-autonomously-chose-a-gene-therapy-and-operated-on-a-mouse-brain-with-no-human-decision-making",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-30T19:42:59Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "GLM 5.3 erstellt ohne menschliches Eingreifen funktionierende Firefox-Exploits",
+      "summary": "Epoch-AI-Forscher berichten, dass das offene Modell GLM 5.3 öffentliche Sicherheitsfixes in funktionierende Exploits umwandelte, bevor Updates Firefox-Nutzer erreichten, und dabei sechs Firefox-Versionen kompromittierte. Laut Bericht wurden dabei keine Schutzmechanismen der getesteten Anbieter ausgelöst.",
+      "category": "Forschung",
+      "providers": [],
+      "id": "news-028ed5c5f407a06d",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/open-weight-model-glm-5-3-built-full-firefox-exploit-chains-with-zero-human-input-in-under-48-hours",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-30T12:22:18Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI aktualisiert Model Spec um fünf Kernwerte",
+      "summary": "OpenAI hat seine Verhaltensrichtlinien für Modelle überarbeitet und an fünf Kernwerten ausgerichtet, darunter Treue zur menschlichen Absicht und Korrigierbarkeit. GPT-Modelle sollen künftig den Gesprächsverlauf nutzen, um Nutzerabsichten zu erschließen, und eigene Annahmen offenlegen.",
+      "category": "Modelle",
+      "providers": [
+        "OpenAI"
+      ],
+      "id": "news-30da88947cf8a75c",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/openai-sets-new-behavioral-guidelines-for-ai-models-that-have-already-proven-hard-to-control",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-30T17:44:59Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "LRMoE beschleunigt MoE-Training auf speicherbeschränkten Knoten",
+      "summary": "Ein neues Preprint stellt LRMoE vor, ein speicherbewusstes Trainingssystem für Sparse-Mixture-of-Experts-Modelle, das Rückwärtsanforderungen neu kalibriert und die Lastverteilung ausgleicht. In Experimenten mit Qwen3-30B-A3B und GLM4.5-106B-A12B habe es die kumulierte MoE-Trainingszeit gegenüber SYMI um 21,2 bis 44,8 Prozent reduziert.",
+      "category": "Forschung",
+      "providers": [],
+      "id": "news-2e338f4975c6ee04",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.37720",
+          "name": "arXiv cs.AI",
+          "type": "Preprint",
+          "published_at": "2026-10-31T04:00:00Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "SETI-Institut und Breakthrough Listen setzen agentische KI bei der Signalsuche ein",
+      "summary": "Am Allen Telescope Array können KI-Agenten laut NVIDIA das Instrument steuern, eingehende Daten korrigieren und Signalverarbeitung per natürlicher Sprache anpassen. Das System verarbeite 2,4 Terabit pro Sekunde auf NVIDIA-RTX-PRO-6000-Blackwell-GPUs und habe bereits eine Echtzeit-Erkennung eines Pulsars erreicht.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "NVIDIA",
+        "SETI Institute",
+        "Breakthrough Listen"
+      ],
+      "id": "news-91038b3a35f762ad",
+      "sources": [
+        {
+          "url": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals",
+          "name": "NVIDIA",
+          "type": "Hersteller",
+          "published_at": "2026-10-30T15:00:10Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "ThinkJev kombiniert schnelle und langsame Entscheidungen in einem Modell",
+      "summary": "Das Preprint ThinkJev nutzt ein offenes Hybrid-Thinking-Modell, um typisierte Entscheidungen je nach Bedarf direkt oder nach einem Denkschritt zu beantworten, ohne zusätzliches Training. Bei einem Ziel-Fehleranteil von fünf Prozent habe Qwen3.5-27B 24,5 Prozent der Testentscheidungen direkt beantwortet.",
+      "category": "Modelle",
+      "providers": [],
+      "id": "news-3cf54c91cb07b425",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.37732",
+          "name": "arXiv cs.AI",
+          "type": "Preprint",
+          "published_at": "2026-10-31T04:00:00Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "WebAnything rekonstruiert Websites als Trainingsumgebungen für Web-Agenten",
+      "summary": "Das Framework WebAnything erzeugt laut Preprint aus realen URLs automatisch wiederverwendbare, ausführbare Website-Umgebungen ohne manuelle Nacharbeit pro Seite. Aus 244 Website-Artefakten seien 12.984 Aufgaben entstanden; Feinabstimmung von Qwen3.5-9B habe die Erfolgsquote auf WebArena-Verified um 13,33 Prozentpunkte verbessert.",
+      "category": "Agenten & Anwendungen",
+      "providers": [],
+      "id": "news-0b73660e31921f56",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.37786",
+          "name": "arXiv cs.AI",
+          "type": "Preprint",
+          "published_at": "2026-10-31T04:00:00Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI will gemeinsames robots.txt-Signal für KI-Trainingspräferenzen beachten",
+      "summary": "OpenAI kündigt an, ein gemeinsames robots.txt-Signal zu respektieren, mit dem Website-Betreiber ihre Präferenzen zum KI-Training an teilnehmende Anbieter übermitteln können. Das Signal soll die Kommunikation von Trainingspräferenzen erleichtern.",
+      "category": "Wirtschaft & Gesellschaft",
+      "providers": [
+        "OpenAI"
+      ],
+      "id": "news-84abd1857de5dfd9",
+      "sources": [
+        {
+          "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+          "name": "OpenAI",
+          "type": "Hersteller",
+          "published_at": "2026-10-30T09:30:00Z",
+          "precision": "time"
+        }
+      ]
+    }
+  ],
+  "date": "2026-10-31",
+  "window_start": "2026-10-30T04:32:12.179730Z",
+  "window_end": "2026-10-31T04:32:12.179730Z",
+  "generated_at": "2026-10-31T04:32:22.518071Z",
+  "coverage": [
+    {
+      "name": "Anthropic News",
+      "status": "partial",
+      "candidates": 0
+    },
+    {
+      "name": "Anthropic Research",
+      "status": "partial",
+      "candidates": 0
+    },
+    {
+      "name": "Berkeley AI Research",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "DeepSeek",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "DeepSeek API Updates",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Google AI",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Google DeepMind",
+      "status": "unavailable",
+      "candidates": 0
+    },
+    {
+      "name": "Hugging Face",
+      "status": "ok",
+      "candidates": 1
+    },
+    {
+      "name": "Microsoft Research",
+      "status": "ok",
+      "candidates": 1
+    },
+    {
+      "name": "NVIDIA",
+      "status": "ok",
+      "candidates": 1
+    },
+    {
+      "name": "OpenAI",
+      "status": "ok",
+      "candidates": 2
+    },
+    {
+      "name": "Qwen",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "TechCrunch AI",
+      "status": "ok",
+      "candidates": 13
+    },
+    {
+      "name": "The Decoder",
+      "status": "ok",
+      "candidates": 5
+    },
+    {
+      "name": "arXiv cs.AI",
+      "status": "ok",
+      "candidates": 605
+    },
+    {
+      "name": "arXiv cs.CL",
+      "status": "ok",
+      "candidates": 0
+    }
+  ]
+}
