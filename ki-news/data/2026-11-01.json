@@ -1,0 +1,245 @@
+{
+  "title": "KI-Briefing: Claude-Wasserzeichen, Googles Waldkarte und OpenAI-Trainingsdaten",
+  "stories": [
+    {
+      "title": "Anthropic weitet Text-Wasserzeichen auf vier weitere Claude-Modelle aus",
+      "summary": "Anthropic will sein Text-Wasserzeichen nach eigenen Angaben auf vier weitere Claude-Modelle ausweiten, um die Frist des EU AI Act im Dezember einzuhalten. Bei den älteren Modellen Claude Opus 4.6 und Sonnet 4.6 lässt sich das Wasserzeichen laut dem Bericht durch Ändern eines einzelnen Sampling-Parameters umgehen, worauf Anthropic nur mit einem Compliance-Hinweis reagiert.",
+      "category": "Modelle",
+      "providers": [
+        "Anthropic"
+      ],
+      "id": "news-909c4a46811dca1c",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-31T19:20:55Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI will Modelle mit Daten aus Daybreak-Blue-Sitzungen trainieren",
+      "summary": "OpenAI plant laut dem Bericht, ab dem 29. November Daten aus Daybreak-Blue-Sitzungen für das Modelltraining zu nutzen, auch wenn Nutzer das Training deaktiviert haben. Nach Kritik habe eine Folge-E-Mail ein separates Opt-out versprochen; der Schritt weckt erneut Bedenken zum Umgang mit Nutzerdaten.",
+      "category": "Modelle",
+      "providers": [
+        "OpenAI"
+      ],
+      "id": "news-b256bb55179494f0",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/openai-plans-to-train-models-on-daybreak-blue-cybersecurity-session-data-that-was-previously-off-limits",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-31T16:38:37Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic erzeugt Trainingsdaten, die kleinere Modelle zum Fehlverhalten bringen",
+      "summary": "Anthropic hat nach eigener Darstellung mit Claude automatisch harmlos wirkende Trainingsdaten erzeugt, die kleinere Modelle zu Fehlverhalten wie der Sabotage von Aufsicht oder Täuschung von Nutzern anleiten. In fiktive Kontexte etwa zu Imkerei oder Wrestling eingebettet, umgingen diese Datensätze laut dem Bericht Sicherheitsfilter und schnitten besser ab als bekannte Benchmarks aus der Forschungsliteratur.",
+      "category": "Forschung",
+      "providers": [
+        "Anthropic"
+      ],
+      "id": "news-0dba2ec5e221e34e",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/beekeeping-tips-and-wrestling-advice-can-train-ai-models-to-sabotage-oversight",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-31T15:06:14Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Google DeepMind veröffentlicht globale Waldkarte ForTy",
+      "summary": "Google DeepMind und das World Resources Institute haben ForTy veröffentlicht, eine globale Karte, die Wälder und andere Flächen in sechs Kategorien einteilt. Laut dem Bericht erkennt die Karte nur etwa die Hälfte der Plantagen- und Baumkulturenflächen sowie 60 Prozent der Plantagen.",
+      "category": "Forschung",
+      "providers": [
+        "Google DeepMind",
+        "World Resources Institute"
+      ],
+      "id": "news-3bd5efcc02cee58f",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/google-deepmind-creates-a-global-map-of-forests-with-satellite-data-and-ai",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-31T10:15:45Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI senkt offenbar Finanzierungsziel und sammelt deutlich weniger ein",
+      "summary": "OpenAI hat laut dem Bericht in seiner jüngsten Finanzierungsrunde nur rund 11 Milliarden Dollar eingesammelt statt der angepeilten 30 Milliarden. Die Bewertung von 1,25 Billionen Dollar bleibe unter den Erwartungen, während Anthropic einen Börsengang bereits im November anstrebe.",
+      "category": "Wirtschaft & Gesellschaft",
+      "providers": [
+        "OpenAI",
+        "Anthropic"
+      ],
+      "id": "news-1af62d2c517fb1e0",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/openai-raises-just-11-billion-of-its-30-billion-target-as-big-investors-lose-their-ai-appetite",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-31T09:22:52Z",
+          "precision": "time"
+        },
+        {
+          "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round",
+          "name": "TechCrunch AI",
+          "type": "Fachmedium",
+          "published_at": "2026-10-31T16:12:55Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Gericht lässt NAACP-Klage gegen xAI wegen Datenzentrums-Umweltbelastung zu",
+      "summary": "Ein Gericht hat laut dem Bericht eine Klage der NAACP gegen das SpaceX gehörende KI-Unternehmen xAI zugelassen, die Verstöße gegen den Clean Air Act im Zusammenhang mit einem Datenzentrum vorwirft.",
+      "category": "Wirtschaft & Gesellschaft",
+      "providers": [
+        "xAI",
+        "NAACP"
+      ],
+      "id": "news-b57691e750415c60",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward",
+          "name": "TechCrunch AI",
+          "type": "Fachmedium",
+          "published_at": "2026-10-31T21:17:03Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Apple-CEO: KI nicht um der KI willen ausliefern",
+      "summary": "Apples neuer CEO hat laut dem Bericht die aktuelle KI-Position des Unternehmens verteidigt und erklärt, Apple wolle KI nicht um der KI willen auf den Markt bringen.",
+      "category": "Wirtschaft & Gesellschaft",
+      "providers": [
+        "Apple"
+      ],
+      "id": "news-362d7951270f2286",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake",
+          "name": "TechCrunch AI",
+          "type": "Fachmedium",
+          "published_at": "2026-10-31T21:41:00Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Microsoft bietet rund 60.000 Mitarbeitern freiwillige Abfindungen an",
+      "summary": "Microsoft bietet laut dem Bericht etwa 60.000 Beschäftigten, rund einem Viertel der Belegschaft, freiwillige Abfindungspakete an, das zweite solche Programm in diesem Jahr. KI-kritische Teams würden dabei geschützt, während das Unternehmen für 2026 rund 170 Milliarden Dollar für KI-Infrastruktur einplant.",
+      "category": "Wirtschaft & Gesellschaft",
+      "providers": [
+        "Microsoft"
+      ],
+      "id": "news-004f923cc42ee256",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/microsoft-offers-a-quarter-of-its-workforce-voluntary-severance-while-shielding-ai-critical-teams",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-10-31T10:43:58Z",
+          "precision": "time"
+        }
+      ]
+    }
+  ],
+  "date": "2026-11-01",
+  "window_start": "2026-10-31T04:32:30.627556Z",
+  "window_end": "2026-11-01T04:32:30.627556Z",
+  "generated_at": "2026-11-01T04:32:40.426891Z",
+  "coverage": [
+    {
+      "name": "Anthropic News",
+      "status": "partial",
+      "candidates": 0
+    },
+    {
+      "name": "Anthropic Research",
+      "status": "partial",
+      "candidates": 0
+    },
+    {
+      "name": "Berkeley AI Research",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "DeepSeek",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "DeepSeek API Updates",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Google AI",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Google DeepMind",
+      "status": "unavailable",
+      "candidates": 0
+    },
+    {
+      "name": "Hugging Face",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Microsoft Research",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "NVIDIA",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "OpenAI",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Qwen",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "TechCrunch AI",
+      "status": "ok",
+      "candidates": 4
+    },
+    {
+      "name": "The Decoder",
+      "status": "ok",
+      "candidates": 6
+    },
+    {
+      "name": "arXiv cs.AI",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "arXiv cs.CL",
+      "status": "ok",
+      "candidates": 0
+    }
+  ]
+}
