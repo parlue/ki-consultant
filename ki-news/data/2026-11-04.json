@@ -1,0 +1,246 @@
+{
+  "title": "KI-Update: Anthropic-Features, GPT-6-Hardwareentwurf und Chips",
+  "stories": [
+    {
+      "title": "Anthropic arbeitet an System zur Prüfung der Modellherkunft",
+      "summary": "Anthropic entwickelt laut TechCrunch ein System namens FlashProve, mit dem geprüft werden kann, ob eine KI-Antwort tatsächlich vom angegebenen Modell stammt.",
+      "category": "Modelle",
+      "providers": [
+        "Anthropic"
+      ],
+      "id": "news-fa00b4f66d246a49",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity",
+          "name": "TechCrunch AI",
+          "type": "Fachmedium",
+          "published_at": "2026-11-03T22:41:03Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic beschleunigt lange Konversationen mit Message Threads",
+      "summary": "Anthropic hat Message Threads für die Messages API veröffentlicht; statt der gesamten Konversation werden nur Änderungen übertragen, was bei 500.000 bis einer Million Token die Zeit bis zum ersten Token um rund 35 Prozent senken soll.",
+      "category": "Modelle",
+      "providers": [
+        "Anthropic"
+      ],
+      "id": "news-68284f46466970f3",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/anthropics-message-threads-cut-time-to-first-token-by-35-percent-for-long-conversations",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-03T12:35:49Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI: GPT-6 Astra entwarf Hardwaregerät in unter einer Woche",
+      "summary": "OpenAIs Hardwareteam nutzte laut eigener Darstellung GPT-6 Astra, um für den Codex-Coding-Agenten ein Gerät von Gehäuse über Platine bis Firmware zu entwerfen; wegen Fertigungstoleranzen seien mehrere Überarbeitungen nötig gewesen.",
+      "category": "Modelle",
+      "providers": [
+        "OpenAI"
+      ],
+      "id": "news-7ae7ecb0a3914f39",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/openai-says-gpt-6-astra-designed-a-hardware-device-from-scratch-in-under-a-week",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-03T20:15:45Z",
+          "precision": "time"
+        },
+        {
+          "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+          "name": "OpenAI",
+          "type": "Hersteller",
+          "published_at": "2026-11-03T12:00:00Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Forschung: Viele LLM-Erkenntnisse verlieren schnell an Gültigkeit",
+      "summary": "Stanford-Forscher prüften 50 viel zitierte Aussagen über Sprachmodelle an 20 aktuellen Modellen; laut The Decoder sind 44 Prozent bereits überholt und weitere 34 Prozent deutlich abgeschwächt, bei einer durchschnittlichen Lebensdauer von 15,7 Monaten.",
+      "category": "Forschung",
+      "providers": [
+        "Stanford University"
+      ],
+      "id": "news-95f772f833e5ba7f",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/rapid-llm-development-is-outrunning-the-research-meant-to-explain-it-study-finds",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-03T19:41:43Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "NVIDIA beschreibt KI-Einsatz in der Halbleiterfertigung",
+      "summary": "NVIDIA stellt vor, wie beschleunigtes Rechnen, physikbasierte KI, Agenten und digitale Zwillinge Simulationen in Fabs beschleunigen; Partner wie COMSOL, Applied Materials und Siemens melden demnach Beschleunigungen ihrer Simulationswerkzeuge.",
+      "category": "Chips & Rechenleistung",
+      "providers": [
+        "NVIDIA",
+        "COMSOL",
+        "Applied Materials",
+        "Siemens"
+      ],
+      "id": "news-1864e43d05e79138",
+      "sources": [
+        {
+          "url": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs",
+          "name": "NVIDIA",
+          "type": "Hersteller",
+          "published_at": "2026-11-03T16:00:45Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Huawei verweist Kunden bei KI-Chip-Speicher auf Eigenbeschaffung",
+      "summary": "Huawei teilt Kunden laut The Decoder mit, den Hochleistungsspeicher für seine KI-Chips selbst zu beschaffen, was faktisch auf den Schwarzmarkt verweist; dort seien Preise für geschmuggeltes HBM3E binnen eines Jahres auf rund 4.000 Dollar pro Einheit gestiegen.",
+      "category": "Chips & Rechenleistung",
+      "providers": [
+        "Huawei"
+      ],
+      "id": "news-53bdbae8745ae4db",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/huawei-tells-customers-to-find-their-own-ai-chip-memory-effectively-outsourcing-procurement-to-the-black-market",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-03T11:47:37Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "NVIDIA drängt Cloud-Kunden zu weniger China-Geschäft",
+      "summary": "NVIDIA hat laut The Decoder einige Cloud-Kunden aufgefordert, weniger Geschäft mit chinesischen Unternehmen anzunehmen.",
+      "category": "Chips & Rechenleistung",
+      "providers": [
+        "NVIDIA"
+      ],
+      "id": "news-e449cbc152068e60",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/nvidia-pushes-cloud-customers-to-cut-back-on-china-business",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-03T12:22:12Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "SETI setzt KI-Agenten am Allen Telescope Array ein",
+      "summary": "Das SETI Institute und Breakthrough Listen nutzen laut The Decoder KI-Agenten zur Steuerung des Allen Telescope Array und zur Analyse von Radiosignalen; wochenlange Aufgaben würden nun in Stunden erledigt, zudem sei erstmals ein Pulsar im Krebsnebel in Echtzeit erkannt worden.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "SETI Institute",
+        "Breakthrough Listen"
+      ],
+      "id": "news-6fe6a303173635ba",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/ai-agents-take-over-at-setis-allen-telescope-array-scanning-for-extraterrestrial-intelligence",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-03T16:51:18Z",
+          "precision": "time"
+        }
+      ]
+    }
+  ],
+  "date": "2026-11-04",
+  "window_start": "2026-11-03T04:32:28.934886Z",
+  "window_end": "2026-11-04T04:32:28.934886Z",
+  "generated_at": "2026-11-04T04:32:38.592239Z",
+  "coverage": [
+    {
+      "name": "Anthropic News",
+      "status": "partial",
+      "candidates": 0
+    },
+    {
+      "name": "Anthropic Research",
+      "status": "partial",
+      "candidates": 0
+    },
+    {
+      "name": "Berkeley AI Research",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "DeepSeek",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "DeepSeek API Updates",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Google AI",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Google DeepMind",
+      "status": "unavailable",
+      "candidates": 0
+    },
+    {
+      "name": "Hugging Face",
+      "status": "ok",
+      "candidates": 2
+    },
+    {
+      "name": "Microsoft Research",
+      "status": "ok",
+      "candidates": 1
+    },
+    {
+      "name": "NVIDIA",
+      "status": "ok",
+      "candidates": 2
+    },
+    {
+      "name": "OpenAI",
+      "status": "ok",
+      "candidates": 3
+    },
+    {
+      "name": "Qwen",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "TechCrunch AI",
+      "status": "ok",
+      "candidates": 12
+    },
+    {
+      "name": "The Decoder",
+      "status": "ok",
+      "candidates": 9
+    },
+    {
+      "name": "arXiv cs.AI",
+      "status": "ok",
+      "candidates": 816
+    },
+    {
+      "name": "arXiv cs.CL",
+      "status": "ok",
+      "candidates": 381
+    }
+  ]
+}
