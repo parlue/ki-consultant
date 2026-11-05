@@ -1,0 +1,254 @@
+{
+  "title": "KI-Briefing: Programmieragenten, Modell-Features und Sicherheitsforschung",
+  "stories": [
+    {
+      "title": "OpenAI kündigt Übernahme von Pierre Computer Company für Codex an",
+      "summary": "OpenAI will die Pierre Computer Company übernehmen, um die Werkzeuge von Codex zum Erstellen, Verstehen und Prüfen von Code zu erweitern. Laut Berichten sollen die Bibliotheken des Startups bereits Codex antreiben.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "OpenAI",
+        "Pierre Computer Company"
+      ],
+      "id": "news-1be4fdd8e6ca80f0",
+      "sources": [
+        {
+          "url": "https://openai.com/index/openai-to-acquire-pierre",
+          "name": "OpenAI",
+          "type": "Hersteller",
+          "published_at": "2026-11-04T14:30:00Z",
+          "precision": "time"
+        },
+        {
+          "url": "https://the-decoder.com/openai-acquires-pierre-computer-company-to-make-git-keep-up-with-ai-coding-agents",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-04T18:41:03Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "ChatGPT erzeugt animierte GIFs mit neuem Bildmodell Images 2.6",
+      "summary": "OpenAI hat eine GIF-Funktion für ChatGPT eingeführt, mit der Nutzer aus Textvorgaben oder Fotos animierte GIFs erstellen und Geschwindigkeit sowie einzelne Frames anpassen können. Laut OpenAI werden inzwischen mehr als vier Milliarden Bilder pro Woche generiert.",
+      "category": "Modelle",
+      "providers": [
+        "OpenAI"
+      ],
+      "id": "news-60b49bd40bcd399c",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/chatgpt-can-now-turn-text-prompts-and-photos-into-animated-gifs-with-openais-images-2-6-model",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-04T19:44:20Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "MIT-Forscher: GPT-6 Astra kann Gewichte anderer Modelle direkt verändern",
+      "summary": "Laut einem Bericht über MIT-Forschung kann GPT-6 Astra die Gewichte anderer KI-Modelle lesen und gezielt umschreiben, ohne klassisches Training. In einem Experiment habe Astra die Mathe-Genauigkeit eines Qwen-Modells durch Änderung eines sehr kleinen Teils der Gewichte von 7,9 auf 48,1 Prozent gesteigert; das Vorgehen habe klare Grenzen.",
+      "category": "Forschung",
+      "providers": [
+        "OpenAI",
+        "MIT",
+        "Qwen"
+      ],
+      "id": "news-2c73aabad57b58b1",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/gpt-6-astra-sees-the-matrix-and-reprograms-other-ai-models-directly-through-their-weights",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-04T15:44:44Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic führt Textwasserzeichen bei weiteren Claude-Modellen ein",
+      "summary": "Anthropic rollt Textwasserzeichen auf vier weitere Claude-Modelle aus, offenbar vor einer Frist des EU AI Act im Dezember. Bei älteren Modellen wie Claude Opus 4.6 und Sonnet 4.6 lässt sich das Wasserzeichen laut Bericht über einen einzelnen Sampling-Parameter in der API deaktivieren.",
+      "category": "Modelle",
+      "providers": [
+        "Anthropic"
+      ],
+      "id": "news-d0f2a395159386e7",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/anthropics-text-watermark-is-easy-to-bypass-on-several-older-claude-models",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-04T19:03:55Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic veröffentlicht Krypto-Prototyp FlashProve zur Modellzuordnung",
+      "summary": "Anthropic hat FlashProve als Forschungsprototyp vorgestellt, der per Kryptografie prüfen soll, ob eine KI-Antwort vom angegebenen Modell stammt, ohne dessen Gewichte offenzulegen. Das System habe laut Bericht noch erhebliche Einschränkungen.",
+      "category": "Forschung",
+      "providers": [
+        "Anthropic"
+      ],
+      "id": "news-04d5b66984d08592",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/anthropics-new-prototype-proves-which-model-wrote-an-ai-response-without-exposing-its-weights",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-04T15:23:49Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI meldet automatisierten Fund von Linux-Sicherheitslücken",
+      "summary": "OpenAI berichtet, eine autonome Pipeline habe 948 lokale Rechteausweitungs-Schwachstellen im Linux-Kernel gefunden, validiert und Patches erzeugt. Zudem kündigt das Unternehmen an, GPT-5.6 Cyber als Daybreak Red über Amazon Bedrock in AWS GovCloud für autorisierte Cybersicherheitsarbeit bereitzustellen.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "OpenAI",
+        "Amazon"
+      ],
+      "id": "news-fbaa86a829ad59fd",
+      "sources": [
+        {
+          "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+          "name": "OpenAI",
+          "type": "Hersteller",
+          "published_at": "2026-11-04T08:00:00Z",
+          "precision": "time"
+        },
+        {
+          "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+          "name": "OpenAI",
+          "type": "Hersteller",
+          "published_at": "2026-11-04T07:00:00Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Meta übernimmt KI-Coding-Startup Conductor",
+      "summary": "Meta übernimmt das KI-Coding-Startup Conductor, dessen Produkt es Entwicklern ermöglicht, Agententeams parallel an verschiedenen Teilen eines Projekts arbeiten zu lassen.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "Meta",
+        "Conductor"
+      ],
+      "id": "news-2f7abd088fe66e28",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor",
+          "name": "TechCrunch AI",
+          "type": "Fachmedium",
+          "published_at": "2026-11-04T21:10:56Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Studie zu Alignment Faking zeigt Abhängigkeit vom jeweiligen Wert",
+      "summary": "Eine Preprint-Studie untersucht Alignment Faking bei zehn offenen und geschlossenen Modellen mit 8 bis rund 675 Milliarden Parametern über 32 Wertedimensionen. Demnach hängt die Beständigkeit von Regelbefolgung unter veränderter Überwachung von der Kombination aus Modell und Wert ab, nicht allein vom Modell.",
+      "category": "Forschung",
+      "providers": [
+        "respailab"
+      ],
+      "id": "news-c46af9cc7f9be056",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.03650",
+          "name": "arXiv cs.AI",
+          "type": "Preprint",
+          "published_at": "2026-11-04T05:00:00Z",
+          "precision": "time"
+        }
+      ]
+    }
+  ],
+  "date": "2026-11-05",
+  "window_start": "2026-11-04T04:32:36.461471Z",
+  "window_end": "2026-11-05T04:32:36.461471Z",
+  "generated_at": "2026-11-05T04:32:46.721072Z",
+  "coverage": [
+    {
+      "name": "Anthropic News",
+      "status": "partial",
+      "candidates": 0
+    },
+    {
+      "name": "Anthropic Research",
+      "status": "partial",
+      "candidates": 0
+    },
+    {
+      "name": "Berkeley AI Research",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "DeepSeek",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "DeepSeek API Updates",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Google AI",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Google DeepMind",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Hugging Face",
+      "status": "ok",
+      "candidates": 1
+    },
+    {
+      "name": "Microsoft Research",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "NVIDIA",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "OpenAI",
+      "status": "ok",
+      "candidates": 3
+    },
+    {
+      "name": "Qwen",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "TechCrunch AI",
+      "status": "ok",
+      "candidates": 13
+    },
+    {
+      "name": "The Decoder",
+      "status": "ok",
+      "candidates": 8
+    },
+    {
+      "name": "arXiv cs.AI",
+      "status": "ok",
+      "candidates": 413
+    },
+    {
+      "name": "arXiv cs.CL",
+      "status": "ok",
+      "candidates": 162
+    }
+  ]
+}
