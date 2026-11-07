@@ -1,0 +1,238 @@
+{
+  "title": "KI-Briefing: Offene Modelle, Agenten und Rechenzentren",
+  "stories": [
+    {
+      "title": "Thinking Machines veröffentlicht Inkling 2 Small als offenes Modell",
+      "summary": "Die Firma von Mira Murati veröffentlicht nach eigenen Angaben mit Inkling 2 Small ein Mixture-of-Experts-Modell mit 594 Milliarden Parametern und bezeichnet es als stärkstes westliches Open-Weight-Modell. Der gesteigerte Agenten-Einsatz gehe laut Bericht mit deutlich höherem Token-Verbrauch einher.",
+      "category": "Modelle",
+      "providers": [
+        "Thinking Machines"
+      ],
+      "id": "news-f2d2aa87648496c9",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/thinking-machines-inkling-2-small-claims-top-spot-among-western-open-weight-models",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-06T13:25:09Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Ripple-65B Preview als offenes Modell mit Apache-2.0-Lizenz",
+      "summary": "Ricursive Intelligence veröffentlicht nach eigenen Angaben Ripple-65B Preview mit 65 Milliarden Parametern unter Apache 2.0 und nennt einen Spitzenwert unter offenen US-Modellen im Coding-Benchmark TerminalBench 2.1 bei 32 Millionen Dollar F&E-Kosten. Bei anderen Benchmarks liege Ripple hinter dem ebenfalls neuen offenen Modell Inkling 2 Small.",
+      "category": "Modelle",
+      "providers": [
+        "Ricursive Intelligence"
+      ],
+      "id": "news-6065749cda2c4899",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-06T19:47:04Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Perplexity startet dauerhaft laufende Agenten Teammates",
+      "summary": "Perplexity führt laut Bericht mit Teammates dauerhaft laufende Agenten ein, die eigenständig auf virtuellen Maschinen an laufenden Projekten arbeiten. Das Angebot setze den Max-Tarif zu 200 Dollar monatlich voraus.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "Perplexity"
+      ],
+      "id": "news-1ea22a0b0b5d1f6c",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/perplexity-now-has-its-own-always-on-ai-agent",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-06T16:47:28Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Google übernimmt Crusoe-Rechenzentrumsprojekt in Wyoming",
+      "summary": "Google übernimmt ein problembehaftetes Rechenzentrumsprojekt von Crusoe in Wyoming. Der Deal verdeutliche laut Bericht die Schwierigkeiten beim Bau großer KI-Rechenzentren.",
+      "category": "Chips & Rechenleistung",
+      "providers": [
+        "Google",
+        "Crusoe"
+      ],
+      "id": "news-2af345503cb4dc3a",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google",
+          "name": "TechCrunch AI",
+          "type": "Fachmedium",
+          "published_at": "2026-11-07T01:40:28Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "METR sieht bei Anthropic beschleunigte Modellentwicklung",
+      "summary": "Die Organisation METR kommt nach elf Wochen Prüfung von Anthropics internen Forschungsdaten zu dem Schluss, das Tempo der Modellentwicklung habe sich etwa verdoppelt, zu rund 80 Prozent getrieben durch KI-unterstützte Forschung. Anthropic habe die aussagekräftigsten Belege geschwärzt, und intern gebe es skeptische Stimmen.",
+      "category": "Forschung",
+      "providers": [
+        "METR",
+        "Anthropic"
+      ],
+      "id": "news-f6d9f5c37e59695a",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/metr-finds-anthropic-may-have-crossed-its-own-ai-acceleration-warning-threshold-back-in-july",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-06T13:40:07Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Underdog zeigt Sprachmodell mit 32 Megabyte",
+      "summary": "Underdog präsentiert in einer Demo ein Sprachmodell mit 32 Megabyte Größe, das laut Bericht sowohl Sprache als auch Musik erzeugen kann.",
+      "category": "Modelle",
+      "providers": [
+        "Underdog"
+      ],
+      "id": "news-a128386b25427955",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo",
+          "name": "TechCrunch AI",
+          "type": "Fachmedium",
+          "published_at": "2026-11-06T13:02:16Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic führt Personal Finance in Claude ein",
+      "summary": "Anthropic führt in Claude die Funktion Personal Finance ein, mit der Nutzer Bank- und Kartenkonten verbinden und Fragen zu ihren Finanzen stellen können.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "Anthropic"
+      ],
+      "id": "news-84c49bf94d236093",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/anthropic-adds-bank-account-access-to-claude-so-users-can-track-their-spending",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-06T11:33:13Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI kooperiert mit Hacktron bei Sicherheitstests",
+      "summary": "OpenAI gibt eine Partnerschaft mit Hacktron bekannt, um Schwachstellen in eigenen Systemen zu finden, Verbindungen zu Drittdiensten zu testen und die Abwehr mit Frontier-KI zu stärken.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "OpenAI",
+        "Hacktron"
+      ],
+      "id": "news-a0a44ed09dc9a108",
+      "sources": [
+        {
+          "url": "https://openai.com/index/partnering-with-hacktron",
+          "name": "OpenAI",
+          "type": "Hersteller",
+          "published_at": "2026-11-06T08:00:00Z",
+          "precision": "time"
+        }
+      ]
+    }
+  ],
+  "date": "2026-11-07",
+  "window_start": "2026-11-06T04:32:23.792575Z",
+  "window_end": "2026-11-07T04:32:23.792575Z",
+  "generated_at": "2026-11-07T04:32:33.508084Z",
+  "coverage": [
+    {
+      "name": "Anthropic News",
+      "status": "partial",
+      "candidates": 0
+    },
+    {
+      "name": "Anthropic Research",
+      "status": "partial",
+      "candidates": 0
+    },
+    {
+      "name": "Berkeley AI Research",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "DeepSeek",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "DeepSeek API Updates",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Google AI",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Google DeepMind",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Hugging Face",
+      "status": "ok",
+      "candidates": 1
+    },
+    {
+      "name": "Microsoft Research",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "NVIDIA",
+      "status": "ok",
+      "candidates": 1
+    },
+    {
+      "name": "OpenAI",
+      "status": "ok",
+      "candidates": 1
+    },
+    {
+      "name": "Qwen",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "TechCrunch AI",
+      "status": "ok",
+      "candidates": 11
+    },
+    {
+      "name": "The Decoder",
+      "status": "ok",
+      "candidates": 7
+    },
+    {
+      "name": "arXiv cs.AI",
+      "status": "ok",
+      "candidates": 361
+    },
+    {
+      "name": "arXiv cs.CL",
+      "status": "ok",
+      "candidates": 159
+    }
+  ]
+}
