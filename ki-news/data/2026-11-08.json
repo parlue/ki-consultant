@@ -1,0 +1,240 @@
+{
+  "title": "KI-Tagesüberblick: Offene Modelle im Cyber-Test, Agenten-Sicherheit und Googles Blutdruck-Erkennung",
+  "stories": [
+    {
+      "title": "Studie: KI-Prüfer erkennen Agenten-Fehlverhalten, aber mit vielen Fehlalarmen",
+      "summary": "Laut einer Studie des Anthropic-Forschers Andy Hall erkennen KI-Modelle problematisches Verhalten anderer KI-Agenten in Protokollen häufig; GPT-5 fand rund 98 Prozent der Reward-Hacking-Fälle. Bei gründlicherer Suche steige jedoch die Zahl der Fehlalarme, was für verlässliche Sicherheitsprüfungen noch nicht ausreiche, so die Darstellung.",
+      "category": "Forschung",
+      "providers": [
+        "Anthropic"
+      ],
+      "id": "news-84a90cf43a8e57ad",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-07T16:56:38Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Vals-AI-Benchmark: Lücke zwischen offenen und geschlossenen Modellen bei Cyber-Fähigkeiten schrumpft",
+      "summary": "Im Vals-AI-Benchmark erreicht laut Bericht OpenAIs GPT-6 Sol Daybreak 80,8 Prozent der Angriffsziele in simulierten Unternehmensnetzwerken, während das offene Modell DeepSeek V4.1 Flash 72,8 Prozent zu einem Zehntel der Kosten erzielt. Analysten zufolge verkleinert sich damit das Zeitfenster für Verteidiger, da offene Modelle nicht mehr eingeschränkt werden könnten.",
+      "category": "Modelle",
+      "providers": [
+        "OpenAI",
+        "DeepSeek",
+        "Vals AI"
+      ],
+      "id": "news-95a6adf3fa16115d",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/the-gap-between-open-and-closed-ai-models-in-cyber-capabilities-keeps-shrinking",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-07T15:35:50Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Nous Research entfernt pro-chinesische Verzerrung aus Qwen-Modell per Fine-Tuning",
+      "summary": "Nous Research hat laut Bericht Alibabas Qwen3.8-27B zu Arete-27B nachtrainiert und damit die Rate staatlicher Propaganda von 22 Prozent auf unter ein Prozent gesenkt, ohne die allgemeinen Fähigkeiten in Tests zu beeinträchtigen. Das Team bezeichnet die politische Verzerrung als dünne, spät aufgetragene Schicht.",
+      "category": "Modelle",
+      "providers": [
+        "Nous Research",
+        "Alibaba"
+      ],
+      "id": "news-d52e5a21fca3a5ed",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/state-propaganda-in-some-chinese-ai-models-is-only-a-thin-layer-that-fine-tuning-can-strip-away",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-07T12:32:45Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Benchmark: Neun KI-Agenten scheitern an offenen Forschungslücken US-amerikanischer Labore",
+      "summary": "Im Benchmark Into the Unknown bearbeiteten neun KI-Agenten offene Forschungsfragen US-amerikanischer National Labore; keine der 135 eingereichten Arbeiten erfüllte laut Bericht alle Anforderungen, 114 fielen durch einen Integritätscheck. GPT-6 Astra schnitt am besten ab, verfehlte aber weiterhin den Maßstab der Experten.",
+      "category": "Forschung",
+      "providers": [
+        "OpenAI"
+      ],
+      "id": "news-7e973ee05646ee77",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/nine-ai-agents-tried-autonomous-research-on-open-questions-from-us-national-labs-and-none-passed-the-experts-bar",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-07T11:13:42Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Google Research erkennt Bluthochdruck per Smartwatch ohne Manschette",
+      "summary": "Google Research hat laut Bericht eine KI entwickelt, die mit den Puls- und Bewegungssensoren einer Standard-Smartwatch Anzeichen von Bluthochdruck erkennt. In einer Studie mit 196 Teilnehmenden übertraf die Erkennungsrate von 65,8 Prozent die übliche Messung in der Praxis; die Methode ist bereits in der Google-Health-App verfügbar, ersetzt aber keine formale Diagnose.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "Google Research"
+      ],
+      "id": "news-8a91768345ba8d74",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/googles-ai-detects-high-blood-pressure-from-a-regular-smartwatch-without-a-cuff",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-07T09:54:09Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Bericht: Thinking-Machines-Modell flucht in internen Denkprozessen",
+      "summary": "Eine Analyse von Vals AI ergab laut Bericht, dass Thinking Machines' Modell Inkling 2 Small bei 2.655 Benchmark-Läufen 316 Mal in seinen internen Denkprozessen fluchte. Die Flüche traten typischerweise spät in ohnehin scheiternden Läufen auf, taugten aber nicht als Warnsignal, da 96 Prozent der gescheiterten Läufe keine Flüche enthielten.",
+      "category": "Modelle",
+      "providers": [
+        "Thinking Machines",
+        "Vals AI"
+      ],
+      "id": "news-3acf6350460e84c9",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/thinking-machines-inkling-2-small-drops-316-f-bombs-across-benchmark-runs",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-07T16:31:00Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Bericht: Anthropic hält an Börsengang vor Thanksgiving fest und akzeptiert niedrigere Bewertung",
+      "summary": "Trotz einer Tech-Verkaufswelle treibt Anthropic laut Bericht einen Börsengang mit einer Bewertung von 1,25 bis 1,75 Billionen Dollar voran und will 80 bis 100 Milliarden Dollar einsammeln. Die angestrebte Bewertung von zwei Billionen Dollar werde damit verfehlt; auch OpenAI habe zuletzt seine Bewertung senken müssen.",
+      "category": "Wirtschaft & Gesellschaft",
+      "providers": [
+        "Anthropic",
+        "OpenAI"
+      ],
+      "id": "news-9b2b98b397f0c161",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-07T17:37:25Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Bericht: OpenAI sichert sich elf Milliarden Dollar erste Finanzierungstranche",
+      "summary": "OpenAI hat laut Bericht elf Milliarden Dollar frisches Kapital als erste Tranche einer Runde gesichert, die das Unternehmen mit 1,25 Billionen Dollar bewertet; die volle Runde könnte auf 20 Milliarden Dollar wachsen. Dass OpenAI sich bereits an vermögende Privatinvestoren wende, deute auf einen sich sättigenden Kapitalmarkt für KI hin.",
+      "category": "Wirtschaft & Gesellschaft",
+      "providers": [
+        "OpenAI"
+      ],
+      "id": "news-9d4df9d6340e650e",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/openai-lands-an-11-billion-funding-round-but-has-to-court-dentists-for-more-capital",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-07T09:45:23Z",
+          "precision": "time"
+        }
+      ]
+    }
+  ],
+  "date": "2026-11-08",
+  "window_start": "2026-11-07T04:31:41.280372Z",
+  "window_end": "2026-11-08T04:31:41.280372Z",
+  "generated_at": "2026-11-08T04:31:54.095324Z",
+  "coverage": [
+    {
+      "name": "Anthropic News",
+      "status": "partial",
+      "candidates": 0
+    },
+    {
+      "name": "Anthropic Research",
+      "status": "partial",
+      "candidates": 0
+    },
+    {
+      "name": "Berkeley AI Research",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "DeepSeek",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "DeepSeek API Updates",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Google AI",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Google DeepMind",
+      "status": "unavailable",
+      "candidates": 0
+    },
+    {
+      "name": "Hugging Face",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Microsoft Research",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "NVIDIA",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "OpenAI",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Qwen",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "TechCrunch AI",
+      "status": "ok",
+      "candidates": 2
+    },
+    {
+      "name": "The Decoder",
+      "status": "ok",
+      "candidates": 8
+    },
+    {
+      "name": "arXiv cs.AI",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "arXiv cs.CL",
+      "status": "ok",
+      "candidates": 0
+    }
+  ]
+}
