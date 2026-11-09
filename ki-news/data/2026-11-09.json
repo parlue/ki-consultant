@@ -1,0 +1,162 @@
+{
+  "title": "KI-Briefing: Coding-Agenten, Scaling-Debatte und Karpathys Claude-Projekt",
+  "stories": [
+    {
+      "title": "Alibaba-Benchmark: Coding-Agenten lösen nur rund ein Viertel realer Aufgaben vollständig",
+      "summary": "Der neue Co-Design-Bench von Alibaba testet Coding-Agenten an echten Nutzeranfragen aus der Praxis. Selbst das beste Modell, GPT-6 Astra, löse nur 26,4 Prozent der Aufgaben vollständig, während dieselben Modelle auf älteren Benchmarks über 99 Prozent erreichten.",
+      "category": "Forschung",
+      "providers": [
+        "Alibaba"
+      ],
+      "id": "news-9fb4a71d0f611290",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/ai-coding-agents-still-need-human-cleanup-on-nearly-three-out-of-four-tasks-in-a-real-world-test",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-08T09:50:59Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Andrej Karpathy baut mit Claude kuratiertes Videoportal aus Hacker-News-Daten",
+      "summary": "OpenAI-Mitgründer Andrej Karpathy nutzte nach eigener Darstellung Claudes Opus 5.5, um 43 Millionen Hacker-News-Kommentare zu 6.454 kuratierten Videos zu filtern. Das Ergebnis übertreffe laut Karpathy YouTubes eigene Empfehlungen.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "Anthropic",
+        "OpenAI"
+      ],
+      "id": "news-4f97b9d47a9b669e",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-08T14:23:00Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Richard Sutton bezweifelt, dass reine Rechenleistung zu Intelligenz führt",
+      "summary": "Turing-Preisträger Richard Sutton bekräftigt, dass rohe Rechenleistung allein nicht für Intelligenz ausreicht und grundlegend neue Lernmethoden nötig seien. Der ehemalige OpenAI-Forscher Tworek stimmt zu und kritisiert blinde Transformer-Skalierung.",
+      "category": "Forschung",
+      "providers": [
+        "OpenAI"
+      ],
+      "id": "news-1b39555ff242a3fb",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/the-inventor-of-the-bitter-lesson-has-a-bitter-lesson-for-llm-scaling-enthusiasts",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-08T11:44:41Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Forscher sehen Bewusstsein nicht allein aus Berechnung entstehen",
+      "summary": "Die Bewusstseinsforscher Anil Seth, Ned Block und Giulio Tononi argumentieren in einem Nature-Kommentar, heutige KI-Systeme seien nicht bewusst und würden es auf Silizium-Hardware nicht werden. Die Annahme, Bewusstsein hänge allein von Berechnung ab, sei grundlegend falsch.",
+      "category": "Forschung",
+      "providers": [],
+      "id": "news-4baf68c035d0f2cc",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/the-brain-as-computer-metaphor-shaped-modern-ai-but-may-be-misleading-the-consciousness-debate",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-08T13:49:21Z",
+          "precision": "time"
+        }
+      ]
+    }
+  ],
+  "date": "2026-11-09",
+  "window_start": "2026-11-08T04:32:14.042326Z",
+  "window_end": "2026-11-09T04:32:14.042326Z",
+  "generated_at": "2026-11-09T04:32:21.566561Z",
+  "coverage": [
+    {
+      "name": "Anthropic News",
+      "status": "partial",
+      "candidates": 0
+    },
+    {
+      "name": "Anthropic Research",
+      "status": "partial",
+      "candidates": 0
+    },
+    {
+      "name": "Berkeley AI Research",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "DeepSeek",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "DeepSeek API Updates",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Google AI",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Google DeepMind",
+      "status": "unavailable",
+      "candidates": 0
+    },
+    {
+      "name": "Hugging Face",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Microsoft Research",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "NVIDIA",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "OpenAI",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Qwen",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "TechCrunch AI",
+      "status": "ok",
+      "candidates": 1
+    },
+    {
+      "name": "The Decoder",
+      "status": "ok",
+      "candidates": 4
+    },
+    {
+      "name": "arXiv cs.AI",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "arXiv cs.CL",
+      "status": "ok",
+      "candidates": 0
+    }
+  ]
+}
