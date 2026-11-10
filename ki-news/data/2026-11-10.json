@@ -1,0 +1,272 @@
+{
+  "title": "Anthropic-Modelle, Meta Muse Ember und Googles TPU-Offensive",
+  "stories": [
+    {
+      "title": "Anthropic stellt Claude Fable 5.2 und Mythos 5.2 vor",
+      "summary": "Anthropic hat nach eigenen Angaben seine bislang leistungsfähigsten Modelle Fable 5.2 und Mythos 5.2 veröffentlicht, in einer frei verfügbaren und einer verifizierten Organisationen vorbehaltenen Version. Laut Unternehmen lösen sie offene Physikprobleme, schreiben über 90 Prozent der in den Kernecode eingefügten Änderungen und zeigen stärkere Cybersicherheitsfähigkeiten; Fähigkeiten zur Beschleunigung der eigenen Entwicklung will Anthropic bewusst begrenzt haben.",
+      "category": "Modelle",
+      "providers": [
+        "Anthropic"
+      ],
+      "id": "news-c988f42abbf6068f",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/claude-fable-5-2-and-mythos-5-2-cement-anthropics-ai-lead-just-before-its-ipo",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-09T21:15:23Z",
+          "precision": "time"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns",
+          "name": "TechCrunch AI",
+          "type": "Fachmedium",
+          "published_at": "2026-11-09T19:24:51Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Meta veröffentlicht kleines Modell Muse Ember für Agentenaufgaben",
+      "summary": "Meta hat nach eigenen Angaben mit Muse Ember sein kleinstes und effizientestes Modell vorgestellt, optimiert für repetitive Agentenaufgaben wie Tool-Aufrufe, Routing und Datenextraktion. Meta gibt an, es liefere mehr Intelligenz pro Dollar als Claude Haiku 5.5 oder GPT-6 Luna, sei bei eigentlichen Programmieraufgaben aber schwächer; das Modell kostet laut TechCrunch 10 Cent pro Million Input-Tokens.",
+      "category": "Modelle",
+      "providers": [
+        "Meta"
+      ],
+      "id": "news-bcfee7afda18be7f",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/meta-launches-muse-ember-a-small-ai-model-built-for-the-repetitive-work-agents-actually-do",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-09T19:41:51Z",
+          "precision": "time"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution",
+          "name": "TechCrunch AI",
+          "type": "Fachmedium",
+          "published_at": "2026-11-09T18:00:00Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Google erweitert TPU-8-Familie um zwei Varianten",
+      "summary": "Google hat in einem Jahr nach Angaben von The Decoder vier TPU-Varianten ausgeliefert, darunter den TPU 8tx, der sensible Daten auch während der Verarbeitung verschlüsselt hält, und den TPU 8i Max mit zwei Chips pro Package für doppelte Rechenleistung und Speicher. Google zählt demnach fast 100 externe Kunden und positioniert die eigenen Chips zunehmend als Alternative zu Nvidias GPUs.",
+      "category": "Chips & Rechenleistung",
+      "providers": [
+        "Google"
+      ],
+      "id": "news-7504f0587f9ffa4d",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-09T12:59:02Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "NVIDIA stellt offenes Robotermodell GR00T 2 vor",
+      "summary": "NVIDIA hat auf der CoRL-Konferenz mit GR00T 2 ein offenes World-Action-Modell auf Basis von Cosmos vorgestellt, trainiert unter anderem mit 100.000 Stunden offener menschlicher Egocentric-Daten. Laut NVIDIA löste das Modell 40 von 50 Aufgaben ohne aufgabenspezifische Demonstrationen und erreichte mit einer Demonstration pro Aufgabe 71 Prozent Erfolg, mit fünf Demonstrationen 95 Prozent. Zudem kündigte NVIDIA offene Robotik-Technologien, Simulationswerkzeuge und Benchmarks an.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "NVIDIA"
+      ],
+      "id": "news-6e07690c27eb09da",
+      "sources": [
+        {
+          "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl",
+          "name": "NVIDIA",
+          "type": "Hersteller",
+          "published_at": "2026-11-09T14:00:01Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI führt Control Room zur Überwachung von Modell-Workloads ein",
+      "summary": "OpenAI hat ein System namens Control Room vorgestellt, das Modell-Workloads über seine Forschungsinfrastruktur verfolgt und bei Sicherheits- oder Schutzbedenken schnell stoppen kann. Das Unternehmen beschreibt damit eine zentrale Kontrolle über laufende Modellarbeiten.",
+      "category": "Forschung",
+      "providers": [
+        "OpenAI"
+      ],
+      "id": "news-952d2516af2e9054",
+      "sources": [
+        {
+          "url": "https://openai.com/index/control-room",
+          "name": "OpenAI",
+          "type": "Hersteller",
+          "published_at": "2026-11-09T13:00:00Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "ByteDance Seed stellt Bildmodell Seedream 5.5 vor",
+      "summary": "ByteDance Seed hat nach eigenen Angaben mit Seedream 5.5 ein Bildmodell für professionelle Produktionsabläufe eingeführt, das stabile Mehrfachbearbeitung über bis zu 100 Durchläufe ohne Farbdrift, native RGBA-Bilder mit transparentem Hintergrund und laut Unternehmen mehr Realismus als GPT-Image-2.5 Sunburst bietet. Eine Pro-Version ist geplant.",
+      "category": "Modelle",
+      "providers": [
+        "ByteDance"
+      ],
+      "id": "news-fece0721dfed346f",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-09T18:50:01Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "NVIDIA baut KI-Ökosystem in Korea aus",
+      "summary": "NVIDIA hat mit dem südkoreanischen Ministerium für Wissenschaft und ICT eine erweiterte Zusammenarbeit über Halbleiter, Rechenzentren, Modelle, Agenten und Sicherheit angekündigt, einschließlich Optionen für koreanische NPU- und XPU-Hersteller im NVLink-Fusion-Ökosystem. Zudem veröffentlichte NVIDIA für B200-GPUs optimierte Dynamo-Deployment-Rezepte für koreanische Open-Weight-Modelle wie A.X K2, K-EXAONE 2.0, Solar Open 2 und Motif-3 sowie Investitionspläne in koreanische Startups.",
+      "category": "Chips & Rechenleistung",
+      "providers": [
+        "NVIDIA",
+        "SK Telecom",
+        "LG AI Research",
+        "Upstage",
+        "Motif Technologies"
+      ],
+      "id": "news-698f0868e7dfb446",
+      "sources": [
+        {
+          "url": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration",
+          "name": "NVIDIA",
+          "type": "Hersteller",
+          "published_at": "2026-11-09T05:00:04Z",
+          "precision": "time"
+        },
+        {
+          "url": "https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models",
+          "name": "NVIDIA",
+          "type": "Hersteller",
+          "published_at": "2026-11-09T05:00:00Z",
+          "precision": "time"
+        },
+        {
+          "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit",
+          "name": "NVIDIA",
+          "type": "Hersteller",
+          "published_at": "2026-11-09T08:00:53Z",
+          "precision": "time"
+        },
+        {
+          "url": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai",
+          "name": "NVIDIA",
+          "type": "Hersteller",
+          "published_at": "2026-11-09T05:00:39Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Forschung: Multiple-Choice-Format senkt Verweigerungsraten von Sprachmodellen",
+      "summary": "Eine arXiv-Studie an Llama-3.1-8B und Qwen3-8B führt mechanistisch aus, dass Modelle im Multiple-Choice-Format sehr früh auf ein Antwortbuchstaben-Token festgelegt werden und die Aktivierungen rund dreimal weiter vom Verweigerungsvektor entfernt liegen als bei offenen Fragen. Die Autoren schließen daraus, dass Multiple-Choice-Sicherheitsbenchmarks vor allem Wissensfähigkeiten und nicht die Sicherheitsmechanismen messen.",
+      "category": "Forschung",
+      "providers": [],
+      "id": "news-56afa021fe40ac6b",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.08639",
+          "name": "arXiv cs.CL",
+          "type": "Preprint",
+          "published_at": "2026-11-09T05:00:00Z",
+          "precision": "time"
+        }
+      ]
+    }
+  ],
+  "date": "2026-11-10",
+  "window_start": "2026-11-09T04:32:20.181903Z",
+  "window_end": "2026-11-10T04:32:20.181903Z",
+  "generated_at": "2026-11-10T04:32:34.644296Z",
+  "coverage": [
+    {
+      "name": "Anthropic News",
+      "status": "partial",
+      "candidates": 0
+    },
+    {
+      "name": "Anthropic Research",
+      "status": "partial",
+      "candidates": 0
+    },
+    {
+      "name": "Berkeley AI Research",
+      "status": "ok",
+      "candidates": 1
+    },
+    {
+      "name": "DeepSeek",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "DeepSeek API Updates",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Google AI",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Google DeepMind",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Hugging Face",
+      "status": "ok",
+      "candidates": 2
+    },
+    {
+      "name": "Microsoft Research",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "NVIDIA",
+      "status": "ok",
+      "candidates": 6
+    },
+    {
+      "name": "OpenAI",
+      "status": "ok",
+      "candidates": 4
+    },
+    {
+      "name": "Qwen",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "TechCrunch AI",
+      "status": "ok",
+      "candidates": 12
+    },
+    {
+      "name": "The Decoder",
+      "status": "ok",
+      "candidates": 7
+    },
+    {
+      "name": "arXiv cs.AI",
+      "status": "ok",
+      "candidates": 397
+    },
+    {
+      "name": "arXiv cs.CL",
+      "status": "ok",
+      "candidates": 146
+    }
+  ]
+}
