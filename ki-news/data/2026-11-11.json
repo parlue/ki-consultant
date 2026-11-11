@@ -1,0 +1,265 @@
+{
+  "title": "KI-Tagesbriefing: Gemini 4 Carbon, CLI-Agenten und Sicherheitsforschung",
+  "stories": [
+    {
+      "title": "Google veröffentlicht Gemini 4 Carbon und zeigt Agenten-Teams",
+      "summary": "Google stellt Gemini 4 Carbon nach zweiwöchiger Testphase allgemein bereit; das Modell führt laut Bericht mehrere Benchmarks an, teils vor Anthropics Fable 5.2 und zu geringeren Kosten pro Aufgabe. Zudem zeigt Google eine Vorschau der Funktion \"/swarm\", die komplexe Aufgaben auf koordinierte Agenten-Teams verteilt.",
+      "category": "Modelle",
+      "providers": [
+        "Google"
+      ],
+      "id": "news-8c4ca9fd50b0aa50",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/gemini-4-carbon-arrives-just-in-time-to-feel-like-yesterdays-news-in-the-fastest-model-cycle-yet",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-10T18:19:13Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic erweitert Claude um Arbeitsbereich-Funktionen",
+      "summary": "Anthropic ergänzt Claude um Sheets, Whiteboards und Interactive Connectors, über die Partner wie Adobe und Atlassian ihre Anwendungen in Claude einbetten. Zudem kündigt das Unternehmen Claude Meetings an, das an Gesprächen teilnehmen und Notizen erstellen soll.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "Anthropic",
+        "Adobe",
+        "Atlassian"
+      ],
+      "id": "news-3a2db55efcc004bd",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/anthropic-turns-claude-into-a-full-workspace-with-plugins-spreadsheets-whiteboards-and-soon-meeting-notes",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-10T19:48:40Z",
+          "precision": "time"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks",
+          "name": "TechCrunch AI",
+          "type": "Fachmedium",
+          "published_at": "2026-11-10T17:30:00Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI macht ChatGPT zum Unternehmensverzeichnis",
+      "summary": "OpenAI führt einen Business Hub ein, in dem Firmen Profile anlegen, Produktdaten hinterlegen und Interaktionen verfolgen können. Über Business Agents sollen berechtigte US-Onlinehändler Kundenfragen direkt in ChatGPT beantworten.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "OpenAI"
+      ],
+      "id": "news-4bf86764d0679af1",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/openai-turns-chatgpt-into-a-business-directory-with-ai-agents-that-handle-customer-questions",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-10T20:17:00Z",
+          "precision": "time"
+        },
+        {
+          "url": "https://openai.com/index/introducing-businesses-chatgpt",
+          "name": "OpenAI",
+          "type": "Hersteller",
+          "published_at": "2026-11-10T10:00:00Z",
+          "precision": "time"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google",
+          "name": "TechCrunch AI",
+          "type": "Fachmedium",
+          "published_at": "2026-11-10T18:49:52Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Microsoft Research beschreibt Backdoor-Technik \"Lazarus\" in KI-Modellen",
+      "summary": "Laut Microsoft Research genügt das Umprogrammieren von weniger als zehn ruhenden Neuronen in einem Sprachmodell, um einen darauf aufbauenden Agenten ohne Training mit versteckten Auslösern zu schädlichen Befehlen zu bringen. Das Unternehmen verweist auf Prüfungen der Modellherkunft und auf geplante Abwehrmaßnahmen wie Gewichtsscans und kryptografische Signierung.",
+      "category": "Forschung",
+      "providers": [
+        "Microsoft Research",
+        "Microsoft Foundry"
+      ],
+      "id": "news-d48977b6fbc84b1e",
+      "sources": [
+        {
+          "url": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents",
+          "name": "Microsoft Research",
+          "type": "Forschung",
+          "published_at": "2026-11-10T20:52:56Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Google DeepMind meldet Verifikation der Signal-Verschlüsselung mit AlphaProof Code",
+      "summary": "Google DeepMind stellt AlphaProof Code vor, dessen Agenten nach Unternehmensangaben drei Millionen Zeilen formaler Beweise in Lean schrieben, um den Kern der Signal-Verschlüsselung zu verifizieren.",
+      "category": "Forschung",
+      "providers": [
+        "Google DeepMind",
+        "Signal"
+      ],
+      "id": "news-0e9fb0eb84f13acf",
+      "sources": [
+        {
+          "url": "https://deepmind.google/blog/introducing-alphaproof-code",
+          "name": "Google DeepMind",
+          "type": "Hersteller",
+          "published_at": "2026-11-10T12:02:28Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "NVIDIA spendet Agenten-Laufzeit OpenShell an CNCF",
+      "summary": "NVIDIA übergibt OpenShell, eine Open-Source-Laufzeit zur Steuerung und Absicherung autonomer Agenten, an die Cloud Native Computing Foundation als Sandbox-Projekt. Zudem beteiligt sich NVIDIA am Google-initiierten Framework Agent Substrate und kündigt neue Komponenten der DSX-Plattform für GPU-Infrastruktur auf Kubernetes an.",
+      "category": "Chips & Rechenleistung",
+      "providers": [
+        "NVIDIA",
+        "Cloud Native Computing Foundation",
+        "Google",
+        "Linux Foundation"
+      ],
+      "id": "news-8eec2e0e61665676",
+      "sources": [
+        {
+          "url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure",
+          "name": "NVIDIA",
+          "type": "Hersteller",
+          "published_at": "2026-11-10T16:00:03Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "NVIDIA stellt Robotermodell GR00T 2 vor",
+      "summary": "NVIDIA präsentiert GR00T 2, ein Modell, das Handbewegungen von Menschen aus Videos auf Roboterarme überträgt und auf rund 400.000 Stunden Videomaterial trainiert wurde. Die Erfolgsquoten variieren laut Bericht je nach Aufgabe zwischen 10 und 80 Prozent.",
+      "category": "Modelle",
+      "providers": [
+        "NVIDIA"
+      ],
+      "id": "news-62a9550b465ffc1c",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/nvidias-model-gr00t-2-watches-humans-on-video-then-imagines-itself-as-the-robot",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-10T18:41:52Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Gemini Robotics 2.5 besteht Pilotversuch bei Mercedes-Benz",
+      "summary": "Google DeepMind stellte Gemini Robotics 2.5 vor und testete das Steuerungsmodell mit Apptronik auf Mercedes-Benz-Produktionslinien in Ungarn und Deutschland. Der humanoide Roboter Apollo 2 erreichte beim Sortieren von Metallteilen nach Angaben eine Erfolgsquote von 96 Prozent.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "Google DeepMind",
+        "Apptronik",
+        "Mercedes-Benz"
+      ],
+      "id": "news-1452077b5912f8ba",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/google-deepminds-gemini-robotics-2-5-scores-96-percent-sorting-metal-parts-in-a-mercedes-benz-assembly-pilot",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-10T17:11:10Z",
+          "precision": "time"
+        }
+      ]
+    }
+  ],
+  "date": "2026-11-11",
+  "window_start": "2026-11-10T08:18:01.227857Z",
+  "window_end": "2026-11-11T08:18:01.227857Z",
+  "generated_at": "2026-11-11T08:18:12.218840Z",
+  "coverage": [
+    {
+      "name": "Anthropic News",
+      "status": "partial",
+      "candidates": 0
+    },
+    {
+      "name": "Anthropic Research",
+      "status": "partial",
+      "candidates": 0
+    },
+    {
+      "name": "Berkeley AI Research",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "DeepSeek",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "DeepSeek API Updates",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Google AI",
+      "status": "ok",
+      "candidates": 3
+    },
+    {
+      "name": "Google DeepMind",
+      "status": "ok",
+      "candidates": 2
+    },
+    {
+      "name": "Hugging Face",
+      "status": "ok",
+      "candidates": 1
+    },
+    {
+      "name": "Microsoft Research",
+      "status": "ok",
+      "candidates": 1
+    },
+    {
+      "name": "NVIDIA",
+      "status": "ok",
+      "candidates": 2
+    },
+    {
+      "name": "OpenAI",
+      "status": "ok",
+      "candidates": 4
+    },
+    {
+      "name": "Qwen",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "TechCrunch AI",
+      "status": "ok",
+      "candidates": 17
+    },
+    {
+      "name": "The Decoder",
+      "status": "ok",
+      "candidates": 8
+    },
+    {
+      "name": "arXiv cs.AI",
+      "status": "ok",
+      "candidates": 381
+    },
+    {
+      "name": "arXiv cs.CL",
+      "status": "ok",
+      "candidates": 178
+    }
+  ]
+}
