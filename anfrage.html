@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anfrage – Dirk Sommerfeld</title>
+<meta name="description" content="Anfrage für Sparringstag, Zirkel, Mentoring, Workshop oder Pilot bei Dirk Sommerfeld.">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="home.css">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#f7f3ec">
+</head>
+<body>
+<main class="wrap section request">
+<a href="/#pakete">← Zurück zu den Paketen</a>
+<div class="eyebrow" style="margin-top:28px">ANFRAGE</div>
+<h1 class="req-title">Erzählen Sie mir, worum es geht.</h1>
+<p class="intro">Ihre Anfrage geht direkt an mich. Ich prüfe sie persönlich und melde mich mit einem konkreten Terminvorschlag und, bei einer Paketanfrage, mit einem Angebot. Sie entscheiden, ob und wann Sie buchen.</p>
+
+<div id="formview">
+<form id="reqform" novalidate>
+  <div class="field"><label for="paket">Wofür interessieren Sie sich?</label>
+    <select id="paket" name="paket" required>
+      <option value="Noch unklar">Noch unklar, ich möchte erst sprechen</option>
+      <option value="KI-Sparringstag">KI-Sparringstag (899 € netto, Starterpreis)</option>
+      <option value="KI-Zirkel">KI-Zirkel (189 € netto pro Monat)</option>
+      <option value="KI-Mentoring">KI-Mentoring (150 € netto pro Stunde)</option>
+      <option value="KI-Team-Workshop">KI-Team-Workshop (ab 1.199 € netto)</option>
+      <option value="KI-Pilot">KI-Pilot (Preis auf Anfrage)</option>
+    </select></div>
+  <div class="row2">
+    <div class="field"><label for="name">Name *</label><input id="name" name="name" autocomplete="name" required></div>
+    <div class="field"><label for="firma">Unternehmen *</label><input id="firma" name="firma" autocomplete="organization" required></div>
+  </div>
+  <div class="row2">
+    <div class="field"><label for="email">E-Mail *</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+    <div class="field"><label for="telefon">Telefon (optional)</label><input id="telefon" name="telefon" type="tel" autocomplete="tel"></div>
+  </div>
+  <div class="field"><label for="anliegen">Ihr Anliegen *</label><textarea id="anliegen" name="anliegen" rows="6" required placeholder="Worum geht es? Was möchten Sie mit KI erreichen oder klären? Je konkreter, desto besser kann ich mich vorbereiten."></textarea></div>
+  <div class="field"><label for="termin">Terminwünsche (optional)</label><textarea id="termin" name="termin" rows="2" placeholder="Zum Beispiel: Dienstag oder Donnerstagvormittag in den nächsten zwei Wochen"></textarea></div>
+  <div class="field hp" aria-hidden="true"><label for="website">Bitte leer lassen</label><input id="website" name="website" tabindex="-1" autocomplete="off"></div>
+  <label class="consent"><input id="consent" type="checkbox" required> <span>Ich bin einverstanden, dass meine Angaben zur Bearbeitung meiner Anfrage gespeichert und verarbeitet werden. Mehr in der <a href="datenschutz.html">Datenschutzerklärung</a>.</span></label>
+  <p class="form-error" id="err" role="alert" hidden></p>
+  <button class="btn primary" type="submit" id="send">Anfrage senden ↗</button>
+  <p class="hint">Lieber per E-Mail? <a href="mailto:dirk@sommerfeld.consulting">dirk@sommerfeld.consulting</a></p>
+</form>
+</div>
+
+<div id="processview" hidden>
+  <h2>Danke, Ihre Anfrage ist da.</h2>
+  <p class="intro">So geht es jetzt weiter.</p>
+  <ol class="steps">
+    <li class="step"><span class="dot"></span><div><strong>Anfrage eingegangen</strong><p>Sie erhalten gleich eine Bestätigung per E-Mail.</p></div></li>
+    <li class="step"><span class="dot"></span><div><strong>Ich prüfe Ihre Anfrage persönlich</strong><p>Ich lese sie selbst und stimme Ihre Terminwünsche mit meinem Kalender ab.</p></div></li>
+    <li class="step"><span class="dot"></span><div><strong>Terminvorschlag und Angebot</strong><p>Sie bekommen konkrete Termine aus meinem Kalender und, bei einer Paketanfrage, ein Angebot.</p></div></li>
+  </ol>
+  <p class="hint"><a href="/">Zurück zur Startseite</a></p>
+</div>
+</main>
+<script src="anfrage.js"></script>
+</body>
+</html>
