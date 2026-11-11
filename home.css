@@ -1,0 +1,29 @@
+/* Startseite: hell, ruhig, persönlich. Überschreibt style.css nur auf index.html */
+:root{--bg:#f7f3ec;--panel:#ffffff;--panel2:#efe9dd;--mint:#1d5a85;--white:#1d2733;--muted:#566370;--line:#ddd5c6}
+body{font-size:15.5px;line-height:1.65;background:var(--bg);color:var(--white)}
+h1,h2,h3{font-family:"Iowan Old Style","Palatino Linotype",Georgia,serif;font-weight:600}
+.brand{font-size:13px}
+nav a,footer a{font-size:13.5px}
+.hero{padding:70px 0 30px}
+.hero-art{display:none}
+h1{font-size:clamp(36px,5.2vw,64px);line-height:1.1;letter-spacing:-.02em;margin:18px 0 22px}
+.hero>p{font-size:clamp(16px,1.7vw,19px);max-width:640px}
+.actions{margin:26px 0 30px}
+.primary{background:var(--mint);color:#fff}.primary:hover{background:#154668}
+h1 em,h2 em{color:var(--mint)}
+.secondary{border-color:#b9ae9a}.secondary:hover{border-color:var(--mint);color:var(--mint)}
+.eyebrow{font-size:11.5px;letter-spacing:.14em}
+.section{padding:80px 0 10px}
+h2{font-size:clamp(26px,3.4vw,40px);line-height:1.18;letter-spacing:-.015em}
+.intro,.about p,.contact p{font-size:16.5px}
+.card{padding:28px;background:#fff;box-shadow:0 1px 2px #0000000a}
+.card h3,.project h3{font-size:20px}
+.card-icon{font-size:28px;margin-bottom:18px}
+.project{background:#fff;box-shadow:0 1px 2px #0000000a}
+.project-visual{background:linear-gradient(135deg,#e6dfd0,#efe9dd);color:var(--mint)}
+.contact{background:#17355a;margin-top:80px;padding:70px 0}
+.contact h2,.contact p{color:#f7f3ec}.contact em,.contact .eyebrow{color:#a9cbe8}
+.contact .primary{background:#f7f3ec;color:#17355a}
+.portrait{box-shadow:0 6px 24px #0000001a}
+.article p,.article li{color:#2c3845;font-size:17px;line-height:1.75}
+.article h1{letter-spacing:-.02em}.article h2{letter-spacing:-.015em}
