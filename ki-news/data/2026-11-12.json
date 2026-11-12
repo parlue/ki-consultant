@@ -1,0 +1,250 @@
+{
+  "title": "Gemini-Decision-Modell, DNA-Forschung und Chiphersteller im Fokus",
+  "stories": [
+    {
+      "title": "Google stellt Gemini Decision 1 für multimodale Entscheidungen vor",
+      "summary": "Google DeepMind hat nach eigener Darstellung eine Gemini-Decisions-API mit dem Modell Gemini Decision 1 veröffentlicht, die bis zu 1.000 geschlossene Fragen pro Durchlauf über Text, Bild, Audio und Video bewertet. Laut Google liefert das Modell Ergebnisse in 150 bis 250 Millisekunden zu rund einem Fünftel der Kosten von Gemini 3.5 Flash-Lite.",
+      "category": "Modelle",
+      "providers": [
+        "Google",
+        "Google DeepMind"
+      ],
+      "id": "news-e2c2882f272c7eb7",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-11T20:12:46Z",
+          "precision": "time"
+        },
+        {
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
+          "name": "Google AI",
+          "type": "Hersteller",
+          "published_at": "2026-11-11T18:00:00Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "DeepMind präsentiert AlphaGenome 2",
+      "summary": "Google DeepMind hat AlphaGenome 2 vorgestellt, das vorhersagen soll, wie DNA-Sequenzen und ihre Variationen bestimmte menschliche Zelltypen und Krankheiten beeinflussen.",
+      "category": "Forschung",
+      "providers": [
+        "Google DeepMind"
+      ],
+      "id": "news-ba0fcf4e325b4115",
+      "sources": [
+        {
+          "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease",
+          "name": "Google DeepMind",
+          "type": "Hersteller",
+          "published_at": "2026-11-11T15:00:15Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "DeepMind: AlphaProof Code verifizierte Signal-Kerncode in vier Wochen",
+      "summary": "Laut The Decoder hat Google DeepMinds AlphaProof Code den kryptografischen Kerncode von Signal innerhalb von vier Wochen mathematisch verifiziert; von Gemini gestützte Agenten schrieben über sechs Millionen Zeilen Beweis-Code, rund ein Prozent davon wurde zur menschlichen Prüfung markiert. DeepMind plane, die Methode auf kritische Infrastruktur auszuweiten.",
+      "category": "Forschung",
+      "providers": [
+        "Google DeepMind",
+        "Signal"
+      ],
+      "id": "news-ea01cfcdcca0ed61",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/google-deepminds-alphaproof-code-verified-signals-cryptographic-core-in-four-weeks-instead-of-years",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-11T18:18:25Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic: KI beschleunigte Portierung von Claude auf AMD-GPUs",
+      "summary": "Anthropic gibt an, mit seinem hauseigenen Modell Mythos Claude innerhalb von drei Tagen und nahezu ohne menschliches Eingreifen auf AMD-GPUs portiert zu haben. Das Unternehmen betreibe Claude nun auf vier Chip-Familien und wolle damit Kosten und Abhängigkeit von einzelnen Anbietern senken.",
+      "category": "Chips & Rechenleistung",
+      "providers": [
+        "Anthropic",
+        "AMD",
+        "Nvidia"
+      ],
+      "id": "news-bc5d964e3327ab5e",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-11T14:25:20Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Helsing stellt KI-Plattform Clarity für Zielauswahl vor",
+      "summary": "Laut The Decoder hat Helsing Clarity vorgestellt, eine KI-Plattform, in der Agenten Sensordaten zu Zielvorschlägen für Waffensysteme verdichten, unter menschlicher Aufsicht und europäischer Kontrolle. Jede Entscheidung solle einem Menschen zugeordnet werden.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "Helsing"
+      ],
+      "id": "news-04b62b0823f31776",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-11T15:12:53Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "DeepL Voice übersetzt mit Aure auch Ton und Sprechtempo",
+      "summary": "DeepL kündigt für DeepL Voice Echtzeit-Übersetzungen mit dem neuen Modell Aure an, das Ton, Emotion, Betonung und Sprechgeschwindigkeit des Originalsprechers in die Zielsprache übernehmen soll.",
+      "category": "Modelle",
+      "providers": [
+        "DeepL"
+      ],
+      "id": "news-f083050eb798df23",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/with-its-new-voice-model-deepl-voice-now-translates-intonation-and-speaking-speed-into-other-languages-as-well",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-11T13:50:30Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Studie zu Grok-erstellten Apps mit offenem Zugriff",
+      "summary": "Laut The Decoder hat die Sicherheitsfirma Claroc mehr als 35.000 mit Grok erstellte Apps gefunden, die ohne Anmeldung zugänglich waren, darunter Patientendaten und vertrauliche Dokumente. Ursache sei die voreingestellte Zugriffsoption für alle mit dem Link; SpaceXSI habe nur die eigenen 24 Mitarbeiter-Apps offline genommen.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "xAI",
+        "Claroc",
+        "SpaceXSI"
+      ],
+      "id": "news-53c53ed6d09c6324",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-11T12:53:07Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Ramp-Index: US-Unternehmensausgaben für KI steigen langsamer",
+      "summary": "Dem Ramp AI Index zufolge stiegen die US-Unternehmensausgaben für KI im Oktober 2026 um 1,65 Prozent. Laut The Decoder erwirtschaften ein Prozent der Unternehmen weiterhin 80 Prozent des Umsatzes von OpenAI und Anthropic, während Kundensupport als neuer Wachstumstreiber gilt.",
+      "category": "Wirtschaft & Gesellschaft",
+      "providers": [
+        "Ramp",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "id": "news-08f6941bcdbe742c",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/us-corporate-ai-spending-hits-a-new-high-in-october-but-growth-slows-to-1-65-percent",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-11T19:35:11Z",
+          "precision": "time"
+        }
+      ]
+    }
+  ],
+  "date": "2026-11-12",
+  "window_start": "2026-11-11T04:31:39.219539Z",
+  "window_end": "2026-11-12T04:31:39.219539Z",
+  "generated_at": "2026-11-12T04:31:49.291129Z",
+  "coverage": [
+    {
+      "name": "Anthropic News",
+      "status": "partial",
+      "candidates": 0
+    },
+    {
+      "name": "Anthropic Research",
+      "status": "partial",
+      "candidates": 0
+    },
+    {
+      "name": "Berkeley AI Research",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "DeepSeek",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "DeepSeek API Updates",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Google AI",
+      "status": "ok",
+      "candidates": 3
+    },
+    {
+      "name": "Google DeepMind",
+      "status": "ok",
+      "candidates": 1
+    },
+    {
+      "name": "Hugging Face",
+      "status": "ok",
+      "candidates": 1
+    },
+    {
+      "name": "Microsoft Research",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "NVIDIA",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "OpenAI",
+      "status": "ok",
+      "candidates": 2
+    },
+    {
+      "name": "Qwen",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "TechCrunch AI",
+      "status": "ok",
+      "candidates": 15
+    },
+    {
+      "name": "The Decoder",
+      "status": "ok",
+      "candidates": 10
+    },
+    {
+      "name": "arXiv cs.AI",
+      "status": "ok",
+      "candidates": 381
+    },
+    {
+      "name": "arXiv cs.CL",
+      "status": "ok",
+      "candidates": 178
+    }
+  ]
+}
