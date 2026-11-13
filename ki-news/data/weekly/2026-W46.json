@@ -1,0 +1,151 @@
+{
+  "id": "2026-W46",
+  "year": 2026,
+  "week": 46,
+  "from": "2026-11-07",
+  "to": "2026-11-13",
+  "generated_at": "2026-11-13T04:32:44Z",
+  "stories": [
+    {
+      "title": "OpenAI macht ChatGPT zum Unternehmensverzeichnis",
+      "summary": "OpenAI führt einen Business Hub ein, in dem Firmen Profile anlegen, Produktdaten hinterlegen und Interaktionen verfolgen können. Über Business Agents sollen berechtigte US-Onlinehändler Kundenfragen direkt in ChatGPT beantworten.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "OpenAI"
+      ],
+      "id": "news-4bf86764d0679af1",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/openai-turns-chatgpt-into-a-business-directory-with-ai-agents-that-handle-customer-questions",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-10T20:17:00Z",
+          "precision": "time"
+        },
+        {
+          "url": "https://openai.com/index/introducing-businesses-chatgpt",
+          "name": "OpenAI",
+          "type": "Hersteller",
+          "published_at": "2026-11-10T10:00:00Z",
+          "precision": "time"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google",
+          "name": "TechCrunch AI",
+          "type": "Fachmedium",
+          "published_at": "2026-11-10T18:49:52Z",
+          "precision": "time"
+        }
+      ],
+      "day": "2026-11-11"
+    },
+    {
+      "title": "Google veröffentlicht Gemini 4 Carbon und zeigt Agenten-Teams",
+      "summary": "Google stellt Gemini 4 Carbon nach zweiwöchiger Testphase allgemein bereit; das Modell führt laut Bericht mehrere Benchmarks an, teils vor Anthropics Fable 5.2 und zu geringeren Kosten pro Aufgabe. Zudem zeigt Google eine Vorschau der Funktion \"/swarm\", die komplexe Aufgaben auf koordinierte Agenten-Teams verteilt.",
+      "category": "Modelle",
+      "providers": [
+        "Google"
+      ],
+      "id": "news-8c4ca9fd50b0aa50",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/gemini-4-carbon-arrives-just-in-time-to-feel-like-yesterdays-news-in-the-fastest-model-cycle-yet",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-10T18:19:13Z",
+          "precision": "time"
+        }
+      ],
+      "day": "2026-11-11"
+    },
+    {
+      "title": "Anthropic stellt Claude Fable 5.2 und Mythos 5.2 vor",
+      "summary": "Anthropic hat nach eigenen Angaben seine bislang leistungsfähigsten Modelle Fable 5.2 und Mythos 5.2 veröffentlicht, in einer frei verfügbaren und einer verifizierten Organisationen vorbehaltenen Version. Laut Unternehmen lösen sie offene Physikprobleme, schreiben über 90 Prozent der in den Kernecode eingefügten Änderungen und zeigen stärkere Cybersicherheitsfähigkeiten; Fähigkeiten zur Beschleunigung der eigenen Entwicklung will Anthropic bewusst begrenzt haben.",
+      "category": "Modelle",
+      "providers": [
+        "Anthropic"
+      ],
+      "id": "news-c988f42abbf6068f",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/claude-fable-5-2-and-mythos-5-2-cement-anthropics-ai-lead-just-before-its-ipo",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-09T21:15:23Z",
+          "precision": "time"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns",
+          "name": "TechCrunch AI",
+          "type": "Fachmedium",
+          "published_at": "2026-11-09T19:24:51Z",
+          "precision": "time"
+        }
+      ],
+      "day": "2026-11-10"
+    },
+    {
+      "title": "NVIDIA stellt offenes Robotermodell GR00T 2 vor",
+      "summary": "NVIDIA hat auf der CoRL-Konferenz mit GR00T 2 ein offenes World-Action-Modell auf Basis von Cosmos vorgestellt, trainiert unter anderem mit 100.000 Stunden offener menschlicher Egocentric-Daten. Laut NVIDIA löste das Modell 40 von 50 Aufgaben ohne aufgabenspezifische Demonstrationen und erreichte mit einer Demonstration pro Aufgabe 71 Prozent Erfolg, mit fünf Demonstrationen 95 Prozent. Zudem kündigte NVIDIA offene Robotik-Technologien, Simulationswerkzeuge und Benchmarks an.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "NVIDIA"
+      ],
+      "id": "news-6e07690c27eb09da",
+      "sources": [
+        {
+          "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl",
+          "name": "NVIDIA",
+          "type": "Hersteller",
+          "published_at": "2026-11-09T14:00:01Z",
+          "precision": "time"
+        }
+      ],
+      "day": "2026-11-10"
+    },
+    {
+      "title": "NVIDIA baut KI-Ökosystem in Korea aus",
+      "summary": "NVIDIA hat mit dem südkoreanischen Ministerium für Wissenschaft und ICT eine erweiterte Zusammenarbeit über Halbleiter, Rechenzentren, Modelle, Agenten und Sicherheit angekündigt, einschließlich Optionen für koreanische NPU- und XPU-Hersteller im NVLink-Fusion-Ökosystem. Zudem veröffentlichte NVIDIA für B200-GPUs optimierte Dynamo-Deployment-Rezepte für koreanische Open-Weight-Modelle wie A.X K2, K-EXAONE 2.0, Solar Open 2 und Motif-3 sowie Investitionspläne in koreanische Startups.",
+      "category": "Chips & Rechenleistung",
+      "providers": [
+        "NVIDIA",
+        "SK Telecom",
+        "LG AI Research",
+        "Upstage",
+        "Motif Technologies"
+      ],
+      "id": "news-698f0868e7dfb446",
+      "sources": [
+        {
+          "url": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration",
+          "name": "NVIDIA",
+          "type": "Hersteller",
+          "published_at": "2026-11-09T05:00:04Z",
+          "precision": "time"
+        },
+        {
+          "url": "https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models",
+          "name": "NVIDIA",
+          "type": "Hersteller",
+          "published_at": "2026-11-09T05:00:00Z",
+          "precision": "time"
+        },
+        {
+          "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit",
+          "name": "NVIDIA",
+          "type": "Hersteller",
+          "published_at": "2026-11-09T08:00:53Z",
+          "precision": "time"
+        },
+        {
+          "url": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai",
+          "name": "NVIDIA",
+          "type": "Hersteller",
+          "published_at": "2026-11-09T05:00:39Z",
+          "precision": "time"
+        }
+      ],
+      "day": "2026-11-10"
+    }
+  ]
+}

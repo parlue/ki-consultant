@@ -1,0 +1,252 @@
+{
+  "title": "KI-Briefing: Gemini 4 Hydrogen, AlphaGenome 2 und Führungswechsel bei Nvidia",
+  "stories": [
+    {
+      "title": "Google bringt Gemini 4 Hydrogen in die Suche",
+      "summary": "Google hat Gemini 4 Hydrogen vorgestellt und setzt das Modell laut TechCrunch im AI Mode der Google-Suche für komplexe Suchanfragen und visuelle Antworten ein. Laut The Decoder übertrifft Hydrogen im Artificial Analysis Intelligence Index das größere Argon, liegt aber bei agentischem Coding hinter Wettbewerbern zurück.",
+      "category": "Modelle",
+      "providers": [
+        "Google"
+      ],
+      "id": "news-d6d23163b98ddfa1",
+      "sources": [
+        {
+          "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade",
+          "name": "Google AI",
+          "type": "Hersteller",
+          "published_at": "2026-11-12T18:00:00Z",
+          "precision": "time"
+        },
+        {
+          "url": "https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-12T19:58:43Z",
+          "precision": "time"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions",
+          "name": "TechCrunch AI",
+          "type": "Fachmedium",
+          "published_at": "2026-11-12T19:27:45Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Google DeepMind stellt AlphaGenome 2 für Zelltypen-Analyse vor",
+      "summary": "Google DeepMind hat AlphaGenome 2 vorgestellt, das genetische Varianten einzelnen Zelltypen statt pauschalem Gewebe zuordnet. Das mit über 107 Millionen Zellprofilen trainierte Modell ist über eine API für nichtkommerzielle Forschung verfügbar und soll in die agentische Plattform Antigravity integriert werden.",
+      "category": "Forschung",
+      "providers": [
+        "Google DeepMind"
+      ],
+      "id": "news-9ca1e30b2dd5ebcc",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/google-deepmind-shifts-genomics-ai-from-bulk-tissue-predictions-to-single-cell-type-resolution-with-alphagenome-2",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-12T12:09:43Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic startet Claude Meetings als Beta",
+      "summary": "Anthropic hat Claude Meetings vorgestellt, das an Google-Meet-Sitzungen teilnimmt und dabei Dokumente, Whiteboards und Notizen in Echtzeit erstellt. Die Funktion startet als Beta für Team- und Enterprise-Pläne, weitere Plattformen sollen folgen.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "Anthropic",
+        "Google"
+      ],
+      "id": "news-b397ff4d002aefbd",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/claude-meetings-lets-anthropics-ai-join-your-video-calls",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-12T20:26:50Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI untersucht Transparenzverlust bei Gedankengängen",
+      "summary": "Das Sicherheitsteam von OpenAI hat laut The Decoder untersucht, warum Gedankengänge von Frontier-Modellen wie GPT-6 Astra zunehmend der Überwachung entgehen. Vier Trainingsschritte, darunter Architekturentscheidungen und Reinforcement Learning, sollen den Transparenzverlust befördern.",
+      "category": "Forschung",
+      "providers": [
+        "OpenAI"
+      ],
+      "id": "news-c2e9279cb8a68e3b",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-12T16:58:11Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "ElvenLabs veröffentlicht Spracherkennungsmodelle Scribe v3 und Scribe v3 Live",
+      "summary": "ElevenLabs hat Scribe v3 und Scribe v3 Live für Transkription bei Hintergrundgeräuschen und Durcheinanderreden vorgestellt. Laut The Decoder bestätigen Benchmarks von Artificial Analysis knappe Genauigkeitsvorteile gegenüber OpenAI, Google und Microsoft, während Wettbewerber deutlich schneller und günstiger arbeiten.",
+      "category": "Modelle",
+      "providers": [
+        "ElevenLabs",
+        "Artificial Analysis"
+      ],
+      "id": "news-8aa3ecda61b523bb",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/elevenlabs-scribe-v3-live-uses-conversational-context-to-stop-voice-agents-from-cutting-off-callers-mid-sentence",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-12T13:48:19Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Australien plant Pflichttests für Frontier-Modelle",
+      "summary": "Die australische Regierung unter Premier Anthony Albanese will laut The Decoder erstmals verbindliche Sicherheitsregeln für Frontier-KI-Anbieter gesetzlich verankern. Eine neue Aufsichtsbehörde soll unabhängige Modellprüfungen durchsetzen und Verstöße mit hohen Strafen ahnden.",
+      "category": "Wirtschaft & Gesellschaft",
+      "providers": [
+        "Australische Regierung"
+      ],
+      "id": "news-58950b1145824a10",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-12T10:09:56Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "United Airlines blockiert Buchungen durch KI-Agenten",
+      "summary": "United Airlines will Kunden laut TechCrunch nicht erlauben, Flüge und Reservierungen über KI-Agenten zu buchen oder zu verwalten. Das Unternehmen verweist auf Cybersicherheitsrisiken.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "United Airlines"
+      ],
+      "id": "news-039c74dda2a3b52c",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks",
+          "name": "TechCrunch AI",
+          "type": "Fachmedium",
+          "published_at": "2026-11-12T17:17:58Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Nebius plant 40 Milliarden US-Dollar für KI-Infrastruktur",
+      "summary": "Nebius will laut TechCrunch seine KI-Infrastruktur mit 40 Milliarden US-Dollar ausbauen und dies über Kunden-Vorauszahlungen und Kredite finanzieren. Verzögerungen an einem Microsoft-Rechenzentrum werfen dem Bericht zufolge Fragen zum Finanzierungsmodell auf.",
+      "category": "Chips & Rechenleistung",
+      "providers": [
+        "Nebius",
+        "Microsoft"
+      ],
+      "id": "news-fb1ddd2a5ff741f6",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending",
+          "name": "TechCrunch AI",
+          "type": "Fachmedium",
+          "published_at": "2026-11-12T21:27:10Z",
+          "precision": "time"
+        }
+      ]
+    }
+  ],
+  "date": "2026-11-13",
+  "window_start": "2026-11-12T04:32:28.777490Z",
+  "window_end": "2026-11-13T04:32:28.777490Z",
+  "generated_at": "2026-11-13T04:32:38.997108Z",
+  "coverage": [
+    {
+      "name": "Anthropic News",
+      "status": "partial",
+      "candidates": 0
+    },
+    {
+      "name": "Anthropic Research",
+      "status": "partial",
+      "candidates": 0
+    },
+    {
+      "name": "Berkeley AI Research",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "DeepSeek",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "DeepSeek API Updates",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Google AI",
+      "status": "ok",
+      "candidates": 1
+    },
+    {
+      "name": "Google DeepMind",
+      "status": "unavailable",
+      "candidates": 0
+    },
+    {
+      "name": "Hugging Face",
+      "status": "ok",
+      "candidates": 1
+    },
+    {
+      "name": "Microsoft Research",
+      "status": "ok",
+      "candidates": 1
+    },
+    {
+      "name": "NVIDIA",
+      "status": "ok",
+      "candidates": 1
+    },
+    {
+      "name": "OpenAI",
+      "status": "ok",
+      "candidates": 3
+    },
+    {
+      "name": "Qwen",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "TechCrunch AI",
+      "status": "ok",
+      "candidates": 19
+    },
+    {
+      "name": "The Decoder",
+      "status": "ok",
+      "candidates": 7
+    },
+    {
+      "name": "arXiv cs.AI",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "arXiv cs.CL",
+      "status": "ok",
+      "candidates": 0
+    }
+  ]
+}
