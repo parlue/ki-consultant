@@ -1,0 +1,259 @@
+{
+  "title": "KI-Briefing: ChatGPT Wallet, DeepSeek-API und Anthropics Fertigungs-Plugin",
+  "stories": [
+    {
+      "title": "OpenAI führt ChatGPT Wallet für Agenten-Käufe ein",
+      "summary": "OpenAI stellt ChatGPT Wallet vor, mit dem Agenten in ChatGPT Work, Codex und dots Einkäufe nach Bestätigung durch Nutzer abschließen können. Laut OpenAI bleiben Kartendaten hinter Zahlungstoken verborgen, der Start erfolgt begrenzt für Pro-Abonnenten in den USA.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "OpenAI"
+      ],
+      "id": "news-7d4d71d056da0286",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-chatgpt-wallet",
+          "name": "OpenAI",
+          "type": "Hersteller",
+          "published_at": "2026-11-13T15:00:00Z",
+          "precision": "time"
+        },
+        {
+          "url": "https://the-decoder.com/openai-rebuilt-ai-shopping-from-scratch-with-chatgpt-wallet",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-13T18:55:21Z",
+          "precision": "time"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you",
+          "name": "TechCrunch AI",
+          "type": "Fachmedium",
+          "published_at": "2026-11-13T16:00:12Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "DeepSeek öffnet App-Funktionen über die API",
+      "summary": "DeepSeek macht die Funktionen seiner App über die API verfügbar, darunter Websuche, Datei- und URL-Verarbeitung, Sicherheitsprüfungen sowie OCR, ASR und TTS als eigenständige Schnittstellen. Die Funktionen stehen im Modell V4.1-Flash bereit und werden zusätzlich zu den Token-Kosten abgerechnet.",
+      "category": "Modelle",
+      "providers": [
+        "DeepSeek"
+      ],
+      "id": "news-cc8781df9c279647",
+      "sources": [
+        {
+          "url": "https://api-docs.deepseek.com/news/news261113",
+          "name": "DeepSeek API Updates",
+          "type": "Hersteller",
+          "published_at": "2026-11-13T00:00:00Z",
+          "precision": "date"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic bringt Claude in Fabriksoftware",
+      "summary": "Anthropic stellt ein Claude-Plugin für die Fertigung vor, das an Autodesk Fusion, Oracle NetSuite und Infor angebunden ist. Laut Bericht umfasst es 17 spezialisierte Fähigkeiten für Angebote, Lieferantenvergleiche und Ersatzbestellungen, jeweils nach menschlicher Freigabe.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "Anthropic",
+        "Autodesk",
+        "Oracle",
+        "Infor"
+      ],
+      "id": "news-5a7538ac02344da7",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-13T16:37:01Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Forschung: Hinweise auf Nvidia-Blackwell-Chips in chinesischen Modellen",
+      "summary": "Ein ehemaliger OpenAI-Forscher will über charakteristische Chip-Signaturen in veröffentlichten Modellgewichten technische Hinweise darauf gefunden haben, dass DeepSeek, Moonshot AI, MiniMax und Ant Group trotz US-Exportkontrollen Nvidia-Blackwell-GPUs nutzen. Dies berichtet The Decoder unter Berufung auf den Forscher.",
+      "category": "Chips & Rechenleistung",
+      "providers": [
+        "DeepSeek",
+        "Moonshot AI",
+        "MiniMax",
+        "Ant Group",
+        "Nvidia"
+      ],
+      "id": "news-fc65152e593cae50",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-13T15:21:04Z",
+          "precision": "time"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen",
+          "name": "TechCrunch AI",
+          "type": "Fachmedium",
+          "published_at": "2026-11-13T18:40:30Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Together AI stellt Compiler für kontinuierliche Inferenz-Optimierung vor",
+      "summary": "Together AI beschreibt in einem Preprint den Together Compiler, einen agentenbasierten Loop, der Inferenz-Deployments laufend optimiert. Laut den Autoren erreicht er höhere Durchsätze als handgeschriebene Megakernel und Open-Source-Engines auf mehreren Modellen und Hardwareplattformen.",
+      "category": "Chips & Rechenleistung",
+      "providers": [
+        "Together AI"
+      ],
+      "id": "news-a0b5c798ba3b6674",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14681",
+          "name": "arXiv cs.AI",
+          "type": "Preprint",
+          "published_at": "2026-11-13T05:00:00Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Meta lässt Muse Anrufe bei Unternehmen übernehmen",
+      "summary": "Meta erweitert seinen KI-Agenten Muse so, dass er für zahlende US-Abonnenten Anrufe bei Unternehmen erledigt, etwa bei Kabelanbietern und Restaurants. Laut Metas KI-Chef Alexandr Wang hat der Agent bereits über zehn Millionen Nutzer; viele Unternehmen legen allerdings auf, sobald sie eine KI erkennen, berichtet The Decoder.",
+      "category": "Agenten & Anwendungen",
+      "providers": [
+        "Meta"
+      ],
+      "id": "news-7887ca6fae3f41f0",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/metas-muse-now-calls-businesses-for-you-but-many-companies-might-just-hang-up-on-the-ai",
+          "name": "The Decoder",
+          "type": "Fachmedium",
+          "published_at": "2026-11-13T15:12:44Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Studie: Abstention in offenen Sprachmodellen reagiert kaum auf Schwellenwerte",
+      "summary": "Ein Preprint untersucht an offenen Modellen bis 32B, ob sie sich an im Prompt genannte Antwortsicherheits-Schwellen halten. Demnach hebt vor allem ein vorgegebenes Verweigerungsformat die Enthaltungsrate stark an, während Änderungen des Schwellenwerts selbst kaum Einfluss hatten.",
+      "category": "Forschung",
+      "providers": [],
+      "id": "news-381c12c20a76be4a",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14661",
+          "name": "arXiv cs.CL",
+          "type": "Preprint",
+          "published_at": "2026-11-13T05:00:00Z",
+          "precision": "time"
+        }
+      ]
+    },
+    {
+      "title": "Studie: Ranglisten mit paarweisen Präferenzen sind manipulierbar",
+      "summary": "Ein Preprint zeigt Strategien wie gezieltes Abstimmen, Prompt-Auswahl und Nominierung, mit denen sich Arena-artige Modell-Ranglisten laut den Autoren um bis zu 45 Plätze verschieben lassen. Die Anfälligkeit bestehe grundsätzlich bei offenen, präferenzbasierten Bewertungen nach dem Bradley-Terry-Modell.",
+      "category": "Forschung",
+      "providers": [],
+      "id": "news-36459f304a2d52e2",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.14769",
+          "name": "arXiv cs.AI",
+          "type": "Preprint",
+          "published_at": "2026-11-13T05:00:00Z",
+          "precision": "time"
+        }
+      ]
+    }
+  ],
+  "date": "2026-11-14",
+  "window_start": "2026-11-13T04:32:12.318362Z",
+  "window_end": "2026-11-14T04:32:12.318362Z",
+  "generated_at": "2026-11-14T04:32:23.295569Z",
+  "coverage": [
+    {
+      "name": "Anthropic News",
+      "status": "partial",
+      "candidates": 0
+    },
+    {
+      "name": "Anthropic Research",
+      "status": "partial",
+      "candidates": 0
+    },
+    {
+      "name": "Berkeley AI Research",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "DeepSeek",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "DeepSeek API Updates",
+      "status": "ok",
+      "candidates": 1
+    },
+    {
+      "name": "Google AI",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Google DeepMind",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "Hugging Face",
+      "status": "ok",
+      "candidates": 3
+    },
+    {
+      "name": "Microsoft Research",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "NVIDIA",
+      "status": "ok",
+      "candidates": 1
+    },
+    {
+      "name": "OpenAI",
+      "status": "ok",
+      "candidates": 2
+    },
+    {
+      "name": "Qwen",
+      "status": "ok",
+      "candidates": 0
+    },
+    {
+      "name": "TechCrunch AI",
+      "status": "ok",
+      "candidates": 8
+    },
+    {
+      "name": "The Decoder",
+      "status": "ok",
+      "candidates": 9
+    },
+    {
+      "name": "arXiv cs.AI",
+      "status": "ok",
+      "candidates": 537
+    },
+    {
+      "name": "arXiv cs.CL",
+      "status": "ok",
+      "candidates": 237
+    }
+  ]
+}
